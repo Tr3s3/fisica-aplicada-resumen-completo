@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
+<title id="title">Velocidad, rapidez tangencial y aceleración centrípeta en una órbita circular</title>
+<desc id="desc">En un punto de una circunferencia, la velocidad tangencial apunta a lo largo de la tangente y la aceleración centrípeta apunta hacia el centro, perpendicular a la velocidad. Un panel diferencia los vectores de sus módulos escalares.</desc>
+<defs>
+  <marker id="arrow-v" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L0,8 L10,4 z" fill="#087f5b"/></marker>
+  <marker id="arrow-a" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L0,8 L10,4 z" fill="#c2410c"/></marker>
+</defs>
+<rect width="1040" height="520" rx="22" fill="#f8fafc"/>
+<text x="520" y="46" text-anchor="middle" font-family="sans-serif" font-size="27" font-weight="700" fill="#172033">En una trayectoria circular: dirección tangente y dirección al centro</text>
+
+<!-- Trayectoria y posición instantánea -->
+<circle cx="250" cy="295" r="155" fill="#eef5fb" stroke="#64748b" stroke-width="3"/>
+<circle cx="250" cy="295" r="7" fill="#172033"/>
+<text x="229" y="324" font-family="sans-serif" font-size="19" fill="#172033">O</text>
+<line x1="250" y1="295" x2="359.6" y2="185.4" stroke="#64748b" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="286" y="221" font-family="sans-serif" font-size="22" font-weight="700" fill="#475569">r</text>
+<circle cx="359.6" cy="185.4" r="10" fill="#7c3aed" stroke="#fff" stroke-width="3"/>
+<text x="370" y="177" font-family="sans-serif" font-size="19" fill="#172033">objeto</text>
+
+<!-- Velocidad tangencial y aceleración centrípeta aplicadas en el objeto -->
+<line x1="359.6" y1="185.4" x2="458" y2="283.8" stroke="#087f5b" stroke-width="6" marker-end="url(#arrow-v)"/>
+<text x="416" y="218" font-family="sans-serif" font-size="21" font-weight="700" fill="#087f5b">v⃗</text>
+<line x1="359.6" y1="185.4" x2="298" y2="247" stroke="#c2410c" stroke-width="6" marker-end="url(#arrow-a)"/>
+<text x="274" y="180" font-family="sans-serif" font-size="22" font-weight="700" fill="#c2410c">a⃗_c</text>
+<text x="290" y="369" font-family="sans-serif" font-size="17" fill="#334155">En este punto, los vectores son perpendiculares.</text>
+<text x="250" y="404" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#334155">La aceleración apunta hacia el centro, aunque el objeto avance por la tangente.</text>
+
+<!-- Leyenda de magnitudes y vectores -->
+<line x1="545" y1="90" x2="545" y2="450" stroke="#cbd5e1" stroke-width="2"/>
+<text x="785" y="112" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#172033">Qué representa cada símbolo</text>
+<rect x="590" y="139" width="390" height="83" rx="14" fill="#fff" stroke="#a7f3d0" stroke-width="2"/>
+<text x="612" y="171" font-family="sans-serif" font-size="21" font-weight="700" fill="#087f5b">v⃗</text>
+<text x="662" y="171" font-family="sans-serif" font-size="18" fill="#334155">Velocidad: vector tangente;</text>
+<text x="662" y="198" font-family="sans-serif" font-size="18" fill="#334155">incluye módulo y dirección.</text>
+<rect x="590" y="236" width="390" height="83" rx="14" fill="#fff" stroke="#a7f3d0" stroke-width="2"/>
+<text x="612" y="269" font-family="sans-serif" font-size="21" font-weight="700" fill="#087f5b">v_t = |v⃗| = v</text>
+<text x="612" y="296" font-family="sans-serif" font-size="18" fill="#334155">Rapidez tangencial: solo el módulo</text>
+<text x="612" y="316" font-family="sans-serif" font-size="18" fill="#334155">de la velocidad en la circunferencia.</text>
+<rect x="590" y="333" width="390" height="83" rx="14" fill="#fff" stroke="#fed7aa" stroke-width="2"/>
+<text x="612" y="366" font-family="sans-serif" font-size="21" font-weight="700" fill="#c2410c">a⃗_c</text>
+<text x="662" y="366" font-family="sans-serif" font-size="18" fill="#334155">Aceleración centrípeta: vector</text>
+<text x="662" y="393" font-family="sans-serif" font-size="18" fill="#334155">hacia el centro; cambia la dirección.</text>
+<text x="785" y="456" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#172033">a_c = v_t²/r  ·  en m/s²</text>
+</svg>

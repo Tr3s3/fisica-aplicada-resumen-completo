@@ -202,21 +202,21 @@ Usa segundos y metros; el resultado SI queda en kilogramos.
 
 ## 6. Gravedad efectiva en el ecuador de un planeta que rota
 
-La gravedad newtoniana en la superficie es $g=GM/R^2$. Una persona fija respecto del planeta gira con rapidez angular $\\omega=2\\pi/T$ y necesita aceleración centrípeta hacia el centro:
+La gravedad newtoniana en la superficie es $g=GM/R^2$. Una persona fija respecto del planeta gira con rapidez angular $\omega=2\pi/T$ y necesita aceleración centrípeta hacia el centro:
 
 $$
-a_c=\\omega^2R=\\frac{4\\pi^2R}{T^2}.
+a_c=\omega^2R=\frac{4\pi^2R}{T^2}.
 $$
 
 En el ecuador, tomamos hacia el centro como sentido positivo. La gravedad apunta hacia adentro y la fuerza normal $N$ de la balanza hacia afuera:
 
 $$
 mg-N=ma_c
-\\quad\\Longrightarrow\\quad
-g_{\\text{ef}}=\\frac{N}{m}=\\frac{GM}{R^2}-\\frac{4\\pi^2R}{T^2}.
+\quad\Longrightarrow\quad
+g_{\text{ef}}=\frac{N}{m}=\frac{GM}{R^2}-\frac{4\pi^2R}{T^2}.
 $$
 
-$g_{\\text{ef}}$ determina el peso aparente que leería una balanza: $W_{\\text{ap}}=mg_{\\text{ef}}$. Si piden el resultado en unidades de la gravedad terrestre, divide por $g_\\oplus=9.80\\,\\mathrm{m/s^2}$. Esta aproximación es para el ecuador y desprecia el achatamiento del planeta y otras fuerzas. Se aplica en el ejercicio 9, variante del TP 5, ejercicio 9.
+$g_{\text{ef}}$ determina el peso aparente que leería una balanza: $W_{\text{ap}}=mg_{\text{ef}}$. Si piden el resultado en unidades de la gravedad terrestre, divide por $g_\oplus=9.80\,\mathrm{m/s^2}$. Esta aproximación es para el ecuador y desprecia el achatamiento del planeta y otras fuerzas. Se aplica en el ejercicio 9, variante del TP 5, ejercicio 9.
 
 ## Controles de plausibilidad
 

@@ -2,6 +2,7 @@
 tags: [fisica-aplicada, resoluciones, gravitacion]
 ---
 
+
 # Resoluciones completas — Gravitación y órbitas
 
 **Recorrido:** [[Teoría/01 - Conceptos de gravitación y órbitas|Conceptos]] · [[Teoría/01 - Fórmulas aplicadas de gravitación y órbitas|Fórmulas]] · [[Ejercicios/01 - Gravitación y órbitas|Enunciados y pistas]]
@@ -33,34 +34,78 @@ La masa de prueba no aparece porque buscamos campo, no fuerza sobre una masa esp
 
 ### Separar componentes y usar simetría
 
-La componente vertical de cada campo es $g_1(6/10)$. Las componentes horizontales tienen igual módulo y sentidos contrarios:
+Para descomponer vectorialmente el campo en el punto $P(0,\,6.0\,\mathrm{cm})$, analizamos la geometría del triángulo rectángulo que forma cada masa con el eje vertical:
+- **Cateto vertical (adyacente al eje $y$):** $\Delta y = 6.0\,\mathrm{cm}$.
+- **Cateto horizontal (adyacente al eje $x$):** $\Delta x = 8.0\,\mathrm{cm}$ (la mitad de la separación total de $16.0\,\mathrm{cm}$).
+- **Hipotenusa (distancia de $P$ a cada masa):** $r = \sqrt{6.0^2 + 8.0^2} = 10.0\,\mathrm{cm} = 0.100\,\mathrm{m}$.
 
+Si definimos $\theta$ como el ángulo que forma la línea de atracción (la hipotenusa) con el eje vertical $y$:
 $$
-g_x=0,\qquad
-g_y=-2g_1\frac{6}{10}.
+\cos\theta = \frac{\text{cateto adyacente}}{\text{hipotenusa}} = \frac{6.0\,\mathrm{cm}}{10.0\,\mathrm{cm}} = \frac{6}{10} = 0.6,
+$$
+$$
+\sin\theta = \frac{\text{cateto opuesto}}{\text{hipotenusa}} = \frac{8.0\,\mathrm{cm}}{10.0\,\mathrm{cm}} = \frac{8}{10} = 0.8.
 $$
 
-El signo negativo indica que la resultante apunta hacia abajo si $+y$ es hacia arriba.
+> [!note] ¿Por qué se multiplica por $6/10$?
+> Porque la componente vertical $g_y$ de un vector inclinado es su proyección sobre el eje $y$. Por trigonometría directa o por **semejanza de triángulos**, la proporción de la fuerza/campo vertical respecto al total es exactamente la misma proporción que la distancia vertical ($6\,\mathrm{cm}$) respecto a la distancia diagonal ($10\,\mathrm{cm}$):
+> $$
+> \frac{g_{1y}}{g_1} = \frac{\Delta y}{r} = \frac{6.0}{10.0} \implies g_{1y} = g_1\left(\frac{6}{10}\right).
+> $$
+
+#### Determinación de la dirección de la aceleración
+
+La gravedad es puramente atractiva, por lo que cada masa "tira" de la esfera de prueba hacia sí misma:
+1. **Masa izquierda ($M_1$ en $x=-8\,\mathrm{cm}$):** atrae hacia la izquierda y hacia abajo:
+   $$
+   \vec g_1 = -g_1\left(\frac{8}{10}\right)\hat x - g_1\left(\frac{6}{10}\right)\hat y.
+   $$
+2. **Masa derecha ($M_2$ en $x=+8\,\mathrm{cm}$):** atrae hacia la derecha y hacia abajo:
+   $$
+   \vec g_2 = +g_2\left(\frac{8}{10}\right)\hat x - g_2\left(\frac{6}{10}\right)\hat y.
+   $$
+
+Al sumar vectorialmente ($\vec g_{net} = \vec g_1 + \vec g_2$) y dado que $M_1 = M_2 \implies g_1 = g_2$:
+- **En el eje $x$ (horizontal):** las atracciones laterales son iguales en magnitud pero opuestas en sentido, por lo que se anulan por simetría:
+  $$
+  g_x = -g_1\left(\frac{8}{10}\right) + g_2\left(\frac{8}{10}\right) = 0.
+  $$
+- **En el eje $y$ (vertical):** ambas masas tiran hacia abajo (hacia el plano $y=0$), de modo que sus componentes se refuerzan y suman:
+  $$
+  g_y = -g_1\left(\frac{6}{10}\right) - g_2\left(\frac{6}{10}\right) = -2 g_1 \left(\frac{6}{10}\right).
+  $$
+
+Por lo tanto, la dirección del campo resultante apunta **estrictamente hacia abajo a lo largo del eje de simetría (vector $-\hat y$)**, es decir, directamente hacia el punto medio entre las dos masas.
 
 ### Pasar del campo a la aceleración
 
-La fuerza neta sobre la esfera de prueba es $\vec F_{net}=m\vec g$. Por la segunda ley de Newton,
-
+La fuerza neta sobre la esfera de prueba es $\vec F_{net}=m\vec g$. Por la segunda ley de Newton ($\vec F_{net} = m\vec a$),
 $$
 \vec a=\frac{\vec F_{net}}{m}=\vec g.
 $$
+Esto demuestra que la aceleración $\vec a$ tiene **exactamente el mismo módulo, dirección y sentido** que el campo gravitatorio neto $\vec g$, independientemente del valor de la masa de prueba $m$.
 
-Si se desea comprobar la fuerza primero, $F_{net}=0.010(2.08\times10^{-9})=2.08\times10^{-11}\,\mathrm{N}$.
+(Si se desea calcular la fuerza neta primero: $F_{net}=m|\vec g|=0.010\,\mathrm{kg}\times(2.081\times10^{-9}\,\mathrm{m/s^2})=2.081\times10^{-11}\,\mathrm{N}$, y luego $a = F_{net}/m = 2.081\times10^{-9}\,\mathrm{m/s^2}$).
 
-### Resultado y control
+### Resultado y control numérico
 
+Sustituyendo los valores:
 $$
-\vec g(P)=\vec a(P)=-2.08\times10^{-9}\,\hat y\,\mathrm{m/s^2},
+g_y = -2 (1.7342\times 10^{-9})\left(\frac{6}{10}\right) = -2.081\times 10^{-9}\,\mathrm{m/s^2},
+$$
+$$
+\vec a(P) = -2.08\times10^{-9}\,\hat y\,\mathrm{m/s^2},
 \qquad
-|\vec a|=2.08\times10^{-9}\,\mathrm{m/s^2}.
+|\vec a| = 2.08\times10^{-9}\,\mathrm{m/s^2}.
 $$
 
-La aceleración inicial es vertical hacia abajo, es decir, hacia las dos masas. El módulo es menor que la suma de los dos módulos completos, pues solo se suman las componentes verticales.
+- **Módulo:** $2.08\times10^{-9}\,\mathrm{m/s^2}$ (a 3 cifras significativas).
+- **Dirección y sentido:** Vertical hacia abajo ($-\hat y$, o ángulo de $270^\circ$ respecto a $+x$).
+
+> [!warning] Errores comunes de cálculo
+> 1. **Usar el cateto horizontal:** Multiplicar por $\frac{8}{10}$ en vez de $\frac{6}{10}$ da $2.77\times 10^{-9}\,\mathrm{m/s^2}$, lo cual correspondería a la componente horizontal si no se cancelara.
+> 2. **Suma escalar directa:** Sumar $g_1 + g_2 = 3.47\times 10^{-9}\,\mathrm{m/s^2}$ ignora por completo el carácter vectorial de la fuerza.
+> 3. **Modo radianes vs grados / tangente:** Emplear tangentes o ángulos calculados erróneamente en la calculadora puede llevar a valores desviados (como $\approx 2.57\times 10^{-9}\,\mathrm{m/s^2}$). La forma más directa y exacta es usar directamente la razón geométrica $\frac{6}{10}$.
 
 ## 2. Campo de masas en posiciones distintas
 
