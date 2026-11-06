@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 960" role="img" aria-labelledby="title desc">
+  <title id="title">Componentes gráficos de una onda periódica</title>
+  <desc id="desc">Dos gráficas distinguen la forma espacial de una onda en un instante, donde se identifican amplitud y longitud de onda, del movimiento temporal de una partícula fija, donde se identifican amplitud y período. Se muestran cresta, valle, equilibrio, sentido de propagación y la relación frecuencia igual a uno sobre el período.</desc>
+  <defs>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245bdb"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowGrayStart" markerWidth="12" markerHeight="12" refX="3" refY="3" orient="auto">
+      <path d="M9,0 L9,6 L0,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1120" height="960" rx="24" fill="#f8fafc"/>
+  <text x="560" y="43" text-anchor="middle" font-family="sans-serif" font-size="29" font-weight="700" fill="#172033">Componentes de una onda periódica</text>
+  <text x="560" y="72" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#475569">La misma onda se puede mirar en el espacio o seguir en el tiempo.</text>
+
+  <rect x="38" y="92" width="1044" height="372" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="68" y="128" font-family="sans-serif" font-size="22" font-weight="700" fill="#172033">A. Perfil espacial: instante fijo (t constante)</text>
+  <text x="68" y="154" font-family="sans-serif" font-size="16" fill="#475569">Desplazamiento frente a posición, con t fijo.</text>
+
+  <line x1="150" y1="285" x2="1000" y2="285" stroke="#64748b" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <line x1="150" y1="414" x2="150" y2="172" stroke="#64748b" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <line x1="150" y1="285" x2="974" y2="285" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="1010" y="291" font-family="sans-serif" font-size="17" fill="#334155">x</text>
+  <text x="128" y="174" text-anchor="end" font-family="sans-serif" font-size="17" fill="#334155">s</text>
+  <text x="140" y="291" text-anchor="end" font-family="sans-serif" font-size="14" fill="#64748b">0</text>
+  <text x="174" y="278" font-family="sans-serif" font-size="14" fill="#64748b">equilibrio</text>
+  <path d="M170 285 C220 285 220 185 270 185 S320 285 370 285 S420 385 470 385 S520 285 570 285 S620 185 670 185 S720 285 770 285 S820 385 870 385 S920 285 970 285" fill="none" stroke="#2563eb" stroke-width="5"/>
+
+  <line x1="270" y1="164" x2="670" y2="164" stroke="#334155" stroke-width="2" marker-start="url(#arrowGrayStart)" marker-end="url(#arrowGray)"/>
+  <rect x="449" y="147" width="44" height="31" rx="8" fill="#ffffff"/>
+  <text x="471" y="170" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#172033">λ</text>
+  <line x1="270" y1="285" x2="270" y2="190" stroke="#334155" stroke-width="2" marker-start="url(#arrowGrayStart)" marker-end="url(#arrowGray)"/>
+  <text x="249" y="238" text-anchor="end" font-family="sans-serif" font-size="20" font-weight="700" fill="#172033">A</text>
+  <text x="314" y="199" font-family="sans-serif" font-size="16" font-weight="700" fill="#1d4ed8">cresta</text>
+  <text x="470" y="411" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#1d4ed8">valle</text>
+  <text x="820" y="250" font-family="sans-serif" font-size="15" fill="#475569">desplazamiento s(x)</text>
+  <line x1="685" y1="433" x2="865" y2="433" stroke="#245bdb" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <text x="775" y="455" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">sentido de propagación v</text>
+
+  <rect x="38" y="482" width="1044" height="347" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="68" y="518" font-family="sans-serif" font-size="22" font-weight="700" fill="#172033">B. Oscilación temporal: posición fija (x constante)</text>
+  <text x="68" y="544" font-family="sans-serif" font-size="16" fill="#475569">Sigue a una partícula concreta mientras la onda pasa por ella.</text>
+
+  <line x1="150" y1="675" x2="1000" y2="675" stroke="#64748b" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <line x1="150" y1="785" x2="150" y2="570" stroke="#64748b" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <line x1="150" y1="675" x2="974" y2="675" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="1010" y="681" font-family="sans-serif" font-size="17" fill="#334155">t</text>
+  <text x="128" y="572" text-anchor="end" font-family="sans-serif" font-size="17" fill="#334155">s</text>
+  <text x="140" y="681" text-anchor="end" font-family="sans-serif" font-size="14" fill="#64748b">0</text>
+  <text x="174" y="668" font-family="sans-serif" font-size="14" fill="#64748b">equilibrio</text>
+  <path d="M190 675 C240 675 250 590 300 590 S350 675 400 675 S450 760 500 760 S550 675 600 675 S650 590 700 590 S750 675 800 675 S850 760 900 760 S950 675 1000 675" fill="none" stroke="#0f766e" stroke-width="5"/>
+
+  <line x1="300" y1="568" x2="700" y2="568" stroke="#334155" stroke-width="2" marker-start="url(#arrowGrayStart)" marker-end="url(#arrowGray)"/>
+  <rect x="478" y="551" width="44" height="31" rx="8" fill="#ffffff"/>
+  <text x="500" y="574" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#172033">T</text>
+  <line x1="300" y1="675" x2="300" y2="596" stroke="#334155" stroke-width="2" marker-start="url(#arrowGrayStart)" marker-end="url(#arrowGray)"/>
+  <text x="280" y="637" text-anchor="end" font-family="sans-serif" font-size="20" font-weight="700" fill="#172033">A</text>
+  <text x="760" y="742" font-family="sans-serif" font-size="15" fill="#475569">desplazamiento s(t)</text>
+  <rect x="405" y="787" width="325" height="29" rx="10" fill="#ccfbf1"/>
+  <text x="567" y="808" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#115e59">f = 1/T: ciclos completos por segundo</text>
+
+  <rect x="170" y="858" width="780" height="68" rx="16" fill="#dbeafe"/>
+  <text x="560" y="886" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#1e3a8a">En un período, el patrón avanza una longitud de onda.</text>
+  <text x="560" y="914" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#1e40af">v = λ/T = λf</text>
+</svg>

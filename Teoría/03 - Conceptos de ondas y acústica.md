@@ -7,57 +7,137 @@ tags: [fisica-aplicada, teoria, conceptos, ondas-acustica]
 **Volver al módulo:** [[Teoría/03 - Ondas y acústica]] · **Relaciones y derivaciones:** [[Teoría/03 - Fórmulas aplicadas de ondas y acústica]] · **Práctica:** [[Ejercicios/03 - Ondas y acústica]]
 
 > [!abstract] La idea que organiza el tema
-> Una onda mecánica es una perturbación que se transmite gracias a la interacción entre partes de un medio material; por eso no viaja en el vacío. El medio oscila localmente y la perturbación lleva energía a otros lugares. El sonido que estudiamos en aire y agua es longitudinal: avanzan regiones de compresión y rarefacción mientras las moléculas oscilan alrededor de sus posiciones de equilibrio. En sólidos también pueden propagarse ondas transversales.
+> Una onda mecánica es una perturbación que se transmite de una parte del medio a la siguiente. **Avanza el patrón; los puntos del medio se mueven localmente y, si la fuente repite su movimiento, oscilan cerca de su equilibrio.** Esa transmisión requiere materia y transporta energía, aunque no lleve las mismas partículas desde la fuente hasta el receptor.
 
-## 1. Qué se mueve cuando avanza una onda
+## 1. Antes de las fórmulas: qué avanza y qué oscila
 
-Imagina que sacudes un extremo de una cuerda. Un tramo se desplaza y tira del tramo vecino; este tira del siguiente. La forma de la perturbación avanza, aunque cada pequeño tramo se mueva alrededor de su propia posición y no recorra la cuerda completa. La elasticidad transmite la perturbación; la inercia hace que cada parte no responda de manera instantánea.
+Imagina una fila de personas que se pasan un empujón: el gesto avanza por la fila, pero cada persona solo se mueve un poco y vuelve a su lugar. En una cuerda, cada tramo tira del siguiente. En el aire, las moléculas empujan a sus vecinas y forman **compresiones** —partículas más juntas— y **rarefacciones** —partículas más separadas—.
 
-En el sonido ocurre algo parecido dentro de un fluido. Una fuente —por ejemplo, un parlante— empuja el aire cercano. Esa región empuja a la siguiente, formando zonas donde las partículas quedan más juntas (**compresiones**) y zonas donde quedan más separadas (**rarefacciones**).
+![[imagenes/parametros-onda-mecanica.svg]]
 
-![[imagenes/sonido-longitudinal.svg]]
+La parte superior del dibujo es una **onda transversal**: cada punto de la cuerda oscila arriba y abajo mientras el patrón avanza horizontalmente. La parte inferior representa el **sonido longitudinal**: las partículas oscilan en la misma dirección en que avanza la perturbación. El sonido en aire, agua y otros fluidos es longitudinal.
 
-- Una onda **transversal** tiene oscilación local perpendicular al avance; una cuerda tensa es un ejemplo.
-- En una onda **longitudinal**, la oscilación local es paralela al avance; el sonido en el aire es el ejemplo de este módulo.
-- Una curva ondulada en un gráfico representa una variable —como desplazamiento o presión— frente a la posición. No es necesariamente la trayectoria espacial de una partícula.
-- La onda transporta energía. No significa que cada partícula del medio viaje con ella desde la fuente hasta el receptor.
+> [!important] No confundas estos dos movimientos
+> - **Rapidez de la onda $v$:** cuánto avanza el patrón por segundo.
+> - **Velocidad de una partícula $u$:** cómo se mueve una partícula concreta del medio en ese instante.
+>
+> La onda puede avanzar hacia la derecha aunque una partícula esté moviéndose hacia la izquierda. La curva dibujada es una instantánea de una magnitud frente a la posición; no es el camino que recorre una partícula.
 
-### Rapidez de onda y rapidez de las partículas
+## 2. Los parámetros de una onda, uno por uno
 
-La rapidez de propagación, que llamaremos $v$, indica cuánto avanza una fase de la onda por segundo. En cambio, la rapidez de una partícula del aire, que llamaremos $u$, describe cómo se mueve esa partícula en ese instante. Son magnitudes distintas.
+Una fuente que repite su movimiento produce una perturbación periódica. Cada símbolo responde una pregunta distinta:
 
-Si el desplazamiento local es $s(x,t)=s_{\max}\cos(kx-\omega t)$, su velocidad de oscilación es $u=\partial s/\partial t$. La partícula cambia el sentido de movimiento dos veces por ciclo; la forma de onda, en cambio, sigue avanzando. En una oscilación sinusoidal la rapidez máxima de las partículas vale $u_{\max}=\omega s_{\max}$, pero no es la rapidez del sonido.
+| Parámetro | Qué significa en palabras | Cómo reconocerlo o medirlo |
+|---|---|---|
+| **Amplitud $A$** | Máxima separación respecto del equilibrio. Indica cuán grande es la oscilación. | Desde la línea de equilibrio hasta un máximo. Debe aclararse de qué magnitud: desplazamiento $s_{\max}$ o presión $\Delta p_{\max}$. |
+| **Longitud de onda $\lambda$** | Distancia que ocupa una repetición completa del patrón. | Cresta a cresta, valle a valle o compresión a compresión. Se mide en metros. |
+| **Período $T$** | Tiempo que tarda una partícula en completar una oscilación. | Tiempo entre dos máximos sucesivos en el mismo punto. Se mide en segundos. |
+| **Frecuencia $f$** | Cuántas oscilaciones completas ocurren por segundo. | Es el inverso del período: $f=1/T$. Se mide en hertz ($1\,\mathrm{Hz}=1\,\mathrm{s^{-1}}$). |
+| **Rapidez de propagación $v$** | Cuánto avanza una misma fase del patrón por segundo. | Distancia recorrida por la onda dividida por el tiempo. En el sonido depende de las propiedades del medio. |
+| **Desplazamiento $s$** | Posición instantánea de una partícula respecto de su equilibrio. | Puede ser positivo, negativo o cero; $s_{\max}$ es su amplitud. No es la distancia que viajó la onda. |
+| **Variación de presión $\Delta p$** | Cuánto sube o baja la presión del aire respecto de su valor de equilibrio. | En sonido, presión positiva indica compresión y presión negativa indica rarefacción. No es la presión atmosférica total. |
 
-## 2. Cómo describimos una onda periódica
+> [!note] ¿Qué determina cada parámetro?
+> La **fuente** marca el ritmo: fija $f$ y $T$. El **medio** determina qué tan rápido viaja la perturbación, es decir, $v$. La combinación de ese ritmo con esa rapidez fija cuánto espacio avanza cada ciclo: $\lambda=v/f$. La amplitud inicial depende de cuánto se mueve la fuente; al propagarse, puede disminuir por pérdidas o porque la energía se reparte en una región mayor.
 
-Una fuente que repite el mismo movimiento genera una onda periódica. Sus cantidades básicas se conectan así:
+### Componentes de la onda en dos gráficos
 
-- **Período $T$:** tiempo que tarda la fuente en completar un ciclo.
-- **Frecuencia $f=1/T$:** ciclos emitidos por segundo. Se mide en hertz.
-- **Longitud de onda $\lambda$:** distancia entre dos puntos consecutivos que están en la misma fase, por ejemplo entre compresiones sucesivas.
-- **Rapidez de propagación $v$:** distancia que avanza el patrón de onda por unidad de tiempo.
-- **Amplitud:** valor máximo de la perturbación respecto del equilibrio. En sonido hay que decir de qué magnitud: amplitud de desplazamiento $s_{\max}$ y amplitud de presión $\Delta p_{\max}$ no son lo mismo.
+![[imagenes/componentes-onda-grafica.svg]]
 
-En un período la onda avanza exactamente una longitud de onda. Por eso:
+En el gráfico superior se mira **toda la forma de onda en un instante**: allí se mide $\lambda$. En el inferior se sigue **un punto del medio a medida que pasa el tiempo**: allí se mide $T$, y de él se obtiene $f=1/T$. La altura desde el equilibrio es la amplitud en ambos gráficos.
+
+### La relación central: una longitud de onda por período
+
+Observa un punto fijo de la cuerda o del aire. Cuando ese punto completa un ciclo, transcurre un período $T$. Durante ese mismo tiempo, el patrón que pasa por allí avanza una repetición completa, es decir, una longitud de onda $\lambda$. Por definición de rapidez:
 
 $$
-v=\frac{\lambda}{T}=\lambda f.
+v=\frac{\text{distancia recorrida por el patrón}}{\text{tiempo}}
+=\frac{\lambda}{T}.
 $$
 
-Esta relación es una regla de avance de la forma de onda; no afirma que las moléculas de aire se desplacen a $v$.
-
-Para describir dónde está cada parte de una onda sinusoidal se usa la fase:
+Como $f=1/T$, también se escribe:
 
 $$
-s(x,t)=s_{\max}\cos(kx-\omega t+\phi_0),\qquad
-k=\frac{2\pi}{\lambda},\qquad
-\omega=2\pi f.
+\boxed{v=\frac{\lambda}{T}=\lambda f},\qquad
+\boxed{T=\frac1f},\qquad
+\boxed{\lambda=\frac{v}{f}}.
 $$
 
-$k$ mide cuánto cambia la fase al avanzar en el espacio; $\omega$ mide cuánto cambia al avanzar el tiempo. El argumento del coseno expresa la fase. El signo $kx-\omega t$ fija avance hacia $+x$; $kx+\omega t$ representa avance hacia $-x$. El término $\phi_0$ fija el estado inicial.
+Esta es la relación más usada para interpretar ejercicios. Si la onda pasa a otro medio, normalmente **la fuente conserva la frecuencia**, pero el medio cambia $v$; por eso se ajusta $\lambda=v/f$.
 
-> [!tip] Comprobación de la fase
-> En un instante fijo, la separación entre dos puntos que repiten la misma fase debe ser $\lambda$. En una posición fija, el tiempo para repetirla debe ser $T$.
+### ¿De dónde salen $k$ y $\omega$?
+
+La función sinusoidal es una manera compacta de decir qué desplazamiento tiene cada punto en cada instante. En esta función, $A$ es la amplitud de desplazamiento, es decir, $A=s_{\max}$:
+
+$$
+s(x,t)=A\cos(kx-\omega t+\phi_0).
+$$
+
+No agrega un movimiento nuevo: registra el patrón repetitivo que ya describimos. Cada parte del argumento del coseno se interpreta así:
+
+- **$kx$** cuenta el cambio de fase al cambiar de posición. Una separación $\lambda$ completa una repetición, equivalente a un giro de fase de $2\pi$; por eso $k\lambda=2\pi$ y $\boxed{k=2\pi/\lambda}$.
+- **$\omega t$** cuenta el cambio de fase con el tiempo. Un ciclo dura $T$ y también equivale a $2\pi$; por eso $\omega T=2\pi$ y $\boxed{\omega=2\pi/T=2\pi f}$.
+- **$\phi_0$** indica en qué estado empieza la oscilación cuando $x=0$ y $t=0$.
+- **El signo entre los términos** indica la dirección. Si seguimos una cresta, su fase conserva el mismo valor. En $kx-\omega t=\text{constante}$, al aumentar $t$ también debe aumentar $x$: la onda va hacia $+x$. Con $kx+\omega t$, $x$ debe disminuir y la onda va hacia $-x$.
+
+En una onda sinusoidal, la partícula oscila localmente. Su velocidad es la variación temporal del desplazamiento. Al derivar $s(x,t)$ respecto del tiempo, aparece el factor $\omega$:
+
+$$
+u(x,t)=\frac{\partial s}{\partial t}
+=\omega A\sin(kx-\omega t+\phi_0),
+\qquad u_{\max}=\omega A.
+$$
+
+Esta rapidez máxima pertenece a las **partículas** y no reemplaza a $v=\lambda f$, que describe el avance del **patrón**.
+
+> [!tip] Cómo leer un gráfico
+> - Si el eje horizontal es $x$ y el tiempo está fijo, la distancia entre repeticiones es $\lambda$.
+> - Si el eje horizontal es $t$ y miras un punto fijo, el tiempo entre repeticiones es $T$.
+> - La altura desde el equilibrio es una amplitud, pero identifica primero si el gráfico muestra desplazamiento, presión u otra magnitud.
+
+### Cómo llevar estos parámetros a un ejercicio
+
+1. **Traduce lo pedido.** “Distancia entre compresiones” pide $\lambda$; “oscilaciones por segundo” pide $f$; “máximo desplazamiento de las partículas” pide $s_{\max}$.
+2. **Separa los datos por tipo.** Anota si son del patrón ($v,\lambda,f,T$), del movimiento local ($s,u$) o del sonido ($\Delta p,B,\rho$).
+3. **Elige la conexión física.** Para $v,\lambda,f,T$, usa $v=\lambda f$ y $T=1/f$. Para presión y desplazamiento en sonido sinusoidal, usa $\Delta p_{\max}=Bk s_{\max}$, con $k=2\pi f/v$.
+4. **Despeja antes de sustituir.** Así se ve qué dato falta y reduces errores algebraicos.
+5. **Comprueba unidades y sentido.** $\lambda$ debe quedar en metros; $T$, en segundos; $f$, en hertz. Si $v$ no cambia y aumenta $f$, entonces $\lambda$ debe disminuir.
+
+### Ejemplo breve: de la frecuencia a la longitud de onda y al desplazamiento
+
+Una onda sonora en aire tiene $f=1000\,\mathrm{Hz}$, $v=344\,\mathrm{m/s}$, amplitud de presión $\Delta p_{\max}=3.0\times10^{-2}\,\mathrm{Pa}$ y módulo volumétrico $B=1.42\times10^5\,\mathrm{Pa}$. ¿Qué valores tienen $T$, $\lambda$, $k$ y $s_{\max}$?
+
+**1. Período.** La frecuencia indica cuántas veces se repite el ciclo cada segundo:
+
+$$
+T=\frac1f=\frac1{1000\,\mathrm{s^{-1}}}=1.00\times10^{-3}\,\mathrm{s}.
+$$
+
+**2. Longitud de onda.** En ese milisegundo el patrón avanza una longitud de onda:
+
+$$
+\lambda=\frac{v}{f}=\frac{344\,\mathrm{m/s}}{1000\,\mathrm{s^{-1}}}=0.344\,\mathrm{m}.
+$$
+
+**3. Cambio espacial de fase.** Una longitud de onda equivale a $2\pi$ radianes:
+
+$$
+k=\frac{2\pi}{\lambda}=\frac{2\pi}{0.344\,\mathrm m}=18.3\,\mathrm{rad/m}.
+$$
+
+**4. Desplazamiento máximo de las partículas.** En sonido, la presión responde a cuánto se comprime o expande el aire. Para una onda sinusoidal $\Delta p_{\max}=Bk s_{\max}$; despejamos:
+
+$$
+s_{\max}=\frac{\Delta p_{\max}}{Bk}
+=\frac{3.0\times10^{-2}\,\mathrm{Pa}}
+{(1.42\times10^5\,\mathrm{Pa})(18.3\,\mathrm{m^{-1}})}
+\approx1.16\times10^{-8}\,\mathrm m.
+$$
+
+**Interpretación.** El sonido repite su patrón cada $0.344\,\mathrm m$, pero cada partícula de aire solo se desplaza unos $11.6\,\mathrm{nm}$ desde el equilibrio. La distancia recorrida por la onda y el desplazamiento local de las partículas son cosas distintas. Este es el planteo del [[Ejercicios/03 - Ondas y acústica#14. Desplazamiento de partículas a partir de presión — M|ejercicio 14]] y su solución paso a paso está en [[Resoluciones/03 - Ondas y acústica#14. Desplazamiento de partículas a partir de presión|la resolución]].
+
+> [!tip] Comprobación de fase
+> En un instante fijo, dos puntos con la misma fase están separados por $\lambda$. En una posición fija, el patrón vuelve a la misma fase después de un tiempo $T$.
 
 ## 3. Por qué el medio determina la rapidez
 
@@ -342,6 +422,7 @@ El resultado debe ser mayor que $f_s$ si la fuente se acerca a la pared. En el e
 
 ## Fuentes consultadas
 
+- [Texto sobre tipos de ondas mecánicas, sección 15.1](zotero://select/library/items/RHTMK6UM): propagación, período, frecuencia, longitud de onda y separación entre el movimiento de la onda y el de las partículas, PDF pp. 4–6.
 - [Presentación de ondas y sonido](zotero://select/library/items/WFMW87CP): definición y sonido longitudinal, PDF p. 12; rapidez en medios y gas ideal, pp. 13–14; intensidad, p. 15; nivel sonoro, pp. 16–17; Doppler y variables, pp. 18–22.
 - [Práctica de sonido, Física Aplicada 2021](zotero://select/library/items/ZFCVVKE5): presión y desplazamiento, ejercicios 1–2; sonar y longitud de onda, 3; rapidez en sólidos y gases, 4–5; intensidad, potencia y decibeles, 6–10; reflexión e interferencia, 11–12; longitudes de onda móviles, Doppler y eco, 13–17.
 - Los modelos de parcial priorizan presión-desplazamiento, nivel sonoro y Doppler. El recorrido ampliado incorpora las familias de la práctica que no aparecen en los modelos consultados.
@@ -399,3 +480,18 @@ Contesta con tus palabras y despliega después la explicación para comprobar el
 
 > [!success]- Mostrar explicación
 > La fuente móvil primero produce una frecuencia distinta en la pared. La pared refleja esa frecuencia; luego la fuente móvil recibe el reflejo como observadora en movimiento. Cada tramo tiene su propio emisor y receptor.
+
+**11. Si una onda avanza $2.4\,\mathrm m$ durante $0.60\,\mathrm s$, ¿qué representa el cociente y qué rapidez obtienes?**
+
+> [!success]- Mostrar explicación
+> El cociente es la rapidez del patrón: $v=\Delta x/\Delta t=2.4/0.60=4.0\,\mathrm{m/s}$. No informa cuánto se desplazó una partícula del medio.
+
+**12. Una onda tiene frecuencia $5\,\mathrm{Hz}$. ¿Qué significa ese dato y cuánto dura un ciclo?**
+
+> [!success]- Mostrar explicación
+> Significa que un punto del medio completa cinco oscilaciones por segundo. El período es el tiempo por oscilación: $T=1/f=0.20\,\mathrm s$.
+
+**13. La frecuencia de una onda se duplica mientras sigue viajando en el mismo medio. Si la rapidez del medio no cambia, ¿qué pasa con $\lambda$?**
+
+> [!success]- Mostrar explicación
+> Como $v=\lambda f$ y $v$ permanece constante, al duplicarse $f$ la longitud de onda debe reducirse a la mitad: $\lambda=v/f$.

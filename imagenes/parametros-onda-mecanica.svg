@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">Parámetros básicos de una onda mecánica</title>
+  <desc id="desc">Arriba, una onda transversal en una cuerda muestra amplitud desde el equilibrio, longitud de onda entre crestas y dirección de propagación perpendicular al movimiento local. Abajo, el sonido longitudinal muestra compresiones separadas por una longitud de onda y partículas que oscilan paralelas a la propagación.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245bdb"/>
+    </marker>
+    <marker id="arrowStart" markerWidth="12" markerHeight="12" refX="3" refY="3" orient="auto">
+      <path d="M9,0 L9,6 L0,3 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowEnd" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="760" rx="24" fill="#f8fafc"/>
+  <text x="550" y="44" text-anchor="middle" font-family="sans-serif" font-size="29" font-weight="700" fill="#172033">Qué avanza y qué oscila en una onda mecánica</text>
+
+  <rect x="40" y="70" width="1020" height="330" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="108" font-family="sans-serif" font-size="22" font-weight="700" fill="#172033">1. Onda transversal en una cuerda</text>
+  <text x="70" y="137" font-family="sans-serif" font-size="17" fill="#475569">El patrón va a la derecha; cada punto de la cuerda oscila arriba y abajo.</text>
+  <line x1="150" y1="250" x2="960" y2="250" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M150 250 C199 250 199 165 248 165 S297 250 346 250 S395 335 444 335 S493 250 542 250 S591 165 640 165 S689 250 738 250 S787 335 836 335 S885 250 934 250" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <text x="112" y="256" text-anchor="end" font-family="sans-serif" font-size="16" fill="#475569">equilibrio</text>
+  <line x1="248" y1="250" x2="248" y2="169" stroke="#334155" stroke-width="2" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+  <text x="228" y="205" text-anchor="end" font-family="sans-serif" font-size="21" font-weight="700" fill="#172033">A</text>
+  <line x1="248" y1="151" x2="640" y2="151" stroke="#334155" stroke-width="2" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+  <line x1="248" y1="157" x2="248" y2="166" stroke="#334155" stroke-width="2"/>
+  <line x1="640" y1="157" x2="640" y2="166" stroke="#334155" stroke-width="2"/>
+  <rect x="424" y="132" width="44" height="30" rx="8" fill="#ffffff"/>
+  <text x="446" y="154" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#172033">λ</text>
+  <line x1="550" y1="368" x2="770" y2="368" stroke="#245bdb" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="660" y="392" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#1d4ed8">propagación de la onda</text>
+  <line x1="355" y1="220" x2="355" y2="280" stroke="#64748b" stroke-width="3" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+  <text x="374" y="222" font-family="sans-serif" font-size="15" fill="#475569">oscilación local</text>
+
+  <rect x="40" y="420" width="1020" height="292" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="458" font-family="sans-serif" font-size="22" font-weight="700" fill="#172033">2. Onda longitudinal: sonido en el aire</text>
+  <text x="70" y="486" font-family="sans-serif" font-size="17" fill="#475569">El patrón y las partículas oscilan en la misma dirección; las zonas apretadas son compresiones.</text>
+  <line x1="120" y1="565" x2="970" y2="565" stroke="#cbd5e1" stroke-width="2"/>
+  <g fill="#0f766e">
+    <circle cx="125" cy="565" r="7"/><circle cx="170" cy="565" r="7"/><circle cx="215" cy="565" r="7"/>
+    <circle cx="282" cy="565" r="7"/><circle cx="295" cy="565" r="7"/><circle cx="308" cy="565" r="7"/><circle cx="321" cy="565" r="7"/><circle cx="334" cy="565" r="7"/>
+    <circle cx="392" cy="565" r="7"/><circle cx="445" cy="565" r="7"/><circle cx="500" cy="565" r="7"/>
+    <circle cx="552" cy="565" r="7"/><circle cx="565" cy="565" r="7"/><circle cx="578" cy="565" r="7"/><circle cx="591" cy="565" r="7"/><circle cx="604" cy="565" r="7"/>
+    <circle cx="662" cy="565" r="7"/><circle cx="715" cy="565" r="7"/><circle cx="770" cy="565" r="7"/>
+    <circle cx="822" cy="565" r="7"/><circle cx="835" cy="565" r="7"/><circle cx="848" cy="565" r="7"/><circle cx="861" cy="565" r="7"/><circle cx="874" cy="565" r="7"/>
+    <circle cx="928" cy="565" r="7"/><circle cx="970" cy="565" r="7"/>
+  </g>
+  <rect x="270" y="526" width="78" height="78" rx="12" fill="#fee2e2" opacity=".55"/>
+  <rect x="540" y="526" width="78" height="78" rx="12" fill="#fee2e2" opacity=".55"/>
+  <rect x="810" y="526" width="78" height="78" rx="12" fill="#fee2e2" opacity=".55"/>
+  <text x="309" y="625" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#b91c1c">compresión</text>
+  <text x="445" y="625" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#475569">rarefacción</text>
+  <line x1="309" y1="510" x2="579" y2="510" stroke="#334155" stroke-width="2" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+  <rect x="418" y="492" width="52" height="30" rx="8" fill="#ffffff"/>
+  <text x="444" y="514" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#172033">λ</text>
+  <line x1="680" y1="510" x2="850" y2="510" stroke="#245bdb" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="765" y="503" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">propagación</text>
+  <line x1="180" y1="650" x2="250" y2="650" stroke="#64748b" stroke-width="3" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+  <text x="270" y="656" font-family="sans-serif" font-size="15" fill="#475569">oscilación local de las partículas</text>
+  <text x="550" y="694" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#475569">Esquema conceptual, no está a escala. La curva de arriba muestra desplazamiento frente a posición en un instante.</text>
+</svg>

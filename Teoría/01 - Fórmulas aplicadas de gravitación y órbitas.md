@@ -123,6 +123,9 @@ $$
 a_c=\frac{v_t^2}{r}.
 $$
 
+> [!tip] Origen de $a_c = v^2/R$ (o $v_t^2/r$)
+> Surge de la tasa de cambio en la dirección de la velocidad respecto al tiempo (deducida por semejanza geométrica o cálculo vectorial en [[Teoría/01 - Conceptos de gravitación y órbitas#Aceleración centrípeta: deducción de $a_c=v^2/R$ (o $v_t^2/r$)|Conceptos: Aceleración centrípeta]]).
+
 Si la rapidez cambia, puede haber además aceleración tangencial. En una órbita circular uniforme, la componente centrípeta es toda la aceleración y la gravedad la proporciona:
 
 $$

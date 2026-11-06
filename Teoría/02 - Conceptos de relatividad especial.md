@@ -6,6 +6,32 @@ tags: [fisica-aplicada, teoria, conceptos, relatividad]
 
 **Volver al módulo:** [[Teoría/02 - Relatividad especial]] · **Fórmulas y método:** [[Teoría/02 - Fórmulas aplicadas de relatividad especial]] · **Ejercicios:** [[Ejercicios/02 - Relatividad especial]]
 
+## Orientación rápida: qué comparar antes de usar una fórmula
+
+La relatividad especial no dice que las mediciones sean caprichosas. Dice que dos observadores inerciales pueden asignar distintos valores de tiempo, longitud y velocidad al **mismo fenómeno**, y que esas diferencias siguen reglas precisas. Por eso, antes de calcular, pregunta: **¿qué mide cada observador y en qué marco?**
+
+![[imagenes/mapa-mediciones-relatividad.svg]]
+
+| Si comparas… | Identifica primero… | Relación que organiza el problema |
+|---|---|---|
+| el tiempo entre dos eventos | el marco donde ambos ocurren en el mismo lugar; allí está el tiempo propio $\Delta t_0$ | $\Delta t=\gamma\Delta t_0$ |
+| la longitud de un objeto | el marco donde el objeto está en reposo; esa es $L_0$. El marco que mide debe registrar los extremos simultáneamente | $L=L_0/\gamma$ si la longitud es paralela al movimiento |
+| la velocidad de un objeto desde otro marco | qué marco se mueve, cuál es el eje positivo y qué signo tiene cada velocidad | suma relativista de velocidades |
+
+El subíndice $0$ significa **propio**, no “valor inicial” ni “valor en la Tierra”. Una magnitud propia se define por las condiciones de su medición: mismo lugar para el tiempo, reposo del objeto para la longitud.
+
+### Notación esencial
+
+| Símbolo | Qué representa en este módulo |
+|---|---|
+| $S$, $S'$ | Dos marcos inerciales; por convención, $S'$ se mueve en $+x$ con respecto a $S$ en la fórmula de velocidades de esta guía. |
+| $c$ | Rapidez de la luz en el vacío, igual para ambos marcos inerciales. |
+| $v$ | Rapidez relativa entre los marcos; determina $\beta$ y $\gamma$. No es automáticamente la rapidez del proyectil. |
+| $\beta=v/c$, $\gamma=1/\sqrt{1-\beta^2}$ | Medida adimensional de cuán importante es el movimiento relativo en las relaciones relativistas. |
+| $\Delta t_0$, $\Delta t$ | Intervalo propio (eventos en el mismo lugar) y el intervalo medido desde el otro marco, respectivamente. |
+| $L_0$, $L$ | Longitud en reposo del objeto y longitud que mide un marco donde se mueve, paralela a su movimiento. |
+| $u'$, $u$ | Velocidad firmada del objeto medida en $S'$ y en $S$, respectivamente. El signo indica dirección en el eje elegido. |
+
 ## 1. Qué estudia la relatividad especial
 
 La relatividad especial describe cómo se relacionan las mediciones de observadores que se mueven con velocidad constante entre sí. Cada observador usa un **marco de referencia**: un sistema de coordenadas y relojes sincronizados que permite asignar posición y tiempo a los acontecimientos.
@@ -56,7 +82,9 @@ El cociente $v/c$ compara la rapidez con la de la luz. Por eso, al fijar una rap
 - Si $v$ es mucho menor que $c$, $\gamma$ es muy cercano a 1 y las medidas casi coinciden con las clásicas.
 - Cuando $v$ se aproxima a $c$, $\gamma$ crece mucho; los efectos de tiempo y longitud se vuelven apreciables.
 
-$\gamma$ no es una corrección que se aplica a cualquier cantidad indistintamente. En estos ejercicios multiplica el tiempo propio y divide la longitud propia. Decidir **qué magnitud es propia** es el paso conceptual central.
+$\gamma$ no es una corrección que se aplica a cualquier cantidad indistintamente ni una causa física independiente: resume cuánto difieren ciertas mediciones entre dos marcos cuya rapidez relativa es $v$. En los ejercicios de este módulo multiplica el tiempo propio y divide la longitud propia. Por eso el mismo $\gamma>1$ hace que el intervalo temporal medido desde el marco donde el reloj se mueve sea mayor y que la longitud paralela de un objeto en movimiento sea menor. Decidir **qué magnitud es propia** y desde qué marco se pide medirla es el paso conceptual central.
+
+La expresión de $\gamma$ aparece al exigir que la rapidez de la luz sea $c$ para ambos marcos. El reloj de luz de la sección siguiente permite ver el origen geométrico del factor: en el marco donde el reloj se mueve, el pulso recorre una diagonal más larga, pero su rapidez sigue siendo $c$. Al relacionar las dos trayectorias con Pitágoras aparece $1-v^2/c^2$ bajo la raíz.
 
 ## 4. Tiempo propio y dilatación temporal
 

@@ -9,6 +9,17 @@ tags: [fisica-aplicada, teoria, formulas, relatividad]
 > [!important] Antes de elegir una ecuación
 > Indica el marco que mide cada dato y dibuja las direcciones. $\Delta t_0$ y $L_0$ no significan “el dato inicial”: el subíndice 0 identifica una medición propia.
 
+## Mapa de decisión
+
+| Lo que pide el ejercicio | Identificación antes de sustituir | Fórmula o modelo |
+|---|---|---|
+| intervalo entre dos eventos | nombra los eventos y busca dónde ocurren en el mismo lugar | $\Delta t=\gamma\Delta t_0$ |
+| longitud de un objeto que se mueve | encuentra su longitud en reposo $L_0$ y verifica que la dimensión sea paralela al movimiento | $L=L_0/\gamma$ |
+| velocidad desde otro marco | dibuja $+x$ y asigna signo a $u'$ y a $v$ | $u=(u'+v)/(1+u'v/c^2)$ |
+| tiempo hasta un destino | expresa distancia y velocidad en el mismo marco | $t=D/u$ |
+
+**Orden de trabajo:** (1) define el marco pedido; (2) etiqueta cada dato con su marco; (3) decide si el problema trata tiempo, longitud o velocidad; (4) despeja simbólicamente; (5) sustituye y revisa el límite físico. Para los primeros tres modelos, el diagrama de [[Teoría/02 - Conceptos de relatividad especial#Orientación rápida: qué comparar antes de usar una fórmula|orientación rápida]] ayuda a fijar esa elección.
+
 ## 1. Factor de Lorentz
 
 $$
@@ -21,6 +32,8 @@ $$
 - $c=3.00\times10^8\,\mathrm{m/s}$: rapidez de la luz en el vacío.
 - $\gamma$ no tiene unidades, y debe ser mayor o igual que 1.
 - Si se da $v=0.60c$, usa directamente $\beta=0.60$.
+
+Piensa en $\beta=v/c$ como la rapidez expresada en “fracciones de la rapidez de la luz”. Así, $0\leq\beta<1$ para los marcos inerciales considerados, y $\gamma$ traduce esa comparación en el factor que aparece en las relaciones entre mediciones. No reemplaces $v$ por la velocidad del objeto si el enunciado pregunta por otro movimiento: usa la rapidez **relativa entre los marcos relevantes**.
 
 Para $\beta\ll1$, la aproximación binomial da $\gamma\approx1+\beta^2/2$. En una dilatación temporal, esto implica $\Delta t_0=\Delta t/\gamma\approx\Delta t(1-\beta^2/2)$. La corrección es de segundo orden en la rapidez; puede ser minúscula aunque el modelo relativista sea el correcto.
 

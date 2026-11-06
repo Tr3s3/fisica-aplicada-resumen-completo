@@ -395,6 +395,9 @@ $$
 a_c=4\pi^2f^2R=\omega^2R.
 $$
 
+> [!note] ¿De dónde proviene la expresión $a_c=v^2/R$?
+> La expresión $a_c=v^2/R$ proviene del cambio continuo en la dirección del vector velocidad hacia el centro del giro. La deducción completa paso a paso (mediante semejanza geométrica de triángulos y mediante cálculo vectorial) se detalla en [[#Aceleración centrípeta: deducción de $a_c=v^2/R$ (o $v_t^2/r$)|la sección de órbita circular]].
+
 Así se ve de dónde sale la corrección por rotación: la gravedad no desaparece; la diferencia entre la gravedad y la normal es la fuerza neta hacia adentro que produce esta aceleración centrípeta. **Para resolver un ejercicio**, convierte primero $T$ a segundos, usa el radio de la trayectoria (en el ecuador, $R$) y calcula $a_c$ con cualquiera de las formas equivalentes. Si se duplica el período, por ejemplo, $a_c$ pasa a ser la cuarta parte, porque depende de $1/T^2$.
 
 ![[imagenes/gravedad-rotacion-jupiter.svg]]
@@ -476,9 +479,102 @@ Si la rapidez cambia durante la vuelta, $2\pi r/T$ da la rapidez tangencial medi
 
 *Esquema propio. La flecha verde representa la velocidad tangencial; la flecha naranja, la aceleración centrípeta. La primera indica hacia dónde se mueve el objeto en ese instante; la segunda, hacia dónde cambia su velocidad.*
 
-### Aceleración centrípeta: del cambio de velocidad al radio
+### Aceleración centrípeta: deducción de $a_c=v^2/R$ (o $v_t^2/r$)
 
-La **velocidad** es un vector, así que puede cambiar aunque su módulo permanezca constante. En el movimiento circular uniforme, dos velocidades en instantes cercanos tienen igual módulo $v_t$, pero direcciones distintas. Como cada velocidad es tangente al círculo, al girar el radio un ángulo pequeño también gira la dirección de la velocidad ese mismo ángulo. En lo que sigue, $\Delta\theta$ representa el tamaño positivo de ese giro, medido en radianes.
+La **velocidad** $\vec v$ es un vector, por lo que posee módulo (rapidez $v$), dirección y sentido. En un movimiento circular de radio $R$ (o radio orbital $r$) con rapidez constante $v$, el módulo permanece constante, pero la dirección del vector velocidad cambia en cada instante porque debe mantenerse tangente a la trayectoria.
+
+Todo cambio en el vector velocidad implica una aceleración:
+
+$$
+\vec a = \lim_{\Delta t\to 0}\frac{\Delta \vec v}{\Delta t}.
+$$
+
+A continuación se presentan las dos deducciones estándar que muestran cómo se llega a la expresión $a_c = v^2/R$ (o $v_t^2/r$): por **semejanza geométrica de triángulos** y por **cálculo vectorial**, seguidas del desarrollo trigonométrico por límites de cuerda.
+
+---
+
+#### Método 1: Deducción por semejanza geométrica de triángulos
+
+Consideremos una partícula que recorre una circunferencia de radio $R$ con rapidez constante $v$. En un intervalo $\Delta t$, la partícula se traslada desde un punto $A$ hasta un punto $B$, barriendo un ángulo central $\Delta\theta$ (en radianes):
+
+1. **Triángulo de posición:** Los vectores de posición $\vec r_A$ y $\vec r_B$ van desde el centro $O$ hasta los puntos $A$ y $B$. Tienen módulo $|\vec r_A|=|\vec r_B|=R$ y forman un triángulo isósceles $OAB$ con base igual a la cuerda $\Delta r = |\Delta\vec r| = |\vec r_B-\vec r_A|$.
+2. **Triángulo de velocidades:** Dibujamos los vectores de velocidad instantánea $\vec v_A$ y $\vec v_B$ con un origen común. Ambos tienen módulo igual a la rapidez $v$. Como la velocidad es tangente a la trayectoria en cada punto, $\vec v_A$ es perpendicular a $\vec r_A$ y $\vec v_B$ es perpendicular a $\vec r_B$. En consecuencia, el ángulo entre $\vec v_A$ y $\vec v_B$ es exactamente el mismo ángulo $\Delta\theta$. Los dos vectores velocidad y la diferencia $\Delta\vec v = \vec v_B-\vec v_A$ forman otro triángulo isósceles de lados $v$, $v$ y base $|\Delta\vec v|$.
+
+Al tener el mismo ángulo comprendido $\Delta\theta$ entre dos lados de igual longitud, ambos triángulos isósceles son **semejantes**:
+
+$$
+\frac{|\Delta\vec v|}{v} = \frac{|\Delta\vec r|}{R}.
+$$
+
+Cuando el intervalo de tiempo $\Delta t$ es muy pequeño ($\Delta t\to 0$), el ángulo $\Delta\theta$ tiende a cero y la longitud de la cuerda $|\Delta\vec r|$ se aproxima a la longitud del arco circular $\Delta s$:
+
+$$
+|\Delta\vec r| \approx \Delta s = v\,\Delta t.
+$$
+
+Sustituyendo esta aproximación en la razón de semejanza:
+
+$$
+\frac{|\Delta\vec v|}{v} \approx \frac{v\,\Delta t}{R}
+\quad\Longrightarrow\quad
+\frac{|\Delta\vec v|}{\Delta t} \approx \frac{v^2}{R}.
+$$
+
+Tomando el límite cuando $\Delta t\to 0$ para obtener la aceleración instantánea:
+
+$$
+a_c = \lim_{\Delta t\to 0}\frac{|\Delta\vec v|}{\Delta t} = \frac{v^2}{R}.
+$$
+
+**¿Hacia dónde apunta $\vec a_c$?**
+En el triángulo isósceles de velocidades, los ángulos basales valen $\frac{180^\circ - \Delta\theta}{2}$. Cuando $\Delta t\to 0$ y $\Delta\theta\to 0$, estos ángulos tienden a $90^\circ$. Esto significa que el vector diferencia $\Delta\vec v$ se vuelve perpendicular al vector velocidad $\vec v$. Como $\vec v$ es tangente a la circunferencia, $\Delta\vec v$ (y por tanto la aceleración $\vec a$) apunta **radialmente hacia el centro de la circunferencia**. Por eso se denomina **aceleración centrípeta** ("que busca el centro").
+
+---
+
+#### Método 2: Deducción analítica mediante cálculo vectorial
+
+Si describimos la posición del cuerpo en el plano $xy$ con el origen en el centro de la circunferencia de radio $R$:
+
+$$
+\vec r(t) = R\cos(\omega t)\,\hat\imath + R\sin(\omega t)\,\hat\jmath,
+$$
+
+donde $\omega = \frac{v}{R}$ es la rapidez angular constante.
+
+1. **Velocidad vectorial:** Derivamos la posición respecto al tiempo:
+   $$
+   \vec v(t) = \frac{d\vec r}{dt} = -R\omega\sin(\omega t)\,\hat\imath + R\omega\cos(\omega t)\,\hat\jmath.
+   $$
+   Su módulo (la rapidez constante) es:
+   $$
+   |\vec v| = \sqrt{(-R\omega\sin(\omega t))^2 + (R\omega\cos(\omega t))^2} = R\omega = v.
+   $$
+
+2. **Aceleración vectorial:** Derivamos la velocidad respecto al tiempo:
+   $$
+   \vec a(t) = \frac{d\vec v}{dt} = -R\omega^2\cos(\omega t)\,\hat\imath - R\omega^2\sin(\omega t)\,\hat\jmath.
+   $$
+   Sacando factor común $-\omega^2$:
+   $$
+   \vec a(t) = -\omega^2\bigl(R\cos(\omega t)\,\hat\imath + R\sin(\omega t)\,\hat\jmath\bigr) = -\omega^2\vec r(t).
+   $$
+
+Esta ecuación vectorial resume los dos resultados fundamentales:
+- **Dirección y sentido:** El factor $-\vec r(t)$ indica que $\vec a(t)$ tiene dirección radial y sentido opuesto al vector de posición; apunta directamente hacia el centro (es centrípeta).
+- **Módulo ($a_c$):** Como $|\vec r(t)|=R$:
+  $$
+  a_c = |\vec a(t)| = \omega^2 R.
+  $$
+  Sustituyendo la relación entre rapidez tangencial y angular, $\omega = \frac{v}{R}$:
+  $$
+  a_c = \left(\frac{v}{R}\right)^2 R = \frac{v^2}{R}.
+  $$
+
+---
+
+#### Deducción trigonométrica por longitud de cuerda y límites
+
+En este tercer enfoque detallamos el paso con trigonometría analítica de cuerdas. En el movimiento circular uniforme, dos velocidades en instantes cercanos tienen igual módulo $v_t$, pero direcciones distintas. Como cada velocidad es tangente al círculo, al girar el radio un ángulo pequeño también gira la dirección de la velocidad ese mismo ángulo. En lo que sigue, $\Delta\theta$ representa el tamaño positivo de ese giro, medido en radianes.
 
 Para calcular cuánto difieren los vectores, dibujamos $\vec v_A$ y $\vec v_B$ con el mismo origen. Cada vector mide $v_t$, así que sus puntas quedan sobre una circunferencia de radio $v_t$ en este dibujo de velocidades. El ángulo entre ellos es $\Delta\theta$ y el segmento que une sus puntas representa $\Delta\vec v=\vec v_B-\vec v_A$. Se forma un triángulo isósceles cuyos lados iguales miden $v_t$:
 

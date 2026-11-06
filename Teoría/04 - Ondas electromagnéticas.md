@@ -11,14 +11,16 @@ tags: [fisica-aplicada, teoria, ondas-em]
 
 ## Cómo estudiar este módulo
 
-1. Lee [[Teoría/04 - Conceptos de ondas electromagnéticas|qué representa físicamente cada campo y cómo las leyes de Maxwell llevan a una onda]].
+1. Empieza por las secciones 1–5 de [[Teoría/04 - Conceptos de ondas electromagnéticas|conceptos]] para leer los parámetros, entender el esquema y construir las ecuaciones de campo.
 2. Estudia [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|de dónde salen las relaciones y cuándo usar cada fórmula]].
 3. Resuelve primero el ejercicio 20, basado en el modelo; luego el 21, que invierte el sentido de avance y exige comprobar los signos.
 4. Compara con las [[Resoluciones/04 - Ondas electromagnéticas|resoluciones paso a paso]] y vuelve a dibujar $\vec E$, $\vec B$ y la dirección de propagación.
 
 ## Esquemas
 
-El primero muestra la orientación espacial de los campos. El segundo permite leer el sentido de viaje a partir del signo de la fase.
+El primero muestra cómo leer amplitud, longitud de onda y período. El segundo representa las direcciones de los campos; el tercero permite leer el sentido de viaje a partir del signo de la fase.
+
+![[imagenes/componentes-onda-electromagnetica.svg]]
 
 ![[imagenes/onda-electromagnetica.svg]]
 

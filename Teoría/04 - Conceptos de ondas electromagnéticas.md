@@ -4,93 +4,192 @@ tags: [fisica-aplicada, teoria, conceptos, ondas-em]
 
 # Conceptos de ondas electromagnéticas
 
-[[Teoría/04 - Ondas electromagnéticas|← Índice del módulo]] · [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|Formulario aplicado]]
+[[Teoría/04 - Ondas electromagnéticas|← Índice del módulo]] · [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|Formulario aplicado]] · [[Ejercicios/04 - Ondas electromagnéticas|Práctica]]
 
-> [!summary] Idea central
-> Una onda electromagnética es una perturbación que transporta energía mediante campos eléctrico y magnético variables. En el vacío, las leyes de Maxwell hacen que estos campos se relacionen y que la perturbación avance a $c$, sin necesitar un medio material.
+> [!summary] La idea central
+> Una onda electromagnética es un patrón de campos eléctrico y magnético que cambia y avanza por el espacio. Transporta energía, pero no necesita que la materia viaje desde la fuente hasta el receptor. En el vacío avanza a la rapidez de la luz, $c$.
 
-## 1. Qué se propaga y qué oscila
+## Ruta sugerida para aprender el tema
 
-En una onda sonora, las partículas del aire se desplazan un poco alrededor de sus posiciones de equilibrio. La perturbación pasa de una región a la siguiente porque las partículas interactúan. Si no hay medio, no hay sonido.
+1. Empieza con las secciones 1–4 y el esquema: identifica qué cambia, qué representa cada parámetro y cómo se orientan los campos.
+2. Lee la sección 5 para aprender a construir las ecuaciones de la onda y verificar su sentido.
+3. Practica los ejercicios 20 y 21. Después usa la tabla de la sección 6 para elegir el modelo en los ejercicios complementarios.
+4. Vuelve a la sección 7 si quieres entender por qué esas relaciones se desprenden de Maxwell. Las derivaciones vectoriales se pueden abrir cuando ya tengas clara la imagen física.
 
-En una onda electromagnética no hace falta que se desplacen partículas de materia: lo que cambia de un lugar a otro son los campos eléctrico $\vec E$ y magnético $\vec B$. La luz visible, las ondas de radio, las microondas y los rayos X son miembros de la misma familia. Se distinguen principalmente por su frecuencia $f$ y su longitud de onda $\lambda$.
+## 1. Qué viaja y qué oscila
 
-Un campo constante y uno variable se comportan de modo distinto. En electrostática y magnetostática se pueden estudiar campos que no cambian en el tiempo por separado. Cuando los campos cambian, las leyes de Faraday y Ampère-Maxwell los vinculan: la variación de uno está asociada con la circulación espacial del otro. Esa conexión permite que una perturbación electromagnética viaje por regiones donde no hay cargas ni corrientes.
+En una onda sonora, oscilan partículas del aire y sus empujes transmiten la perturbación. Por eso el sonido necesita un medio. En una onda electromagnética no tienen que oscilar partículas materiales: lo que cambia son el **campo eléctrico** $\vec E$ y el **campo magnético** $\vec B$.
 
-## 2. Qué dicen las ecuaciones de Maxwell
+Un campo describe una propiedad física en cada punto del espacio. Si la fuente cambia esos campos, sus variaciones se enlazan y la perturbación se propaga. Una vez emitida, puede recorrer el vacío. La luz visible, las ondas de radio, las microondas y los rayos X son ondas electromagnéticas; se distinguen principalmente por su frecuencia y longitud de onda.
 
-La presentación del curso muestra las cuatro leyes en forma integral. La imagen reproduce esa diapositiva; la integral representa el flujo a través de una superficie cerrada o la circulación alrededor de una curva.
+**La onda avanza; los campos oscilan.** En una onda plana sinusoidal, cada componente del campo sube, baja y vuelve a repetirse mientras el patrón se mueve. La energía puede llegar a otra región aunque no haya un flujo de materia que acompañe a la onda.
 
-![[imagenes/maxwell-ecuaciones-presentacion.png]]
+## 2. Leer los parámetros en los gráficos
 
-*Presentación de Ondas Electromagnéticas, diapositiva 5 (Zotero).*
+![[imagenes/componentes-onda-electromagnetica.svg]]
 
-> [!example]- Ver las cuatro leyes en forma integral
+El dibujo tiene dos lecturas complementarias:
+
+- **Perfil espacial:** imaginamos una fotografía de toda la onda en un mismo instante. La distancia entre dos repeticiones equivalentes es la longitud de onda $\lambda$.
+- **Oscilación temporal:** fijamos la atención en un punto y observamos cómo cambia el campo allí. El tiempo entre repeticiones es el período $T$.
+
+Las curvas de $E_y$ y $B_z$ se dibujan separadas en el primer gráfico para mostrar sus componentes sobre ejes distintos. En el segundo están superpuestas y normalizadas solo para mostrar que, en la onda plana sinusoidal en el vacío, oscilan **en fase**: sus máximos y cruces por cero ocurren a la vez. Sus unidades y valores numéricos no son iguales.
+
+| Símbolo | Qué significa | Cómo lo reconoces o calculas |
+|---|---|---|
+| $E_{max}$ | Amplitud del campo eléctrico: máximo valor de $E$ respecto de cero. | Se mide en $\mathrm{V/m}$. Si dan $B_{max}$, en el vacío $E_{max}=cB_{max}$. |
+| $B_{max}$ | Amplitud del campo magnético. | Se mide en teslas. En el vacío $B_{max}=E_{max}/c$. |
+| $\lambda$ | Distancia espacial de un ciclo completo de la onda. | Cresta a cresta de un mismo campo, en metros. |
+| $T$ | Tiempo de un ciclo en un punto fijo. | Se mide en segundos. |
+| $f$ | Número de ciclos por segundo. | $f=1/T$, en hertz. La fija la fuente. |
+| $c$ | Rapidez de propagación en el vacío. | $3.00\times10^8\,\mathrm{m/s}$. No es la rapidez de oscilación de una partícula. |
+| $v$ | Rapidez de propagación en un material. | La determina el material; se usa $v=\lambda f$. |
+| $k$ | Cambio de fase por distancia. | $k=2\pi/\lambda$, en $\mathrm{rad/m}$. |
+| $\omega$ | Cambio de fase por tiempo. | $\omega=2\pi f=2\pi/T$, en $\mathrm{rad/s}$. |
+| $\phi_0$ | Fase inicial: estado de la oscilación en el origen elegido. | Aparece como constante en el argumento del seno o coseno. |
+
+> [!important] No son la misma clase de amplitud
+> En una onda de cuerda, la amplitud suele ser un desplazamiento en metros. En una onda electromagnética, las amplitudes son valores de campo: $E_{max}$ se mide en voltios por metro y $B_{max}$ en teslas. Ninguno representa cuánto se desplaza una partícula del espacio.
+
+## 3. De dónde sale $v=\lambda f$
+
+La rapidez de propagación se define como distancia recorrida por el patrón dividida por el tiempo. Si en un punto transcurre un período $T$, pasa un ciclo completo; durante ese tiempo la onda avanza una longitud de onda $\lambda$. Entonces
+
+$$
+v=\frac{\text{distancia}}{\text{tiempo}}=\frac{\lambda}{T}.
+$$
+
+Como la frecuencia cuenta ciclos por segundo y $f=1/T$,
+
+$$
+\boxed{v=\frac{\lambda}{T}=\lambda f}.
+$$
+
+En el vacío $v=c$, así que
+
+$$
+\boxed{c=\lambda f},\qquad
+\boxed{f=\frac{c}{\lambda}},\qquad
+\boxed{\lambda=\frac{c}{f}}.
+$$
+
+Esto da una regla de interpretación: si la frecuencia aumenta en el vacío, la longitud de onda disminuye para que el producto siga siendo $c$. La frecuencia la fija la fuente; $\lambda$ indica cuánto espacio ocupa cada ciclo. Si la onda entra en un material, conserva la frecuencia pero cambia su rapidez y, por eso, cambia su longitud de onda. Allí se usa $\lambda=v/f$, no $c/f$.
+
+## 4. Orientación de $\vec E$, $\vec B$ y el avance
+
+En una onda plana, los tres sentidos son perpendiculares entre sí:
+
+$$
+\vec E\perp\vec B,\qquad
+\vec E\perp\hat n,\qquad
+\vec B\perp\hat n,
+$$
+
+donde $\hat n$ es el vector unitario que señala el avance. Por eso la onda electromagnética es transversal. **La onda no avanza en la dirección de $\vec E$ ni de $\vec B$**: avanza perpendicular a ambos.
+
+![[imagenes/onda-electromagnetica.svg]]
+
+Para encontrar el sentido que falta, usa la regla de la mano derecha:
+
+$$
+\vec B_{max}=\frac{1}{c}\,\hat n\times\vec E_{max},
+\qquad
+\vec E_{max}\times\vec B_{max}\text{ apunta como }\hat n.
+$$
+
+Por ejemplo, si la onda avanza en $+x$ y $\vec E$ apunta en $+y$, entonces $\vec B$ apunta en $+z$, porque $\hat x\times\hat y=\hat z$. Comprueba el resultado al revés: $\hat y\times\hat z=\hat x$. El orden importa; invertir los factores invierte el sentido.
+
+En el vacío, las magnitudes máximas se relacionan así:
+
+$$
+\boxed{E_{max}=cB_{max}},\qquad
+\boxed{B_{max}=\frac{E_{max}}{c}}.
+$$
+
+Esta relación se aplica a una onda plana en el vacío. Los campos tienen unidades distintas; el factor $c$ hace la conversión entre ellas. No significa que sus valores numéricos sean iguales. El formulario aplicado muestra cómo se obtiene esta relación a partir de la ley de Faraday.
+
+## 5. Cómo escribir la onda y reconocer hacia dónde viaja
+
+En una onda sinusoidal que avanza por el eje $x$, la fase puede escribirse
+
+$$
+\Phi(x,t)=kx\mp\omega t+\phi_0.
+$$
+
+La fase identifica en qué punto del ciclo está el campo. Un ciclo espacial hace que cambie $2\pi$ radianes a lo largo de $\lambda$, y un ciclo temporal cambia $2\pi$ en un período. De ahí salen $k=2\pi/\lambda$ y $\omega=2\pi f$.
+
+Para una onda hacia $+x$:
+
+$$
+\vec E(x,t)=\vec E_{max}\cos(kx-\omega t+\phi_0),\qquad
+\vec B(x,t)=\vec B_{max}\cos(kx-\omega t+\phi_0).
+$$
+
+Para una onda hacia $-x$, se usa $kx+\omega t+\phi_0$. ¿Por qué cambia el signo? Sigue una cresta, manteniendo constante su fase:
+
+- $kx-\omega t=C$ implica $dx/dt=+\omega/k$: avanza hacia $+x$.
+- $kx+\omega t=C$ implica $dx/dt=-\omega/k$: avanza hacia $-x$.
+
+![[imagenes/sentido-fase-onda.svg]]
+
+Un coseno y un seno pueden describir la misma onda con una fase inicial distinta. Lo importante es que $\vec E$ y $\vec B$ compartan la fase y que el signo indique el sentido correcto.
+
+### Receta para construir las funciones de campo
+
+1. Dibuja los ejes y anota hacia dónde avanza la onda.
+2. Escribe los datos en unidades SI: por ejemplo, nm a m y mT a T.
+3. Calcula $f$ o $\lambda$ con $c=\lambda f$.
+4. Calcula el otro campo con $E_{max}=cB_{max}$ o $B_{max}=E_{max}/c$.
+5. Usa el producto vectorial para fijar la dirección de $\vec B$ y confirma que $\vec E\times\vec B$ apunte como el avance.
+6. Obtén $k=2\pi/\lambda$ y $\omega=2\pi f$; elige la fase según el sentido.
+7. Sustituye todo en las dos funciones y comprueba unidades, direcciones y $\omega=ck$.
+
+Esta receta corresponde sobre todo a los ejercicios 20 y 21. El 21 invierte el sentido de propagación y sirve para comprobar que el signo no se decide de memoria ni a ojo.
+
+## 6. Elegir el modelo según lo que pide el ejercicio
+
+| Qué describe el enunciado | Idea que debes aplicar | Ejercicios |
+|---|---|---|
+| Una onda sinusoidal en el vacío y sus ecuaciones vectoriales | $c=\lambda f$, amplitudes, producto vectorial y fase | 20–21 |
+| Luz o radio que pasa a un material | Primero calcula $v$; la frecuencia se conserva y $\lambda=v/f$ | 22–23 |
+| Campos instantáneos y energía por volumen | Suma energía eléctrica y magnética; usa valores instantáneos | 24 |
+| Potencia repartida alrededor de una antena | Intensidad = potencia/área; luego relaciona intensidad y amplitudes | 25 |
+| Fuerza de la luz sobre una superficie | La radiación transporta momento; distingue absorción de reflexión | 26 |
+| Dos ondas que se superponen en sentidos opuestos | Forma estacionaria; promedia el flujo durante un período | 27 |
+| Ondas entre paredes conductoras | Impón nodos de $E$ en las paredes y cuenta medias longitudes de onda | 28 |
+
+Los desarrollos numéricos y las condiciones precisas para cada fórmula están en [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas]]. Aquí el objetivo es reconocer qué fenómeno representa cada ejercicio antes de sustituir números.
+
+## 7. Qué explican las leyes de Maxwell
+
+La idea física puede resumirse sin calcular integrales: un campo magnético que cambia en el tiempo está asociado con un campo eléctrico que circula; un campo eléctrico que cambia está asociado con un campo magnético que circula. La ley de Faraday y la ley de Ampère-Maxwell describen ese acoplamiento. El aporte de Maxwell permite que exista campo magnético variable incluso en una región sin corriente material.
+
+Al combinar ambas leyes en el vacío se obtiene una ecuación de onda para cada campo. Su rapidez resulta
+
+$$
+c=\frac{1}{\sqrt{\mu_0\epsilon_0}}\approx3.00\times10^8\,\mathrm{m/s},
+$$
+
+donde $\epsilon_0$ es la permitividad eléctrica y $\mu_0$ la permeabilidad magnética del vacío. Maxwell mostró así que la luz es una onda electromagnética: su rapidez coincide con la rapidez que predicen las ecuaciones del electromagnetismo.
+
+> [!example]- Ver las cuatro leyes de Maxwell en forma integral
+> La presentación del curso las muestra de esta forma. $S$ es una superficie cerrada y $C$ su contorno; el flujo mide cuánto campo atraviesa la superficie y la circulación suma la componente del campo a lo largo del contorno.
+>
+> ![[imagenes/maxwell-ecuaciones-presentacion.png]]
+>
 > $$
 > \begin{aligned}
-> \int_S \vec E\cdot d\vec A&=\frac{Q_{enc}}{\epsilon_0}
-> &&\text{(Gauss eléctrica)},\\
-> \int_S \vec B\cdot d\vec A&=0
-> &&\text{(Gauss magnética)},\\
-> \oint_C \vec E\cdot d\vec\ell&=-\frac{d\Phi_B}{dt}
-> &&\text{(Faraday)},\\
-> \oint_C \vec B\cdot d\vec\ell&=\mu_0\left(I_{enc}+\epsilon_0\frac{d\Phi_E}{dt}\right)
-> &&\text{(Ampère-Maxwell)}.
+> \int_S \vec E\cdot d\vec A&=\frac{Q_{enc}}{\epsilon_0} &&\text{(Gauss eléctrica)},\\
+> \int_S \vec B\cdot d\vec A&=0 &&\text{(Gauss magnética)},\\
+> \oint_C \vec E\cdot d\vec\ell&=-\frac{d\Phi_B}{dt} &&\text{(Faraday)},\\
+> \oint_C \vec B\cdot d\vec\ell&=\mu_0\left(I_{enc}+\epsilon_0\frac{d\Phi_E}{dt}\right) &&\text{(Ampère-Maxwell)}.
 > \end{aligned}
 > $$
 >
-> $S$ es una superficie cerrada y $C$ su borde; $d\vec A$ y $d\vec\ell$ son pequeños elementos orientados de área y de recorrido. El flujo mide cuánto campo atraviesa una superficie: $\Phi_E=\int\vec E\cdot d\vec A$ y $\Phi_B=\int\vec B\cdot d\vec A$. La circulación suma la componente del campo a lo largo de un recorrido cerrado. En el vacío sin cargas ni corrientes de conducción, $Q_{enc}=0$ e $I_{enc}=0$, pero el flujo eléctrico puede variar; ese último término es el aporte de Maxwell.
+> La ley de Gauss eléctrica vincula el flujo de $\vec E$ con la carga encerrada; la ley de Gauss magnética expresa que el flujo magnético neto cerrado es cero. Faraday vincula el cambio de flujo magnético con circulación eléctrica. Ampère-Maxwell vincula la circulación magnética con la corriente y con el cambio de flujo eléctrico.
 
-En palabras:
-
-1. **Ley de Gauss eléctrica:** la carga eléctrica encerrada es fuente o sumidero del campo eléctrico.
-2. **Ley de Gauss magnética:** el flujo magnético neto a través de una superficie cerrada es cero; no se han observado cargas magnéticas aisladas.
-3. **Ley de Faraday:** un flujo magnético que cambia induce circulación de campo eléctrico. El signo menos expresa la orientación de esa inducción.
-4. **Ley de Ampère-Maxwell:** una corriente eléctrica o un flujo eléctrico variable induce circulación de campo magnético. El término de Maxwell, proporcional a la variación del flujo eléctrico, es crucial incluso donde no circula corriente material.
-
-Para una onda que se propaga en el vacío lejos de cargas y corrientes, las leyes locales se simplifican a
-
-$$
-\begin{aligned}
-\nabla\cdot\vec E&=0, & \nabla\cdot\vec B&=0,\\
-\nabla\times\vec E&=-\frac{\partial\vec B}{\partial t}, &
-\nabla\times\vec B&=\mu_0\epsilon_0\frac{\partial\vec E}{\partial t}.
-\end{aligned}
-$$
-
-Aquí $\nabla\cdot$ describe si un campo sale netamente de una pequeña región; $\nabla\times$ describe su circulación local. No hace falta calcular estos operadores en los ejercicios del módulo: las ecuaciones ayudan a entender por qué las fórmulas funcionan.
-
-> [!note] Qué aporta el término de Maxwell
-> En la expresión de Ampère aparece $\epsilon_0\,\partial\vec E/\partial t$. Si se lo omitiera, una onda en el vacío no podría mantener la relación entre los campos variables. Maxwell añadió este término para que la ley fuera consistente cuando cambia el campo eléctrico, incluso en una región sin corriente de conducción.
-
-## 3. Por qué aparece una ecuación de onda
-
-Las dos leyes de circulación muestran el vínculo local: un $\vec B$ que cambia está acompañado por circulación de $\vec E$, y un $\vec E$ que cambia está acompañado por circulación de $\vec B$. Al combinar esas relaciones, cada campo satisface una ecuación de onda:
-
-$$
-\nabla^2\vec E-\mu_0\epsilon_0\frac{\partial^2\vec E}{\partial t^2}=0,
-\qquad
-\nabla^2\vec B-\mu_0\epsilon_0\frac{\partial^2\vec B}{\partial t^2}=0.
-$$
-
-La estructura coincide con la ecuación general de una onda que viaja a rapidez $v$,
-
-$$
-\nabla^2\psi-\frac{1}{v^2}\frac{\partial^2\psi}{\partial t^2}=0.
-$$
-
-Al comparar los coeficientes se obtiene
-
-$$
-v=\frac{1}{\sqrt{\mu_0\epsilon_0}}=c\approx3.00\times10^8\,\mathrm{m/s}.
-$$
-
-La constante $\epsilon_0$ es la permitividad eléctrica del vacío y $\mu_0$ su permeabilidad magnética. En las ecuaciones de Maxwell conectan cuánto cambia cada campo con el otro; por eso su producto fija la rapidez de propagación.
-
-Así se entiende el resultado central de Maxwell: las ecuaciones del electromagnetismo predicen una onda que viaja a la rapidez de la luz. La luz es una onda electromagnética.
-
-> [!example]- Desglose matemático opcional: de Faraday a la ecuación de onda
-> En el vacío, $\nabla\cdot\vec E=0$ y $\nabla\times\vec E=-\partial\vec B/\partial t$. Aplicamos rotacional a ambos lados de la ley de Faraday y sustituimos $\nabla\times\vec B=\mu_0\epsilon_0\,\partial\vec E/\partial t$:
+> [!example]- Ver el paso matemático que produce la ecuación de onda
+> En el vacío, sin cargas ni corrientes de conducción, las formas locales relevantes son $\nabla\times\vec E=-\partial\vec B/\partial t$ y $\nabla\times\vec B=\mu_0\epsilon_0\,\partial\vec E/\partial t$, junto con $\nabla\cdot\vec E=0$. Aplicar el rotacional a la ley de Faraday y sustituir Ampère-Maxwell da
 >
 > $$
 > \nabla\times(\nabla\times\vec E)
@@ -98,200 +197,165 @@ Así se entiende el resultado central de Maxwell: las ecuaciones del electromagn
 > =-\mu_0\epsilon_0\frac{\partial^2\vec E}{\partial t^2}.
 > $$
 >
-> Se usa la identidad $\nabla\times(\nabla\times\vec E)=\nabla(\nabla\cdot\vec E)-\nabla^2\vec E$. Como $\nabla\cdot\vec E=0$, queda $-\nabla^2\vec E=-\mu_0\epsilon_0\,\partial^2\vec E/\partial t^2$. Al cancelar los signos menos resulta la ecuación de onda eléctrica. El mismo procedimiento, intercambiando los papeles de $\vec E$ y $\vec B$, conduce a la ecuación magnética.
-
-## 4. Geometría: los campos son transversales
-
-Para una onda plana que avanza en la dirección $\hat n$, los campos oscilan en direcciones perpendiculares al avance y entre sí:
-
-$$
-\vec E\perp\vec B,\qquad
-\vec E\perp\hat n,\qquad
-\vec B\perp\hat n.
-$$
-
-Por eso la onda es **transversal**. La dirección de avance no es la dirección hacia la que apunta $\vec E$ ni $\vec B$: es perpendicular a ambas.
-
-La relación vectorial entre las direcciones es
-
-$$
-\vec B=\frac{1}{c}\,\hat n\times\vec E,
-\qquad
-\vec E\times\vec B\ \text{apunta como}\ \hat n.
-$$
-
-La primera forma sirve para encontrar $\vec B$ una vez elegidos el avance y $\vec E$; la segunda es un control de signo. El orden del producto vectorial importa: invertir los factores invierte la dirección.
-
-![[imagenes/onda-electromagnetica.svg]]
-
-> [!example]- ¿Por qué los campos son perpendiculares al avance?
-> En una región sin carga, $\nabla\cdot\vec E=0$. Para una onda plana, la variación espacial ocurre en la dirección de su vector de onda $\vec k$; al aplicar la divergencia, esta condición implica $\vec k\cdot\vec E_{max}=0$. Por tanto, $\vec E$ es perpendicular a la propagación. El mismo razonamiento con $\nabla\cdot\vec B=0$ muestra que $\vec B$ también es transversal. La ley de Faraday fija además la orientación relativa entre ambos.
-
-## 5. Cómo se relacionan las magnitudes de $\vec E$ y $\vec B$
-
-En una solución sinusoidal plana en el vacío, las ecuaciones de Maxwell obligan a que ambos campos compartan la fase: alcanzan sus máximos, mínimos y cruces por cero en los mismos puntos y momentos. Sus amplitudes sí tienen unidades diferentes, pero están ligadas por
-
-$$
-E_{max}=cB_{max},\qquad B_{max}=\frac{E_{max}}{c}.
-$$
-
-La rapidez $c$ hace que la ecuación sea dimensionalmente consistente: $(\mathrm{m/s})(\mathrm T)=\mathrm{V/m}$. No se afirma que los dos valores numéricos sean iguales.
-
-El origen de esta relación se desarrolla paso a paso en [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|el formulario aplicado]]. En síntesis, la ley de Faraday conecta la variación espacial de $\vec E$ con la variación temporal de $\vec B$; para una onda sinusoidal, esto da $kE_{max}=\omega B_{max}$. Como $\omega/k=c$ en el vacío, resulta $E_{max}/B_{max}=c$.
-
-## 6. Frecuencia, longitud de onda y rapidez
-
-La frecuencia $f$ cuenta cuántos ciclos pasan por un punto cada segundo. El período $T=1/f$ es el tiempo que tarda un ciclo. La longitud de onda $\lambda$ es la distancia entre dos puntos vecinos que están en la misma fase.
-
-Durante un período, el patrón avanza una longitud de onda. Por definición de rapidez:
-
-$$
-v=\frac{\lambda}{T}=\lambda f.
-$$
-
-En el vacío $v=c$, por lo que
-
-$$
-c=\lambda f,\qquad f=\frac{c}{\lambda},\qquad \lambda=\frac{c}{f}.
-$$
-
-La fuente fija la frecuencia. Si $f$ aumenta y la propagación sigue siendo en el vacío, $\lambda$ disminuye para que el producto $\lambda f$ siga siendo $c$. En los ejercicios de este módulo se usa el vacío; no reemplaces $c$ por una rapidez de otro medio sin que el problema lo indique.
-
-## 7. Fase: cómo leer el sentido de propagación
-
-Una onda sinusoidal puede escribirse mediante la fase
-
-$$
-\Phi(x,t)=kx-\omega t+\phi_0,
-$$
-
-donde $k=2\pi/\lambda$ mide el cambio de fase por distancia, $\omega=2\pi f$ mide el cambio de fase por tiempo y $\phi_0$ fija la fase inicial.
-
-Para saber hacia dónde avanza una forma de onda, sigue una cresta manteniendo su fase constante. Si $kx-\omega t=C$,
-
-$$
-\frac{dx}{dt}=+\frac{\omega}{k};
-$$
-
-la cresta se mueve hacia $+x$. Si la fase es $kx+\omega t=C$, entonces $dx/dt=-\omega/k$ y se mueve hacia $-x$.
-
-![[imagenes/sentido-fase-onda.svg]]
+> La identidad $\nabla\times(\nabla\times\vec E)=\nabla(\nabla\cdot\vec E)-\nabla^2\vec E$ y $\nabla\cdot\vec E=0$ producen $\nabla^2\vec E-\mu_0\epsilon_0\,\partial^2\vec E/\partial t^2=0$. Al compararla con $\nabla^2\psi-(1/v^2)\partial^2\psi/\partial t^2=0$, se obtiene $v=1/\sqrt{\mu_0\epsilon_0}=c$. Para $\vec B$ se llega a la misma ecuación.
+>
+> Los símbolos $\nabla\cdot$ y $\nabla\times$ representan divergencia y rotacional. No es necesario calcularlos en los ejercicios de este módulo; esta derivación explica de dónde viene la rapidez $c$.
 
 ## 8. Energía que transporta la onda
 
-Los campos almacenan energía eléctrica y magnética, y la onda la transporta por el espacio. La dirección del flujo de energía se representa mediante el vector de Poynting:
-
-$$
-\vec S=\frac{1}{\mu_0}\,\vec E\times\vec B.
-$$
-
-Su unidad es $\mathrm{W/m^2}$. En una onda sinusoidal, $\vec E$ y $\vec B$ cambian de signo juntos, así que su producto mantiene el sentido de propagación. Para una onda plana, el valor medio es $\langle S\rangle=E_{max}B_{max}/(2\mu_0)$. Esta idea explica por qué decimos que la onda transporta energía: los ejercicios 20–21 se centran en las amplitudes y direcciones, mientras que C24–C27 practican los cálculos de densidad, flujo e intensidad media.
-
-La densidad de energía en el vacío suma lo almacenado en ambos campos:
+Los campos guardan energía en el espacio. En el vacío, la energía por unidad de volumen es
 
 $$
 u=\frac12\epsilon_0E^2+\frac{B^2}{2\mu_0}.
 $$
 
-Como para una onda plana $E=cB$, cada término aporta lo mismo y $u=\epsilon_0E^2$. El vector de Poynting indica cuánta energía cruza por unidad de área y tiempo; para una onda progresiva en el vacío, $S=cu$. Si los campos forman una sinusoide, el valor medio incluye un factor $1/2$ porque $\langle\cos^2\rangle=1/2$. Un pulso de frente plano con campos constantes detrás de su frente se resuelve con los valores instantáneos, sin ese promedio.
+Cada término es una parte: energía eléctrica y magnética. En una onda plana en el vacío, $E=cB$ hace que ambas contribuciones sean iguales, por lo que $u=\epsilon_0E^2=B^2/\mu_0$.
 
-### Cuando la onda entra a un material
+El vector de Poynting describe el flujo de energía: indica la dirección y cuánta energía cruza por unidad de área y tiempo,
 
-La onda sigue siendo electromagnética, pero el material responde al campo y modifica su rapidez. En un material lineal, uniforme y sin pérdidas, con permitividad $\epsilon=K\epsilon_0$ y permeabilidad $\mu=K_m\mu_0$,
+$$
+\vec S=\frac{1}{\mu_0}\vec E\times\vec B.
+$$
+
+Su unidad es $\mathrm{W/m^2}$. El producto cruzado hace que el flujo apunte en el sentido de propagación. En una onda progresiva en el vacío, $S=cu$.
+
+**Instantáneo y promedio no son lo mismo.** Para un pulso con campos constantes detrás del frente, se usan los valores instantáneos: $S=EB/\mu_0$. Para una onda sinusoidal, se suele pedir la intensidad media durante un ciclo:
+
+$$
+I=\langle S\rangle
+=\frac{E_{max}B_{max}}{2\mu_0}
+=\frac12\epsilon_0cE_{max}^2.
+$$
+
+El factor $1/2$ aparece al promediar el producto sinusoidal, pues el promedio de $\cos^2$ en un ciclo es $1/2$. Por eso el pulso del ejercicio 24 y la antena sinusoidal del ejercicio 25 no usan exactamente la misma forma de cálculo.
+
+### Potencia repartida por una antena
+
+Si una antena distribuye uniformemente la potencia media $P$ sobre una esfera de radio $r$, el área es $4\pi r^2$. Si la distribuye sobre el hemisferio superior, el área es $2\pi r^2$. En ambos casos,
+
+$$
+I=\frac{P}{\text{área atravesada}}.
+$$
+
+Luego se obtiene $E_{max}$ con la fórmula de intensidad media y $B_{max}=E_{max}/c$. Primero decide qué superficie corresponde a la descripción; no uses automáticamente el área de una esfera completa.
+
+### Presión de radiación
+
+La radiación transporta momento además de energía, por eso puede ejercer una fuerza. Para incidencia perpendicular:
+
+- superficie que absorbe: $p_{rad}=I/c$;
+- superficie que refleja perfectamente: $p_{rad}=2I/c$.
+
+El reflejo duplica el cambio de momento porque invierte su sentido. Con la presión calculada, la fuerza sobre un área $A$ es $F=p_{rad}A$.
+
+## 9. Cuando la onda entra en un material
+
+El material responde a los campos y modifica la rapidez de propagación. Para un material uniforme, lineal y sin pérdidas, con permitividad $\epsilon=K\epsilon_0$ y permeabilidad $\mu=K_m\mu_0$,
 
 $$
 v=\frac{1}{\sqrt{\epsilon\mu}}=\frac{c}{\sqrt{KK_m}}.
 $$
 
-La frecuencia se conserva al cruzar una superficie estacionaria porque la fuente sigue oscilando al mismo ritmo a ambos lados. Como $v=\lambda f$, si baja la rapidez dentro del material, también baja la longitud de onda. Por eso para hallar la longitud de onda en el medio se usa $\lambda=v/f$; $c/f$ solo da la longitud de onda en el vacío. La relación entre rapidez, permitividad y permeabilidad se desarrolla en [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas#6. Rapidez y longitud de onda dentro de un material]].
+La frecuencia sigue fijada por la fuente y se conserva al cruzar una frontera estacionaria. Si la rapidez disminuye, también disminuye la longitud de onda:
 
-### La onda también transfiere momento
+$$
+\lambda_{material}=\frac{v}{f}.
+$$
 
-La luz puede ejercer una fuerza porque transporta momento junto con energía. Si incide perpendicularmente sobre un panel que absorbe la radiación, el momento incidente queda en el panel y la presión media es $p_{rad}=I/c$. Si la luz se refleja perfectamente, su momento cambia de sentido y la transferencia se duplica: $p_{rad}=2I/c$. Una vez conocida la presión, la fuerza es $F=p_{rad}A$.
+Calcula primero la rapidez del material y después la longitud de onda. La expresión $c/f$ corresponde al vacío. Esta secuencia resuelve los ejercicios 22 y 23.
 
-### Ondas estacionarias: campos presentes, flujo medio nulo
+## 10. Ondas estacionarias y cavidades
 
-Al superponer dos ondas de igual frecuencia que viajan en direcciones opuestas se forman nodos fijos. En una onda estacionaria ideal, la energía fluye momentáneamente hacia adelante y hacia atrás; al promediar un período, el flujo neto en cada posición es cero. Esto no significa que $\vec E$ y $\vec B$ sean siempre cero: sus amplitudes espaciales tienen nodos y máximos en lugares distintos.
+Dos ondas de igual frecuencia y amplitud que viajan en sentidos opuestos pueden superponerse y formar un patrón con nodos fijos. Un nodo es un punto donde la amplitud de esa componente siempre es cero; un vientre o antinodo es donde alcanza su máximo.
 
-Entre paredes conductoras, el campo eléctrico tangencial debe anularse en las superficies. Para que la onda estacionaria satisfaga esa condición en ambas paredes, la distancia $L$ debe incluir un número entero de medias longitudes de onda, $L=m\lambda/2$. En el modo fundamental cabe media longitud de onda: $\lambda_1=2L$. El campo eléctrico tiene un nodo en cada pared y un máximo en el centro; el campo magnético presenta el patrón complementario. Las condiciones de modo se resumen en [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas#10. Modos estacionarios en una cavidad]].
+Una onda estacionaria no implica que los campos sean siempre nulos. La energía puede fluir momentáneamente en uno u otro sentido; en el patrón ideal el flujo neto medio durante un período es cero.
 
-## 9. De la descripción física a las ecuaciones de campo
+Entre paredes conductoras, el campo eléctrico paralelo a la pared debe anularse en la superficie. Por eso las paredes son nodos de $E$. Para que haya un patrón permitido, entre ellas debe caber un número entero de medias longitudes de onda:
 
-Para construir $\vec E(x,t)$ y $\vec B(x,t)$, toma las decisiones en este orden:
+$$
+L=m\frac{\lambda}{2},\qquad m=1,2,3,\ldots
+$$
 
-1. Dibuja los ejes e identifica el vector unitario de propagación $\hat n$.
-2. Anota la amplitud y el sentido de $\vec E$ que da el problema. Si solo da su magnitud, declara una orientación conveniente.
-3. Encuentra la amplitud que falta con $E_{max}=cB_{max}$ o $B_{max}=E_{max}/c$.
-4. Determina $\vec B$ con $\hat n\times\vec E$ y comprueba que $\vec E\times\vec B$ apunta como $\hat n$.
-5. Elige una fase que viaje en el sentido correcto: $kx-\omega t$ para $+x$, $kx+\omega t$ para $-x$.
-6. Usa la misma fase en ambos campos y verifica sus unidades.
-
-Las amplitudes vectoriales contienen sentido y magnitud; por ejemplo, $\vec E_{max}=E_{max}\hat y$. No escondas un signo negativo tanto en el vector como en la fase: eso puede invertir dos veces el sentido.
+En el modo fundamental, $m=1$: $\lambda_1=2L$. El campo eléctrico tiene un máximo en el centro; el patrón espacial del campo magnético es complementario, con máximos junto a las paredes y un nodo central. Esto orienta los ejercicios 27 y 28.
 
 ## Errores que conviene evitar
 
-- Confundir la orientación de un campo con la dirección en que avanza la onda.
-- Pensar que una onda electromagnética necesita aire o que transporta materia desde la fuente.
-- Usar $c=\lambda f$ en un medio material sin comprobar cuál es la rapidez indicada.
-- Confundir $f$ (ciclos por segundo) con $\omega$ (radianes por segundo), o $1/\lambda$ con $k=2\pi/\lambda$.
-- Usar $E_{max}=cB_{max}$ sin convertir militeslas a teslas.
-- Elegir el sentido de $\vec B$ a ojo; comprueba el producto vectorial.
-- Cambiar el signo de la fase sin cambiar el sentido físico de propagación.
+- Tratar $E_{max}$ como un desplazamiento en metros: es amplitud de campo eléctrico, en $\mathrm{V/m}$.
+- Confundir la rapidez de propagación con el ritmo de oscilación: $c$ o $v$ se miden en $\mathrm{m/s}$; $f$ en ciclos por segundo.
+- Confundir frecuencia $f$ con frecuencia angular $\omega=2\pi f$.
+- Usar $c/f$ para la longitud de onda dentro de un material.
+- Creer que $\vec E$ o $\vec B$ apuntan en la dirección de avance.
+- Elegir $\vec B$ sin revisar que $\vec E\times\vec B$ apunte con la onda.
+- Olvidar convertir nm, μm, mT o MV/m a unidades SI.
+- Usar el factor $1/2$ de intensidad media para un campo instantáneo constante, o quitarlo de una onda sinusoidal promediada.
+- Aplicar $E_{max}=cB_{max}$ en un medio material sin que el modelo lo permita.
 
 ## Fuentes de esta nota
 
-La [presentación de Ondas Electromagnéticas](zotero://select/library/items/FQBGWVB4), diapositivas 2–5, presenta la diferencia entre ondas mecánicas y electromagnéticas, la relación entre campos variables, las cuatro leyes de Maxwell y su aplicación en el vacío. Se revisaron visualmente las diapositivas 4–5 para interpretar sus ecuaciones integrales. La [práctica de ondas electromagnéticas](zotero://select/library/items/T92A4S8A), PDF pp. 2–9, incluye ecuaciones vectoriales, propagación en medios, energía y flujo, presión de radiación, ondas estacionarias y modos de cavidad. Véase [[Fuentes Zotero y probabilidad]].
+- [Presentación de Ondas Electromagnéticas](zotero://select/library/items/FQBGWVB4), PDF pp. 2–5: qué es una onda electromagnética, diferencia con ondas mecánicas, leyes de Faraday y Ampère-Maxwell y formulación de Maxwell. La diapositiva de las leyes se incluye como imagen para poder leer sus símbolos.
+- [Práctica de ondas electromagnéticas](zotero://select/library/items/T92A4S8A), PDF pp. 2–9: ecuaciones de campo, propagación en materiales, energía, flujo, presión de radiación, ondas estacionarias y cavidades.
+- Los enlaces de origen y los modelos consultados también están listados en [[Fuentes Zotero y probabilidad]].
 
 ## Autoevaluación de conceptos
 
-Responde sin abrir la explicación; luego identifica qué idea física te permitió contestar.
+Responde con tus palabras antes de abrir cada explicación. En cada caso identifica la pista del enunciado que te hace elegir esa idea.
 
-**1. ¿Qué se desplaza en una onda electromagnética y qué diferencia principal tiene con el sonido?**
-
-> [!success]- Mostrar explicación
-> En la onda electromagnética varían los campos $\vec E$ y $\vec B$; no es necesario que las partículas de un medio oscilen. El sonido sí es una perturbación mecánica y necesita un medio material cuyas partículas transmitan la perturbación.
-
-**2. ¿Qué relación establecen Faraday y Ampère-Maxwell cuando los campos cambian en el tiempo?**
+**1. En el gráfico espacial, ¿qué mides con $\lambda$? ¿Qué mides con $T$ en el gráfico temporal?**
 
 > [!success]- Mostrar explicación
-> Un campo magnético variable está asociado con circulación de campo eléctrico; un campo eléctrico variable está asociado con circulación de campo magnético. Juntas, estas leyes permiten que la perturbación se propague aun donde no hay materia, carga ni corriente de conducción.
+> $\lambda$ es la distancia de un ciclo completo entre puntos vecinos que repiten el mismo estado, medida en una instantánea. $T$ es el tiempo de un ciclo al seguir un punto fijo. Son dos maneras distintas de observar el mismo patrón periódico.
 
-**3. ¿De dónde sale la rapidez $c$ en la ecuación de onda electromagnética?**
-
-> [!success]- Mostrar explicación
-> Al combinar las leyes de Maxwell en el vacío se obtiene una ecuación de onda cuyo coeficiente temporal es $\mu_0\epsilon_0$. Al compararla con la ecuación general de onda, la rapidez es $1/\sqrt{\mu_0\epsilon_0}$, que coincide con la rapidez de la luz.
-
-**4. Si la onda avanza hacia $+x$ y $\vec E$ apunta en $+y$, ¿cómo determinas $\vec B$?**
+**2. ¿Qué oscila en una onda electromagnética y qué diferencia principal tiene con el sonido?**
 
 > [!success]- Mostrar explicación
-> Usa $\vec B=(1/c)\hat n\times\vec E$. Como $\hat x\times\hat y=\hat z$, $\vec B$ apunta en $+z$. Comprueba que $\vec E\times\vec B$ quede en $+x$.
+> Oscilan los campos $\vec E$ y $\vec B$. No hace falta que partículas materiales transporten la perturbación. El sonido es mecánico: necesita materia y transmite la onda mediante el movimiento local e interacción de las partículas.
 
-**5. ¿Por qué en el vacío una frecuencia mayor implica una longitud de onda menor?**
-
-> [!success]- Mostrar explicación
-> La rapidez es constante e igual a $c$, y $c=\lambda f$. Si $f$ aumenta, $\lambda$ debe disminuir para mantener constante el producto. La frecuencia la fija la fuente; la longitud de onda acompaña la rapidez de propagación.
-
-**6. ¿Cómo decides si la fase es $kx-\omega t$ o $kx+\omega t$?**
+**3. ¿Qué información física contiene $E_{max}$? ¿Es un desplazamiento de una partícula?**
 
 > [!success]- Mostrar explicación
-> Mantén constante la fase para seguir una cresta. $kx-\omega t=C$ implica $dx/dt=+\omega/k$ y avance hacia $+x$; $kx+\omega t=C$ implica $dx/dt=-\omega/k$ y avance hacia $-x$.
+> Es el valor máximo del campo eléctrico y se mide en $\mathrm{V/m}$. No es un desplazamiento. En este tipo de onda la amplitud describe el tamaño del campo, no una distancia recorrida por materia.
 
-**7. Una onda pasa del vacío a un material. Si la frecuencia se conserva y la rapidez baja, ¿qué le pasa a la longitud de onda?**
-
-> [!success]- Mostrar explicación
-> La relación $v=\lambda f$ debe cumplirse en el nuevo medio. Como $f$ sigue teniendo el valor que fija la fuente y $v$ es menor, $\lambda=v/f$ también es menor. El campo no cambia la frecuencia para acomodarse al material.
-
-**8. ¿Por qué un pulso plano con campos constantes usa $S=EB/\mu_0$, mientras que para una onda sinusoidal se usa $I=E_{max}B_{max}/(2\mu_0)$?**
+**4. Si se conoce $T$, ¿cómo hallas la frecuencia? ¿Qué significa ese resultado?**
 
 > [!success]- Mostrar explicación
-> $S=EB/\mu_0$ es el flujo instantáneo. En un pulso con el valor indicado constante detrás del frente, esos campos son directamente los valores instantáneos. Para una sinusoide se busca el promedio de $S$ durante un ciclo; como el producto contiene $\cos^2$, su promedio es $1/2$, y se obtiene la fórmula con amplitudes máximas.
+> $f=1/T$. El resultado indica cuántos ciclos pasan por un punto en un segundo. Si $T=0.20\,\mathrm{s}$, por ejemplo, $f=5\,\mathrm{Hz}$.
 
-**9. ¿Qué cambia en la presión de radiación si una superficie absorbe la luz o la refleja perfectamente?**
-
-> [!success]- Mostrar explicación
-> La radiación incidente lleva momento. Si se absorbe, transfiere el momento incidente y $p_{rad}=I/c$. Si se refleja perfectamente, invierte el momento y el cambio transferido se duplica: $p_{rad}=2I/c$. Luego la fuerza es presión por área.
-
-**10. En el modo fundamental de una cavidad, ¿por qué $E$ es nulo en las paredes y máximo en el centro? ¿Qué sucede con $B$?**
+**5. Una onda avanza hacia $+x$ y $\vec E$ apunta hacia $+y$. ¿En qué sentido apunta $\vec B$?**
 
 > [!success]- Mostrar explicación
-> En las paredes conductoras la componente tangencial de $E$ debe ser cero; como las paredes son nodos consecutivos en el modo fundamental, hay media longitud de onda entre ellas y un antinodo de $E$ en el centro. La amplitud espacial de $B$ queda desplazada: alcanza máximos en las paredes y se anula en el centro. El flujo medio neto es cero aunque los campos oscilen.
+> $\vec B$ apunta hacia $+z$, porque $\hat x\times\hat y=\hat z$. Compruébalo con $\vec E\times\vec B$: $\hat y\times\hat z=\hat x$, el sentido de avance.
+
+**6. ¿Por qué en el vacío una frecuencia mayor implica una longitud de onda menor?**
+
+> [!success]- Mostrar explicación
+> En el vacío $c=\lambda f$ y $c$ es constante. Para que el producto no cambie, cuando $f$ aumenta $\lambda$ debe disminuir. La fuente fija $f$ y la rapidez determina la longitud de onda.
+
+**7. ¿Qué significa la fase $kx-\omega t$ y hacia dónde viaja?**
+
+> [!success]- Mostrar explicación
+> La fase señala el estado del ciclo en cada posición y tiempo. Si la mantenemos constante, $kx-\omega t=C$ da $dx/dt=+\omega/k$; la forma de onda viaja hacia $+x$.
+
+**8. ¿De dónde aparece la rapidez $c$ en las ondas electromagnéticas?**
+
+> [!success]- Mostrar explicación
+> Maxwell relaciona las variaciones de los campos. Al combinar sus leyes se obtiene una ecuación de onda con rapidez $1/\sqrt{\mu_0\epsilon_0}$, igual a la rapidez de la luz en el vacío.
+
+**9. La luz entra en un material donde viaja más despacio. Si la fuente no cambia, ¿qué ocurre con $f$ y con $\lambda$?**
+
+> [!success]- Mostrar explicación
+> La frecuencia se conserva porque la fuente sigue oscilando con el mismo ritmo. Como $v=\lambda f$, al bajar $v$ también baja $\lambda$.
+
+**10. ¿Por qué la intensidad media de una onda sinusoidal lleva un factor $1/2$?**
+
+> [!success]- Mostrar explicación
+> El flujo instantáneo depende del producto de los campos y, para la sinusoide, contiene un factor $\cos^2$. El promedio de $\cos^2$ en un ciclo es $1/2$. Un pulso de campos constantes usa valores instantáneos y no ese promedio.
+
+**11. ¿Por qué una superficie perfectamente reflectante recibe el doble de presión que una que absorbe la misma intensidad?**
+
+> [!success]- Mostrar explicación
+> Al absorber, la radiación entrega su momento incidente. Al reflejar, el momento cambia al sentido contrario, por lo que la variación de momento transferida es el doble. De ahí $2I/c$ frente a $I/c$.
+
+**12. En la cavidad fundamental, ¿por qué hay nodos de $E$ en las paredes?**
+
+> [!success]- Mostrar explicación
+> Las paredes conductoras exigen que el campo eléctrico tangencial se anule en su superficie. Son nodos consecutivos separados por media longitud de onda; por eso $L=\lambda/2$ en el modo fundamental. El campo magnético tiene el patrón espacial complementario.

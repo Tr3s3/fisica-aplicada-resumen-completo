@@ -26,7 +26,7 @@ La teoría distingue qué es central para el parcial y qué amplía la transfere
 
 ## Orden sugerido
 
-1. Lee [[Teoría/03 - Conceptos de ondas y acústica]] para entender qué oscila, cómo se propaga el sonido y qué cambia en Doppler.
+1. Lee [[Teoría/03 - Conceptos de ondas y acústica]]; empieza por las secciones 1–3 para distinguir el movimiento local del avance de la onda, interpretar sus parámetros y practicar el primer planteo.
 2. Usa [[Teoría/03 - Fórmulas aplicadas de ondas y acústica]] como hoja de selección, despeje y control de unidades.
 3. Resuelve [[Ejercicios/03 - Ondas y acústica]] sin abrir las pistas ni la clave.
 4. Reconstruye el planteo con [[Resoluciones/03 - Ondas y acústica]] y registra dónde elegiste un modelo distinto.
@@ -34,6 +34,14 @@ La teoría distingue qué es central para el parcial y qué amplía la transfere
 Para priorizar el tiempo, empieza por los ejercicios **M**. Luego practica los complementarios de prioridad media (**C20, C21, C23, C26 y C27**); deja para el repaso final los de prioridad baja (**C22, C24 y C25**).
 
 ## Esquemas del módulo
+
+### Componentes de una onda periódica en función de posición y tiempo
+
+![[imagenes/componentes-onda-grafica.svg]]
+
+### Parámetros básicos y qué se mueve en cada tipo de onda
+
+![[imagenes/parametros-onda-mecanica.svg]]
 
 ### Una onda mecánica longitudinal
 

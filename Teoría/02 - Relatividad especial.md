@@ -18,12 +18,17 @@ Al terminar este módulo deberías poder:
 
 ## Estudia en este orden
 
-1. [[Teoría/02 - Conceptos de relatividad especial|Conceptos: marcos, eventos y significado físico]].
-2. [[Teoría/02 - Fórmulas aplicadas de relatividad especial|Fórmulas: selección, despejes y controles]].
-3. [[Ejercicios/02 - Relatividad especial|Práctica sin mirar las pistas]].
-4. [[Resoluciones/02 - Relatividad especial|Resoluciones justificadas paso a paso]].
+1. [[Teoría/02 - Conceptos de relatividad especial#Orientación rápida: qué comparar antes de usar una fórmula|Empieza por el mapa visual: qué magnitud se compara y qué marco debes identificar]].
+2. [[Teoría/02 - Conceptos de relatividad especial|Conceptos: marcos, eventos y significado físico]].
+3. [[Teoría/02 - Fórmulas aplicadas de relatividad especial|Fórmulas: selección, despejes y controles]].
+4. [[Ejercicios/02 - Relatividad especial|Práctica sin mirar las pistas]].
+5. [[Resoluciones/02 - Relatividad especial|Resoluciones justificadas paso a paso]].
 
 ## Guías visuales
+
+### Cómo elegir el modelo de medición
+
+![[imagenes/mapa-mediciones-relatividad.svg]]
 
 ### Relojes, eventos y regla en dos marcos
 
