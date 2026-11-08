@@ -1,12 +1,12 @@
 # Física Aplicada
 
-Vault de estudio para Física Aplicada. El contenido está agrupado por unidad e incluye teoría, ejercicios, resoluciones guiadas y autoevaluación. Las fuentes, índices y herramientas comunes están reunidos en `Recursos de estudio/`.
+Vault de estudio integral para Física Aplicada. El contenido está organizado por unidades (01 a 06) e incluye teoría conceptual, guías breves, ejercicios con pistas y claves, resoluciones guiadas paso a paso y autoevaluación activa. Además, cuenta con recursos transversales y planes de estudio intensivos para primer parcial, segundo parcial y examen global.
 
 ## Cómo empezar
 
 1. Abre esta carpeta como vault en Obsidian.
-2. Para recorrer todas las unidades, abre el [mapa general](Unidades/Inicio.md).
-3. Para la ruta del segundo parcial, empieza por [Inicio.md](Inicio.md).
+2. Para una visión global y rutas por examen, empieza por [Inicio.md](Inicio.md).
+3. Para recorrer directamente las unidades temáticas, abre el [mapa general](Unidades/Inicio.md).
 4. Consulta las [convenciones del vault](Convenciones%20del%20vault.md) antes de editar o añadir contenido y las [pautas para elaborar planes](Pautas%20para%20elaborar%20planes%20de%20estudio.md) al preparar una unidad o un examen.
 5. Elige uno de los [tres planes de ocho días para recuperatorios](Planes%20de%20estudio/Inicio.md) según rindas primer parcial, segundo parcial o global.
 6. Dentro de cada unidad, sigue teoría breve → práctica → resolución → autoevaluación.
@@ -15,7 +15,7 @@ Vault de estudio para Física Aplicada. El contenido está agrupado por unidad e
 
 ```text
 .
-├── Inicio.md                         # Ruta del segundo parcial
+├── Inicio.md                         # Entrada general y rutas por examen
 ├── Unidades/
 │   ├── Inicio.md                     # Mapa de todas las unidades
 │   ├── 01 - Gravitación y órbitas/
@@ -40,7 +40,7 @@ Vault de estudio para Física Aplicada. El contenido está agrupado por unidad e
 
 Cada carpeta de unidad agrupa teoría, práctica y autoevaluación. Los ejercicios se reúnen en una nota dentro de `Ejercicios/` en las unidades 01–04 y de `Práctica/` en Termodinámica y Óptica. Todas las unidades reúnen sus soluciones en una nota dentro de `Resoluciones/`. Las familias se recorren mediante títulos e índices internos, con enlaces entre cada enunciado y su resolución.
 
-Los materiales transversales se encuentran en [[Recursos de estudio/Inicio]]. La carpeta `.obsidian/` conserva preferencias locales y no se incluye en el repositorio.
+Los materiales transversales se encuentran en [Recursos de estudio](Recursos%20de%20estudio/Inicio.md). La carpeta `.obsidian/` conserva preferencias locales y no se incluye en el repositorio.
 
 ## Formato
 
