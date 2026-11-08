@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" role="img" aria-labelledby="title desc">
+  <title id="title">Curva de calentamiento de una sustancia</title>
+  <desc id="desc">Gráfico temperatura contra tiempo: el sólido se calienta de cero a diez grados, se funde a temperatura constante y luego el líquido se calienta hasta cuarenta grados.</desc>
+  <rect width="760" height="450" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#172b4d">Calentamiento con potencia constante</text>
+  <text x="380" y="60" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#4b5563">La pendiente refleja cuánto cambia T por energía recibida; el tramo horizontal corresponde al cambio de fase.</text>
+  <g stroke="#dbe2ea" stroke-width="1">
+    <line x1="105" y1="350" x2="665" y2="350"/><line x1="105" y1="300" x2="665" y2="300"/>
+    <line x1="105" y1="250" x2="665" y2="250"/><line x1="105" y1="200" x2="665" y2="200"/>
+    <line x1="105" y1="150" x2="665" y2="150"/><line x1="105" y1="100" x2="665" y2="100"/>
+    <line x1="245" y1="350" x2="245" y2="100"/><line x1="385" y1="350" x2="385" y2="100"/>
+    <line x1="525" y1="350" x2="525" y2="100"/><line x1="665" y1="350" x2="665" y2="100"/>
+  </g>
+  <g stroke="#172b4d" stroke-width="2.5">
+    <line x1="105" y1="350" x2="682" y2="350"/><line x1="105" y1="365" x2="105" y2="82"/>
+  </g>
+  <g font-family="sans-serif" font-size="14" fill="#374151" text-anchor="end">
+    <text x="92" y="355">0</text><text x="92" y="305">10</text><text x="92" y="255">20</text>
+    <text x="92" y="205">30</text><text x="92" y="155">40</text><text x="92" y="105">50</text>
+  </g>
+  <g font-family="sans-serif" font-size="14" fill="#374151" text-anchor="middle">
+    <text x="105" y="374">0</text><text x="245" y="374">1</text><text x="385" y="374">2</text>
+    <text x="525" y="374">3</text><text x="665" y="374">4</text>
+  </g>
+  <text x="388" y="407" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#172b4d">Tiempo t (min)</text>
+  <text x="34" y="225" transform="rotate(-90 34 225)" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#172b4d">Temperatura T (°C)</text>
+  <path d="M105 350 L245 300 L455 300 L665 150" fill="none" stroke="#c2410c" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#c2410c"><circle cx="105" cy="350" r="5"/><circle cx="245" cy="300" r="5"/><circle cx="455" cy="300" r="5"/><circle cx="665" cy="150" r="5"/></g>
+  <g font-family="sans-serif" font-size="13" font-weight="600" fill="#7c2d12">
+    <text x="165" y="330">Sólido: sube T</text>
+    <text x="330" y="286">Fusión: T constante</text>
+    <text x="535" y="230">Líquido: sube T</text>
+  </g>
+  <text x="380" y="433" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b7280">Esquema recreado a partir del TP1 de Física Aplicada 2025, ejercicio 14, p. 2.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="450" viewBox="0 0 820 450" role="img" aria-labelledby="title desc">
+  <title id="title">Ciclo triangular A–B–C–A de los modelos 2023 y 2024</title>
+  <desc id="desc">Eje horizontal: volumen en metros cúbicos. Eje vertical: presión en kilopascales. A está en volumen 2 y presión 1; B en volumen 2 y presión 3; C en volumen 5 y presión 1. Las flechas van de A a B, de B a C y de C a A.</desc>
+  <rect width="820" height="450" rx="16" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#0f172a">
+    <text x="35" y="37" font-size="23" font-weight="bold">Lee las coordenadas y sigue las flechas</text>
+    <text x="35" y="64" font-size="16" fill="#475569">Mismos estados y sentido de recorrido que los modelos 2023–2024.</text>
+    <path d="M105,355 L105,92 M105,355 L600,355" fill="none" stroke="#334155" stroke-width="2"/>
+    <path d="M99,104 L105,92 L111,104 M588,349 L600,355 L588,361" fill="none" stroke="#334155" stroke-width="2"/>
+    <text x="36" y="104" font-size="18">p (kPa)</text>
+    <text x="520" y="398" font-size="18">V (m³)</text>
+    <path d="M105,280 H555 M105,130 H285 M285,130 V355 M555,280 V355" fill="none" stroke="#94a3b8" stroke-dasharray="5 5"/>
+    <path d="M285,280 L285,130 L555,280 Z" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+    <path d="M285,250 V185 M325,152 L440,216 M510,280 H385" fill="none" stroke="#0369a1" stroke-width="3"/>
+    <path d="M285,185 L278,199 L292,199 Z M440,216 L423,216 L431,202 Z M385,280 L400,273 L400,287 Z" fill="#0369a1"/>
+    <g fill="#0369a1"><circle cx="285" cy="280" r="5"/><circle cx="285" cy="130" r="5"/><circle cx="555" cy="280" r="5"/></g>
+    <text x="76" y="286" font-size="18">1,0</text>
+    <text x="76" y="136" font-size="18">3,0</text>
+    <text x="87" y="377" font-size="16">0</text>
+    <text x="270" y="377" font-size="18">2,0</text>
+    <text x="541" y="377" font-size="18">5,0</text>
+    <text x="263" y="307" font-size="22" font-weight="bold">A</text>
+    <text x="280" y="116" font-size="22" font-weight="bold">B</text>
+    <text x="564" y="287" font-size="22" font-weight="bold">C</text>
+    <rect x="620" y="117" width="177" height="193" rx="10" fill="#f1f5f9"/>
+    <text x="635" y="146" font-size="17" font-weight="bold">Datos de los estados</text>
+    <text x="635" y="181" font-size="16">A: 2 m³; 1 kPa</text>
+    <text x="635" y="214" font-size="16">B: 2 m³; 3 kPa</text>
+    <text x="635" y="247" font-size="16">C: 5 m³; 1 kPa</text>
+    <text x="635" y="285" font-size="16" fill="#0369a1">A → B → C → A</text>
+    <text x="105" y="428" font-size="16" fill="#475569">Esquema recreado para el vault. La línea B–C es un segmento recto.</text>
+  </g>
+</svg>

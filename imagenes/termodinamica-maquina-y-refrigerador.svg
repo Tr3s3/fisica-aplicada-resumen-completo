@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 370" role="img" aria-labelledby="title desc">
+  <title id="title">Flujos de energía en una máquina térmica y en un refrigerador</title>
+  <desc id="desc">La máquina absorbe calor del foco caliente, produce trabajo y expulsa calor al foco frío. El refrigerador consume trabajo para extraer calor del foco frío y expulsarlo al caliente.</desc>
+  <rect width="980" height="370" fill="#ffffff"/>
+  <text x="490" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#172b4d">Mismos flujos de energía, objetivos opuestos</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <text x="250" y="76" font-size="18" font-weight="700" fill="#172b4d">Motor térmico</text>
+    <text x="730" y="76" font-size="18" font-weight="700" fill="#172b4d">Refrigerador</text>
+  </g>
+  <g stroke="#64748b" stroke-width="1.5">
+    <rect x="40" y="115" width="145" height="70" rx="10" fill="#fee2e2"/>
+    <rect x="185" y="115" width="145" height="70" rx="10" fill="#fef3c7"/>
+    <rect x="330" y="115" width="145" height="70" rx="10" fill="#dbeafe"/>
+    <rect x="520" y="115" width="145" height="70" rx="10" fill="#dbeafe"/>
+    <rect x="665" y="115" width="145" height="70" rx="10" fill="#fef3c7"/>
+    <rect x="810" y="115" width="145" height="70" rx="10" fill="#fee2e2"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle" font-size="15" fill="#172b4d">
+    <text x="112" y="145">Fuente</text><text x="112" y="166">caliente</text>
+    <text x="257" y="156" font-weight="700">Motor</text>
+    <text x="402" y="145">Fuente</text><text x="402" y="166">fría</text>
+    <text x="592" y="145">Fuente</text><text x="592" y="166">fría</text>
+    <text x="737" y="156" font-weight="700">Refrigerador</text>
+    <text x="882" y="145">Fuente</text><text x="882" y="166">caliente</text>
+  </g>
+  <g fill="none" stroke-width="3">
+    <path d="M145 105 H205" stroke="#c2410c"/><path d="M205 105 l-10 -6 v12 z" fill="#c2410c"/>
+    <path d="M310 105 H360" stroke="#2563eb"/><path d="M360 105 l-10 -6 v12 z" fill="#2563eb"/>
+    <path d="M145 210 H200" stroke="#7c3aed"/><path d="M200 210 l-10 -6 v12 z" fill="#7c3aed"/>
+    <path d="M640 105 H690" stroke="#2563eb"/><path d="M690 105 l-10 -6 v12 z" fill="#2563eb"/>
+    <path d="M785 105 H835" stroke="#c2410c"/><path d="M835 105 l-10 -6 v12 z" fill="#c2410c"/>
+    <path d="M835 210 H785" stroke="#7c3aed"/><path d="M785 210 l10 -6 v12 z" fill="#7c3aed"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle" font-size="14" font-weight="700">
+    <text x="175" y="96" fill="#9a3412">QH</text><text x="335" y="96" fill="#1d4ed8">|QC|</text>
+    <text x="173" y="232" fill="#6d28d9">W sale</text>
+    <text x="665" y="96" fill="#1d4ed8">|QC|</text><text x="810" y="96" fill="#9a3412">|QH|</text>
+    <text x="810" y="232" fill="#6d28d9">W entra</text>
+  </g>
+  <text x="250" y="283" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#374151">Objetivo: obtener trabajo</text>
+  <text x="730" y="283" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#374151">Objetivo: extraer calor de la zona fría</text>
+  <text x="490" y="336" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#4b5563">Motor: QH = Wsalida + |QC|. Refrigerador: |QH| = |QC| + Wentrada.</text>
+</svg>

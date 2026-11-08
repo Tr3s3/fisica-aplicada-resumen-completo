@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img"><title>Lente convergente y dos rayos principales</title><desc>Objeto a tres focales; imagen real invertida a una focal y media. El rayo central es recto y el paralelo sale por el foco.</desc>
+<rect width="900" height="390" rx="18" fill="#f8fafc"/>
+<text x="30" y="35" font-family="sans-serif" font-size="24" fill="#0f172a" text-anchor="start">Dos rayos del mismo punto localizan su imagen</text>
+<line x1="45.00" y1="230.00" x2="855.00" y2="230.00" stroke="#64748b" stroke-width="2"/>
+<path d="M480 65 Q452 200.0 480 335 Q508 200.0 480 65 Z" stroke="#2563eb" stroke-width="2" fill="#dbeafe"/>
+<circle cx="380" cy="230" r="4" fill="#c2410c"/>
+<text x="368" y="262" font-family="sans-serif" font-size="19" fill="#0f172a" text-anchor="start">F₁</text>
+<circle cx="580" cy="230" r="4" fill="#c2410c"/>
+<text x="568" y="262" font-family="sans-serif" font-size="19" fill="#0f172a" text-anchor="start">F₂</text>
+<line x1="180.00" y1="230.00" x2="180.00" y2="170.00" stroke="#2563eb" stroke-width="5"/>
+<polygon points="180.00,170.00 175.50,180.00 184.50,180.00" fill="#2563eb"/>
+<line x1="630.00" y1="230.00" x2="630.00" y2="260.00" stroke="#dc2626" stroke-width="5"/>
+<polygon points="630.00,260.00 634.50,250.00 625.50,250.00" fill="#dc2626"/>
+<line x1="180.00" y1="170.00" x2="480.00" y2="170.00" stroke="#16a34a" stroke-width="3"/>
+<polygon points="480.00,170.00 470.00,165.50 470.00,174.50" fill="#16a34a"/>
+<line x1="480.00" y1="170.00" x2="680.00" y2="290.00" stroke="#16a34a" stroke-width="3"/>
+<polygon points="680.00,290.00 673.74,281.00 669.11,288.71" fill="#16a34a"/>
+<line x1="180.00" y1="170.00" x2="480.00" y2="230.00" stroke="#7c3aed" stroke-width="3"/>
+<polygon points="480.00,230.00 471.08,223.63 469.31,232.45" fill="#7c3aed"/>
+<line x1="480.00" y1="230.00" x2="750.00" y2="284.00" stroke="#7c3aed" stroke-width="3"/>
+<polygon points="750.00,284.00 741.08,277.63 739.31,286.45" fill="#7c3aed"/>
+<text x="125" y="145" font-family="sans-serif" font-size="20" fill="#1d4ed8" text-anchor="start">Objeto</text>
+<text x="650" y="220" font-family="sans-serif" font-size="20" fill="#b91c1c" text-anchor="start">Imagen real</text>
+<text x="650" y="245" font-family="sans-serif" font-size="20" fill="#b91c1c" text-anchor="start">e invertida</text>
+<text x="75" y="355" font-family="sans-serif" font-size="18" fill="#475569" text-anchor="start">Verde: entra paralelo y sale por F₂. Violeta: atraviesa el centro sin cambio neto de dirección.</text>
+</svg>

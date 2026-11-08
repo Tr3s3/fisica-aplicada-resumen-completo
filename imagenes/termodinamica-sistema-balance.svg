@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 530" role="img" aria-labelledby="title desc">
+  <title id="title">Frontera de un sistema y balance de energía</title>
+  <desc id="desc">Un gas cerrado puede recibir calor y entregar trabajo sin intercambiar materia. Un gas bajo un pistón aislante no recibe calor, pero puede entregar trabajo y disminuir su energía interna. Las flechas indican transferencias respecto de la frontera del gas.</desc>
+  <rect width="1000" height="530" fill="#fff"/>
+  <g font-family="sans-serif" fill="#172b4d">
+    <text x="500" y="34" text-anchor="middle" font-size="23" font-weight="700">Seguir la energía a través de una frontera</text>
+    <text x="500" y="61" text-anchor="middle" font-size="15">Sistema elegido en ambos casos: el gas. No entra ni sale materia.</text>
+    <rect x="25" y="85" width="465" height="380" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="510" y="85" width="465" height="380" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+    <text x="257" y="116" text-anchor="middle" font-size="18" font-weight="700">Cerrado: puede intercambiar energía</text>
+    <text x="742" y="116" text-anchor="middle" font-size="18" font-weight="700">Adiabático: Q = 0</text>
+    <rect x="170" y="175" width="185" height="170" rx="9" fill="#dbeafe" stroke="#2563eb" stroke-width="3" stroke-dasharray="8 5"/>
+    <text x="263" y="232" text-anchor="middle" font-size="20" font-weight="700">Gas</text>
+    <text x="263" y="263" text-anchor="middle" font-size="16">energía interna U</text>
+    <text x="263" y="305" text-anchor="middle" font-size="14" fill="#1e40af">frontera del sistema</text>
+    <path d="M65 212 H158" fill="none" stroke="#c2410c" stroke-width="5"/>
+    <path d="M158 212 l-14 -8 v16 z" fill="#c2410c"/>
+    <text x="111" y="184" text-anchor="middle" font-size="17" font-weight="700" fill="#9a3412">Q &gt; 0</text>
+    <text x="111" y="243" text-anchor="middle" font-size="14" fill="#9a3412">calor entra</text>
+    <path d="M355 285 H458" fill="none" stroke="#7c3aed" stroke-width="5"/>
+    <path d="M458 285 l-14 -8 v16 z" fill="#7c3aed"/>
+    <text x="407" y="258" text-anchor="middle" font-size="17" font-weight="700" fill="#6d28d9">W &gt; 0</text>
+    <text x="407" y="316" text-anchor="middle" font-size="14" fill="#6d28d9">trabajo sale</text>
+    <text x="257" y="388" text-anchor="middle" font-size="23" font-weight="700">ΔU = Q − W</text>
+    <text x="257" y="421" text-anchor="middle" font-size="14">Ejemplo: entran 1000 J, salen 400 J.</text>
+    <text x="257" y="443" text-anchor="middle" font-size="14">La energía interna aumenta 600 J.</text>
+    <path d="M634 175 V345 H819 V175" fill="#dbeafe" stroke="#475569" stroke-width="8"/>
+    <rect x="630" y="174" width="193" height="17" fill="#64748b"/>
+    <rect x="714" y="144" width="24" height="30" fill="#64748b"/>
+    <path d="M647 191 V332 H806 V191" fill="none" stroke="#2563eb" stroke-width="2" stroke-dasharray="7 4"/>
+    <text x="726" y="239" text-anchor="middle" font-size="20" font-weight="700">Gas</text>
+    <text x="726" y="268" text-anchor="middle" font-size="15">pared y pistón</text>
+    <text x="726" y="289" text-anchor="middle" font-size="15">aislantes</text>
+    <path d="M838 215 V147" fill="none" stroke="#7c3aed" stroke-width="5"/>
+    <path d="M838 147 l-8 14 h16 z" fill="#7c3aed"/>
+    <text x="855" y="174" font-size="15" fill="#6d28d9">pistón</text>
+    <text x="855" y="197" font-size="15" fill="#6d28d9">sube</text>
+    <text x="742" y="388" text-anchor="middle" font-size="23" font-weight="700">ΔU = −W</text>
+    <text x="742" y="421" text-anchor="middle" font-size="14">Si el gas entrega trabajo, U disminuye.</text>
+    <text x="742" y="443" text-anchor="middle" font-size="14">Para gas ideal: su temperatura baja.</text>
+    <text x="500" y="500" text-anchor="middle" font-size="15" font-weight="700">Adiabático impide calor; aislado impide todo intercambio de energía.</text>
+  </g>
+</svg>

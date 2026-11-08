@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img"><title>Espejo cóncavo: centro, foco e imagen</title><desc>El foco está a mitad de camino del centro de curvatura al vértice. Dos rayos reflejados se encuentran en la imagen invertida; el rayo del vértice cumple ángulos iguales.</desc>
+<rect width="900" height="390" rx="18" fill="#f8fafc"/>
+<text x="30" y="35" font-family="sans-serif" font-size="24" fill="#0f172a" text-anchor="start">Espejo cóncavo: C, F y V son puntos distintos</text>
+<line x1="50.00" y1="220.00" x2="840.00" y2="220.00" stroke="#64748b" stroke-width="2"/>
+<path d="M 685 70 Q 715 220 685 340" stroke="#0f172a" stroke-width="7" fill="none"/>
+<circle cx="400" cy="220" r="4" fill="#0f172a"/>
+<text x="392" y="252" font-family="sans-serif" font-size="20" fill="#0f172a" text-anchor="start">C</text>
+<circle cx="550" cy="220" r="4" fill="#0f172a"/>
+<text x="542" y="252" font-family="sans-serif" font-size="20" fill="#0f172a" text-anchor="start">F</text>
+<circle cx="700" cy="220" r="4" fill="#0f172a"/>
+<text x="725" y="252" font-family="sans-serif" font-size="20" fill="#0f172a" text-anchor="start">V</text>
+<line x1="250.00" y1="220.00" x2="250.00" y2="175.00" stroke="#2563eb" stroke-width="5"/>
+<polygon points="250.00,175.00 245.50,185.00 254.50,185.00" fill="#2563eb"/>
+<line x1="250.00" y1="175.00" x2="700.00" y2="175.00" stroke="#16a34a" stroke-width="3"/>
+<polygon points="700.00,175.00 690.00,170.50 690.00,179.50" fill="#16a34a"/>
+<line x1="700.00" y1="175.00" x2="430.00" y2="256.00" stroke="#16a34a" stroke-width="3"/>
+<polygon points="430.00,256.00 440.87,257.44 438.29,248.82" fill="#16a34a"/>
+<line x1="250.00" y1="175.00" x2="700.00" y2="220.00" stroke="#7c3aed" stroke-width="3"/>
+<polygon points="700.00,220.00 690.50,214.53 689.60,223.48" fill="#7c3aed"/>
+<line x1="700.00" y1="220.00" x2="430.00" y2="247.00" stroke="#7c3aed" stroke-width="3"/>
+<polygon points="430.00,247.00 440.40,250.48 439.50,241.53" fill="#7c3aed"/>
+<line x1="475.00" y1="220.00" x2="475.00" y2="242.50" stroke="#dc2626" stroke-width="5"/>
+<polygon points="475.00,242.50 479.50,232.50 470.50,232.50" fill="#dc2626"/>
+<text x="205" y="150" font-family="sans-serif" font-size="20" fill="#1d4ed8" text-anchor="start">Objeto</text>
+<text x="420" y="300" font-family="sans-serif" font-size="19" fill="#b91c1c" text-anchor="start">Imagen real e invertida</text>
+<text x="45" y="353" font-family="sans-serif" font-size="18" fill="#475569" text-anchor="start">Modelo paraxial: los rebotes se aproximan al plano del vértice; F queda entre C y V.</text>
+</svg>

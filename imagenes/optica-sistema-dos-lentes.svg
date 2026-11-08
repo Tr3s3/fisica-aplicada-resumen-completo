@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340">
+<rect x="10" y="10" width="740" height="320" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<line x1="55" y1="180" x2="705" y2="180" stroke="#64748b" stroke-width="2"/>
+<path d="M235 55 Q210 180 235 305 Q260 180 235 55 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+<path d="M405 55 Q380 180 405 305 Q430 180 405 55 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+<line x1="100" y1="180" x2="100" y2="135" stroke="#16a34a" stroke-width="5"/>
+<path d="M93 145 L100 131 L107 145" fill="#16a34a"/>
+<line x1="620" y1="180" x2="620" y2="300" stroke="#f97316" stroke-width="5" stroke-dasharray="8 6"/>
+<path d="M613 290 L620 304 L627 290" fill="#f97316"/>
+<line x1="455" y1="180" x2="455" y2="220" stroke="#dc2626" stroke-width="5"/>
+<path d="M448 210 L455 224 L462 210" fill="#dc2626"/>
+<path d="M100 135 L235 135 L405 211 L455 220" fill="none" stroke="#16a34a" stroke-width="3"/>
+<path d="M100 135 L235 180 L405 236 L455 220" fill="none" stroke="#7c3aed" stroke-width="3"/>
+<path d="M405 211 L620 300 M405 236 L620 300" fill="none" stroke="#f97316" stroke-width="2.5" stroke-dasharray="7 6"/>
+<text x="210" y="42" font-family="sans-serif" font-size="18" fill="#1d4ed8">L₁</text><text x="380" y="42" font-family="sans-serif" font-size="18" fill="#1d4ed8">L₂</text>
+<text x="66" y="110" font-family="sans-serif" font-size="17" fill="#166534">objeto</text><text x="532" y="323" font-family="sans-serif" font-size="16" fill="#c2410c">I₁: imagen de L₁ sola; objeto virtual para L₂</text><text x="425" y="248" font-family="sans-serif" font-size="16" fill="#b91c1c">imagen final real</text>
+<text x="58" y="65" font-family="sans-serif" font-size="16" fill="#475569">Esquema indicativo, no a escala. La segunda lente recibe rayos que aún convergen.</text>
+</svg>
