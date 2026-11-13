@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img" aria-labelledby="title desc">
+  <title id="title">Por qué un objeto bajo el agua parece menos profundo</title>
+  <desc id="desc">Los rayos azules parten del objeto real, se refractan al salir al aire y se alejan de la normal. Sus prolongaciones naranjas hacia atrás se cruzan en una imagen virtual situada más cerca de la superficie. La profundidad real y la aparente se miden verticalmente desde la superficie. El rayo que sale por P permite comparar dos triángulos de igual avance horizontal x.</desc>
+  <defs>
+    <marker id="ray" viewBox="0 0 12 10" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 5 L0 10 Z" fill="#2563eb"/></marker>
+    <marker id="dim" viewBox="0 0 10 10" markerWidth="9" markerHeight="9" refX="5" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+    <style>
+      text { font-family: sans-serif; fill: #0f172a; }
+      .small { font-size: 18px; fill: #475569; }
+      .label { font-size: 21px; }
+      .ray { stroke: #2563eb; stroke-width: 3.5; fill: none; marker-end: url(#ray); }
+      .back { stroke: #d97706; stroke-width: 2.7; stroke-dasharray: 9 6; fill: none; }
+      .guide { stroke: #94a3b8; stroke-width: 1.5; stroke-dasharray: 6 6; fill: none; }
+      .dimension { stroke: #475569; stroke-width: 1.7; marker-start: url(#dim); marker-end: url(#dim); }
+    </style>
+  </defs>
+  <rect width="1000" height="720" rx="18" fill="#f8fafc"/>
+  <text x="35" y="43" font-size="27">Profundidad aparente: de dónde parece venir la luz</text>
+  <text x="35" y="77" class="small">Los rayos salen del agua; el ojo los prolonga hacia atrás en línea recta.</text>
+  <rect x="55" y="240" width="890" height="376" fill="#e0f2fe"/>
+  <path d="M55 240 H945" stroke="#334155" stroke-width="3"/>
+  <text x="760" y="142" class="label">Aire: observador</text>
+  <text x="760" y="175" class="label">n<tspan baseline-shift="sub" font-size="14">obs</tspan> = 1.00</text>
+  <text x="735" y="359" class="label">Agua: objeto</text>
+  <text x="735" y="392" class="label">n<tspan baseline-shift="sub" font-size="14">obj</tspan> = 1.33</text>
+  <text x="735" y="232" class="small">Superficie</text>
+  <path d="M420 212 V594 M540 152 V570 M110 570 H420 M170 475.17 H420" class="guide"/>
+  <text x="520" y="149" text-anchor="end" class="small">Normal en P</text>
+  <path d="M420 570 L300 240" class="ray"/>
+  <path d="M420 570 L540 240" class="ray"/>
+  <path d="M300 240 L223.46 90" class="ray"/>
+  <path d="M540 240 L616.54 90" class="ray"/>
+  <path d="M300 240 L420 475.17 L540 240" class="back"/>
+  <circle cx="420" cy="570" r="7" fill="#0f766e"/>
+  <text x="438" y="596" class="label" style="fill:#0f766e">Objeto real</text>
+  <circle cx="420" cy="475.17" r="7" fill="#fff7ed" stroke="#d97706" stroke-width="3"/>
+  <text x="210" y="501" class="label" style="fill:#b45309">Imagen virtual</text>
+  <circle cx="540" cy="240" r="5" fill="#0f172a"/>
+  <text x="556" y="260" class="label">P</text>
+  <path d="M540 180 A60 60 0 0 1 567.27 186.56" stroke="#7c3aed" stroke-width="2" fill="none"/>
+  <text x="589" y="183" font-size="22" style="fill:#6d28d9">θ<tspan baseline-shift="sub" font-size="14">obs</tspan></text>
+  <path d="M540 320 A80 80 0 0 1 512.66 315.18" stroke="#7c3aed" stroke-width="2" fill="none"/>
+  <text x="558" y="342" font-size="22" style="fill:#6d28d9">θ<tspan baseline-shift="sub" font-size="14">obj</tspan></text>
+  <path d="M420 208 V237 M540 208 V237" class="guide"/>
+  <path d="M425 216 H535" class="dimension"/>
+  <text x="480" y="203" text-anchor="middle" class="label">x</text>
+  <path d="M110 245 V565" class="dimension"/>
+  <text transform="translate(86 405) rotate(-90)" text-anchor="middle" class="label">d<tspan baseline-shift="sub" font-size="14">r</tspan>: profundidad real</text>
+  <path d="M170 245 V470.17" class="dimension"/>
+  <text transform="translate(150 357) rotate(-90)" text-anchor="middle" class="label">d<tspan baseline-shift="sub" font-size="14">a</tspan>: aparente</text>
+  <text x="587" y="513" class="label">Al salir al aire:</text>
+  <text x="587" y="546" class="label">θ<tspan baseline-shift="sub" font-size="14">obs</tspan> &gt; θ<tspan baseline-shift="sub" font-size="14">obj</tspan> → d<tspan baseline-shift="sub" font-size="14">a</tspan> &lt; d<tspan baseline-shift="sub" font-size="14">r</tspan></text>
+  <text x="35" y="657" font-size="22">Cerca de la normal: d<tspan baseline-shift="sub" font-size="14">a</tspan> ≈ d<tspan baseline-shift="sub" font-size="14">r</tspan> · n<tspan baseline-shift="sub" font-size="14">obs</tspan> / n<tspan baseline-shift="sub" font-size="14">obj</tspan></text>
+  <text x="35" y="691" class="small">Azul: luz real. Naranja discontinuo: prolongaciones. Ángulos ampliados para mostrar el efecto.</text>
+</svg>

@@ -60,7 +60,7 @@ $$\sum_i Q_i=0\quad\text{(sistema aislado).}$$
 - **Signos:** $Q>0$ al absorber y $Q<0$ al ceder. En cambios de fase, $Q=+mL$ para fundir/vaporizar y $Q=-mL$ para solidificar/condensar. Incluye recipiente y calorímetro si su capacidad térmica es apreciable.
 - **Condiciones:** $mc\Delta T$ corresponde a una sola fase y $c$ constante apropiado al proceso. El balance de mezcla supone aislamiento del conjunto y trabajo despreciable; cada parte sí intercambia calor con las otras.
 - **Curva con potencia absorbida constante y pérdidas despreciables:** $Q=P\Delta t$. En las zonas inclinadas $Q=mc\Delta T$; en las mesetas $Q=mL$.
-- **Decisión de fase:** con hielo inicialmente a $0\,^\circ\mathrm C$, compara primero la energía disponible positiva $E_{\mathrm{disp}}$ que cedería el cuerpo caliente al llegar a $0\,^\circ\mathrm C$ con $m_iL_f$. Si no alcanza, $T_f=0\,^\circ\mathrm C$ y $m_{\mathrm{fundida}}=E_{\mathrm{disp}}/L_f$. Si sobra, suma fusión y calentamiento del agua en el balance. Véase [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · prioridad de examen media|T29]].
+- **Decisión de fase:** con hielo inicialmente a $0\,^\circ\mathrm C$, compara primero la energía disponible positiva $E_{\mathrm{disp}}$ que cedería el cuerpo caliente al llegar a $0\,^\circ\mathrm C$ con $m_iL_f$. Si no alcanza, $T_f=0\,^\circ\mathrm C$ y $m_{\mathrm{fundida}}=E_{\mathrm{disp}}/L_f$. Si sobra, suma fusión y calentamiento del agua en el balance. Véase [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · reconstrucción de la clave 2026 · prioridad de estudio alta|T29]].
 - **Despeje inverso:** si se conoce $T_f$, se puede despejar una temperatura inicial, $c$ o $L_f$ del mismo balance; no hace falta una ley nueva. Véanse [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T33. Recuperar la temperatura inicial de una mezcla — R · prioridad de examen alta|T33]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T34. Calor latente obtenido de una mezcla — R · prioridad de examen media|T34]].
 - **Comprueba:** sin fuentes adicionales ni trabajo apreciable, el equilibrio queda entre las temperaturas iniciales y debe ser compatible con las fases que permanecen.
 
@@ -81,6 +81,29 @@ H=\frac{T_h-T_c}{\sum_i R_i}.$$
 - **Unión de dos capas:** $T_x=T_h-HR_1=T_c+HR_2$. Estacionario significa sin acumulación de energía, no temperatura uniforme. Las temperaturas del aire solo sustituyen a las de las caras si se desprecia la resistencia aire–pared.
 - **Unidades:** $H$ en W, $k$ en $\mathrm{W/(m\,K)}$, $A$ en $\mathrm{m^2}$, $L$ en m y $T_h-T_c$ en K o °C.
 - **Interpretación:** menor $k$ o mayor espesor reducen la transferencia; no confundas flujo por área con potencia total.
+
+#### Despeje para varias placas consecutivas
+
+En serie, $H_1=H_2=\cdots=H$; cada placa cumple $\Delta T_i=HR_i$. Para dos placas con unión a $T_x$:
+
+$$
+(T_h-T_x)+(T_x-T_c)=HR_1+HR_2
+\ \Longrightarrow\ T_h-T_c=H(R_1+R_2)
+\ \Longrightarrow\ H=\frac{T_h-T_c}{R_1+R_2}.
+$$
+
+Para tres placas de **igual área $A$**, reemplaza cada resistencia antes de calcular:
+
+$$
+H=\frac{T_h-T_c}{\dfrac{L_1}{k_1A}+\dfrac{L_2}{k_2A}+\dfrac{L_3}{k_3A}}
+=\frac{A(T_h-T_c)}{\dfrac{L_1}{k_1}+\dfrac{L_2}{k_2}+\dfrac{L_3}{k_3}}.
+$$
+
+- **Orden de cálculo:** convierte áreas y espesores; calcula cada $R_i=L_i/(k_iA)$; suma las resistencias; divide la diferencia total por esa suma. El resultado es la potencia de cada placa y del conjunto.
+- **Temperaturas de unión:** calcula $\Delta T_i=HR_i$ y resta las caídas desde la cara caliente: $T_1=T_h-HR_1$, $T_2=T_h-H(R_1+R_2)$, etc.
+- **Control:** las caídas deben sumar $T_h-T_c$; al calcular $H_i=k_iA\Delta T_i/L_i$, todas deben dar el mismo $H$. No uses la diferencia total en cada placa ni sumes sus potencias. Si todas tienen el mismo $k$, se recupera $H=kA(T_h-T_c)/(L_1+L_2+\cdots+L_n)$.
+
+**Desarrollo y ejemplo de tres placas:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Capas en serie y temperatura de unión|ver cada paso del despeje]].
 
 ### Radiación
 

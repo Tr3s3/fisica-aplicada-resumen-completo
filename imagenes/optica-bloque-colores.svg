@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="780" viewBox="0 0 1000 780" role="img" aria-labelledby="title desc">
+  <title id="title">Dos colores atraviesan un bloque de caras paralelas</title>
+  <desc id="desc">Los colores A y B entran por P con la misma dirección. B tiene mayor índice y queda más cerca de la normal. El espesor e se mide perpendicularmente a las caras; x A y x B, sobre la cara de salida. La diferencia entre esos avances es la separación de salidas. Ambos rayos emergen paralelos a su dirección incidente.</desc>
+  <defs>
+    <marker id="red" viewBox="0 0 12 10" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 5 L0 10 Z" fill="#dc2626"/></marker>
+    <marker id="blue" viewBox="0 0 12 10" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L12 5 L0 10 Z" fill="#2563eb"/></marker>
+    <marker id="dim" viewBox="0 0 10 10" markerWidth="9" markerHeight="9" refX="5" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+    <style>
+      text { font-family: sans-serif; fill: #0f172a; }
+      .small { font-size: 18px; fill: #475569; }
+      .label { font-size: 21px; }
+      .guide { stroke: #94a3b8; stroke-width: 1.5; stroke-dasharray: 7 6; fill: none; }
+      .dimension { stroke: #475569; stroke-width: 1.7; marker-start: url(#dim); marker-end: url(#dim); }
+    </style>
+  </defs>
+  <rect width="1000" height="780" rx="18" fill="#f8fafc"/>
+  <text x="35" y="43" font-size="27">Bloque: el ángulo determina el punto de salida</text>
+  <text x="35" y="77" class="small">Dos colores, una entrada común. Separación ampliada para mostrar la geometría.</text>
+  <rect x="60" y="235" width="880" height="260" fill="#e0f2fe"/>
+  <path d="M60 235 H940 M60 495 H940" stroke="#334155" stroke-width="3" fill="none"/>
+  <text x="790" y="208" class="label">Aire</text>
+  <text x="790" y="533" class="label">Aire</text>
+  <text x="652" y="279" font-size="23">Bloque uniforme</text>
+  <text x="652" y="315" class="label">A: índice menor → θ<tspan baseline-shift="sub" font-size="14">A</tspan> mayor</text>
+  <text x="652" y="350" class="label">B: índice mayor → θ<tspan baseline-shift="sub" font-size="14">B</tspan> menor</text>
+  <text x="652" y="401" class="label">x<tspan baseline-shift="sub" font-size="14">A</tspan> = e tan θ<tspan baseline-shift="sub" font-size="14">A</tspan></text>
+  <text x="652" y="437" class="label">x<tspan baseline-shift="sub" font-size="14">B</tspan> = e tan θ<tspan baseline-shift="sub" font-size="14">B</tspan></text>
+  <text x="652" y="473" class="label">Δx = |x<tspan baseline-shift="sub" font-size="14">A</tspan> − x<tspan baseline-shift="sub" font-size="14">B</tspan>|</text>
+  <path d="M300 148 V718 M394.63 495 V715 M482.05 495 V673" class="guide"/>
+  <text x="316" y="157" class="small">Normal</text>
+  <path d="M157 115 L300 235" stroke="#64748b" stroke-width="5" fill="none" marker-end="url(#dim)"/>
+  <text x="65" y="178" class="label">Incidente</text>
+  <path d="M300 175 A60 60 0 0 0 254.04 196.43" stroke="#475569" stroke-width="2" fill="none"/>
+  <text x="252" y="168" class="label">θᵢ</text>
+  <path d="M300 235 L482.05 495" stroke="#dc2626" stroke-width="4" fill="none" marker-end="url(#red)"/>
+  <path d="M300 235 L394.63 495" stroke="#2563eb" stroke-width="4" fill="none" marker-end="url(#blue)"/>
+  <path d="M300 315 A80 80 0 0 0 345.89 300.53" stroke="#dc2626" stroke-width="2" fill="none"/>
+  <text x="360" y="296" font-size="22" style="fill:#b91c1c">θ<tspan baseline-shift="sub" font-size="14">A</tspan></text>
+  <path d="M300 280 A45 45 0 0 0 315.39 277.29" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <path d="M278 292 L301 281" stroke="#2563eb" stroke-width="1.3" fill="none"/>
+  <text x="247" y="303" font-size="22" style="fill:#1d4ed8">θ<tspan baseline-shift="sub" font-size="14">B</tspan></text>
+  <path d="M482.05 495 L652.47 638" stroke="#dc2626" stroke-width="4" fill="none" marker-end="url(#red)"/>
+  <path d="M394.63 495 L565.05 638" stroke="#2563eb" stroke-width="4" fill="none" marker-end="url(#blue)"/>
+  <circle cx="300" cy="235" r="5" fill="#0f172a"/>
+  <text x="313" y="225" class="label">P</text>
+  <circle cx="482.05" cy="495" r="5" fill="#dc2626"/>
+  <circle cx="394.63" cy="495" r="5" fill="#2563eb"/>
+  <path d="M300 481 H314 V495" stroke="#64748b" stroke-width="1.5" fill="none"/>
+  <text x="285" y="532" text-anchor="end" class="small">Pie de la normal</text>
+  <path d="M394.63 495 H482.05 M394.63 486 V504 M482.05 486 V504" stroke="#7c3aed" stroke-width="3" fill="none"/>
+  <text x="438.34" y="476" text-anchor="middle" font-size="22" style="fill:#6d28d9">Δx</text>
+  <path d="M85 235 H125 M85 495 H125" class="guide"/>
+  <path d="M105 241 V489" class="dimension"/>
+  <text transform="translate(82 365) rotate(-90)" text-anchor="middle" class="label">e: espesor</text>
+  <path d="M305 665 H477.05" class="dimension"/>
+  <text x="391" y="653" text-anchor="middle" class="label" stroke="#f8fafc" stroke-width="5" paint-order="stroke">x<tspan baseline-shift="sub" font-size="14">A</tspan></text>
+  <path d="M305 705 H389.63" class="dimension"/>
+  <text x="347" y="693" text-anchor="middle" class="label">x<tspan baseline-shift="sub" font-size="14">B</tspan></text>
+  <text x="695" y="591" class="label">Al salir: θ<tspan baseline-shift="sub" font-size="14">salida</tspan> = θᵢ</text>
+  <text x="695" y="622" class="small">Rayos paralelos,</text>
+  <text x="695" y="648" class="small">puntos de salida distintos.</text>
+  <text x="35" y="757" class="small">Cada color conserva su frecuencia. Dentro del bloque cambian su rapidez y longitud de onda.</text>
+</svg>

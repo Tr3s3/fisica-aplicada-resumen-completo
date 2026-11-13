@@ -4,6 +4,8 @@ tags: [fisica-aplicada, planificacion, recuperatorio, ocho-dias]
 
 # Plan de ocho días — Recuperatorio del primer parcial
 
+**Práctica por TP para el recuperatorio del primer parcial:** [[Unidades/05 - Termodinámica/Práctica/05 - TP priorizados para el primer parcial|Termodinámica: TP1 y TP2]] · [[Unidades/06 - Óptica/Práctica/06 - TP priorizados para el primer parcial|Óptica: TP3]]. Cada unidad tiene su hoja separada de resoluciones. **Edición disponible: 2025; falta confirmar si son los TP utilizados en 2026.** Usa estas hojas para elegir números del TP dentro de los bloques de práctica del cronograma.
+
 **Alcance:** Termodinámica y Óptica. **Calendario:** días 1–8 de estudio; **día 9, examen**. Es un plan relativo: el día 1 es el primero de tus ocho días disponibles.
 
 **Base estimada:** 4 h efectivas en días 1–7 y 3 h el día 8, a ajustar a tu disponibilidad. Se prioriza poder explicar y resolver los formatos centrales; no se exige completar todos los TP. Si un ejercicio lleva más tiempo, usa el margen y reduce un complemento; no sumes tareas indefinidamente.
@@ -39,7 +41,7 @@ La alternancia reparte Termodinámica en días 1, 3 y 5 y Óptica en días 2, 4 
 
 - **Recuperar:** diagnóstico: distingue temperatura, calor y energía interna; escribe qué significa aislar el sistema. Intenta solo el planteo de T7, sin abrir su pista.
 - **Leer y asimilar:** [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica|guía breve: bloques 1–2]]; usa [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica|conceptos: secciones 1 y 3]] para sistema, calor específico, recipiente y decisión sobre fusión. Responde las preguntas correspondientes de [[Unidades/05 - Termodinámica/Autoevaluación/05 - Termodinámica|autoevaluación]].
-- **Practicar:** T7 (25 min), T29 caso a (40 min) y T8 (25 min): [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T7. Té caliente en un vaso — M · prioridad de examen alta|té y vaso]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · prioridad de examen media|fusión parcial]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T8. Calor específico de una aleación — R · prioridad de examen alta|calor específico desconocido]]. Si T7 aún no sale, su reconstrucción reemplaza T8 ese día.
+- **Practicar:** T7 (25 min), T29 caso a (40 min) y T8 (25 min): [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T7. Té caliente en un vaso — M · prioridad de examen alta|té y vaso]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · reconstrucción de la clave 2026 · prioridad de estudio alta|fusión parcial]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T8. Calor específico de una aleación — R · prioridad de examen alta|calor específico desconocido]]. Si T7 aún no sale, su reconstrucción reemplaza T8 ese día.
 - **Corregir:** marca qué cuerpos intercambian energía; corrige signos y masa que cambia de fase. Rehaz el balance sin mirar.
 - **Al cerrar debes poder:** decidir qué términos lleva el balance y si el hielo se funde por completo antes de calcular una temperatura final.
 

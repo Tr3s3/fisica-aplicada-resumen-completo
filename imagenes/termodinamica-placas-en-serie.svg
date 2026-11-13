@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" role="img" aria-labelledby="title desc">
+  <title id="title">Tres placas en serie: potencia común y caídas de temperatura</title>
+  <desc id="desc">El calor atraviesa tres placas desde la cara caliente a la fría. Las temperaturas son Th, T1, T2 y Tc. Cada placa conduce la misma potencia H y tiene una caída de temperatura H por su resistencia térmica.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#b45309"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="400" rx="16" fill="#ffffff"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#172b4d">
+    <text x="500" y="36" font-size="24" font-weight="700">Placas consecutivas: la misma potencia atraviesa todas</text>
+    <text x="500" y="75" font-size="23" font-weight="700" fill="#9a3412">H₁ = H₂ = H₃ = H</text>
+    <text x="140" y="118" font-size="23" font-weight="700" fill="#b91c1c">Tₕ</text>
+    <text x="380" y="118" font-size="23" font-weight="700">T₁</text>
+    <text x="620" y="118" font-size="23" font-weight="700">T₂</text>
+    <text x="860" y="118" font-size="23" font-weight="700" fill="#1d4ed8">T꜀</text>
+    <text x="140" y="141" font-size="14" fill="#b91c1c">cara caliente</text>
+    <text x="380" y="141" font-size="14">unión 1–2</text>
+    <text x="620" y="141" font-size="14">unión 2–3</text>
+    <text x="860" y="141" font-size="14" fill="#1d4ed8">cara fría</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2">
+    <rect x="140" y="155" width="240" height="120" fill="#ffedd5"/>
+    <rect x="380" y="155" width="240" height="120" fill="#fef3c7"/>
+    <rect x="620" y="155" width="240" height="120" fill="#dbeafe"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle" fill="#172b4d" font-size="19">
+    <text x="260" y="185" font-weight="700">Placa 1 · L₁, k₁</text>
+    <text x="500" y="185" font-weight="700">Placa 2 · L₂, k₂</text>
+    <text x="740" y="185" font-weight="700">Placa 3 · L₃, k₃</text>
+    <text x="260" y="258">R₁ = L₁ / (k₁ A)</text>
+    <text x="500" y="258">R₂ = L₂ / (k₂ A)</text>
+    <text x="740" y="258">R₃ = L₃ / (k₃ A)</text>
+  </g>
+  <g stroke="#b45309" stroke-width="4" marker-end="url(#arrow)">
+    <line x1="185" y1="217" x2="335" y2="217"/>
+    <line x1="425" y1="217" x2="575" y2="217"/>
+    <line x1="665" y1="217" x2="815" y2="217"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle" fill="#334155" font-size="18">
+    <text x="260" y="309">Tₕ − T₁ = H R₁</text>
+    <text x="500" y="309">T₁ − T₂ = H R₂</text>
+    <text x="740" y="309">T₂ − T꜀ = H R₃</text>
+    <text x="500" y="352" font-size="22" font-weight="700">Al sumar: Tₕ − T꜀ = H (R₁ + R₂ + R₃)</text>
+    <text x="500" y="382" font-size="14">Misma área A · régimen estacionario · contacto ideal · sin generación ni pérdidas laterales</text>
+  </g>
+</svg>

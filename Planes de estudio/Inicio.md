@@ -5,6 +5,8 @@ aliases: [Planes de ocho días, Planes para recuperatorios]
 
 # Planes de ocho días para los recuperatorios
 
+**Práctica por TP para el recuperatorio del primer parcial:** [[Unidades/05 - Termodinámica/Práctica/05 - TP priorizados para el primer parcial|Termodinámica: TP1 y TP2]] · [[Unidades/06 - Óptica/Práctica/06 - TP priorizados para el primer parcial|Óptica: TP3]]. Cada unidad tiene su hoja separada de resoluciones. **Edición disponible: 2025; falta confirmar si son los TP utilizados en 2026.**
+
 Elige **un** plan según lo que recuperas. Los días 1–8 son de estudio y el **día 9 es el examen**. El global se prepara como una evaluación que mezcla las seis unidades en la misma sesión.
 
 | Situación | Plan | Enfoque |
@@ -12,6 +14,8 @@ Elige **un** plan según lo que recuperas. Los días 1–8 son de estudio y el *
 | Recuperas solo el primer parcial | [[Planes de estudio/01 - Recuperatorio del primer parcial - 8 días\|Termodinámica y Óptica]] | Alternar las dos unidades, resolver las familias de los primeros parciales y consolidar imágenes y balances |
 | Recuperas solo el segundo parcial | [[Planes de estudio/02 - Recuperatorio del segundo parcial - 8 días\|Gravitación, Relatividad, Ondas mecánicas y Ondas EM]] | Cubrir los formatos principales de las cuatro unidades y entrenar un ensayo mixto |
 | Recuperas ambos en un único global | [[Planes de estudio/03 - Recuperatorio global - 8 días\|Las seis unidades juntas]] | Núcleo de cada unidad, recuperación acumulativa y ensayo con cambios frecuentes de modelo |
+
+**Para priorizar Óptica y Termodinámica en el global 2026:** consulta [[Planes de estudio/04 - Prioridades de Óptica y Termodinámica para el recuperatorio|qué ejercicios hacer primero]]. Empieza por las cinco familias del parcial 2026, sigue con 2025 y después cubre el global 2023 y las variantes de 2024/2023. Ambas guías breves reflejan ese orden y las prácticas presentan los M/R antes de los C. Puedes usar la selección sin seguir un cronograma de ocho días.
 
 ## Disponibilidad y alcance de las estimaciones
 

@@ -167,11 +167,38 @@ La frecuencia observada en estos cinco exámenes orienta la prioridad de examen:
 | Límite de Carnot | 2/5 | Alta. |
 | Expansión adiabática | 1/5 | Media. |
 | Proceso isobárico y primera ley para un gas | 1/5 | Media. |
-| Dilatación, conducción/radiación, refrigeración y entropía | 0/5 | Sin evidencia directa en esta muestra; se conservan por cobertura del programa y los TP. |
+| Conducción térmica entre placas | No identificada en los cinco archivos; antecedente de 2025 aportado por el estudiante | Prioridad de estudio alta: T13 y T12 como preparación. No se altera el recuento documental sin identificar el modelo concreto. |
+| Dilatación, radiación, refrigeración y entropía | 0/5 | Sin evidencia directa en esta muestra; se conservan por cobertura del programa y los TP. |
 
 Las prioridades describen la frecuencia de esta muestra, no garantizan qué entrará en el próximo examen. Las etiquetas **M**, **R** y **C** indican si un ejercicio reproduce un modelo, practica una variante de ese tipo o cubre una habilidad complementaria. La prioridad didáctica se registra por separado. Véase [[Convenciones del vault#Etiquetas y prioridad]] y el detalle de ejercicios en [[Recursos de estudio/Fuentes y cobertura/Auditoría de cobertura de ejercicios#Unidad 5 — Termodinámica]].
 
+### Antecedente de conducción aportado por el estudiante
+
+El estudiante recuerda un ejercicio de **conducción térmica entre placas en un modelo de 2025**. Se incorpora como antecedente relevante para preparar el recuperatorio, aunque su copia, geometría e incógnitas exactas no están identificadas en los cinco archivos revisados. T13 (TP1 P17–P18) practica placas en serie, potencia y temperatura de contacto; se reclasifica R y sube al bloque 2025. T12 pasa a R como preparación de una capa. Sus datos se siguen atribuyendo al TP, y la frecuencia documental no se aumenta por este recuerdo. Radiación y selección de materiales siguen como complementos posteriores.
+
+### Clave de corrección del primer parcial 2026
+
+Se incorporó la [clave TZPNLWDL](zotero://select/library/items/TZPNLWDL), PDF pp. 1–2, leída como texto y contrastada visualmente. Declara cinco ejercicios de 20 puntos: calorimetría, adiabática, máquina/Carnot, reflexión total y dos lentes. Es fuente de corrección del modelo 2026, **no un sexto examen** ni otra aparición para aumentar frecuencias.
+
+T16 A, T31, O23 y O24 coinciden en planteos y resultados. E1 difiere de BA354CLU: usa aluminio a 180 °C, agua a 20 °C e hielo de 0.10 kg. T29 agrega como principal una reconstrucción coherente con los 129.6 kJ del aluminio y 41.9 kJ del agua disponibles hasta cero: con las constantes del módulo corresponden a 0.80 kg de aluminio y aproximadamente 0.50 kg de agua. El balance de la clave parte del hielo a cero; resulta $T_f=42.72\,^\circ\mathrm C$ y $|Q_{\mathrm{Al}}|=98.84\,\mathrm{kJ}$. Las variantes a/b conservan los datos anteriores a 160 °C; no se combinan las versiones. T29 permanece R por reconstrucción, con prioridad alta.
+
+La clave valora planteo, unidades y justificación además del número; E5 asigna 5 puntos al diagrama de rayos. Su E3 agrega 2 puntos de presentación después de cuatro apartados de 5, pese a declarar 20: se registra la inconsistencia sin inventar otro reparto. [[Planes de estudio/04 - Prioridades de Óptica y Termodinámica para el recuperatorio#Qué aporta la clave de corrección 2026|Aplicación a la selección de estudio]].
+
+### Prioridad de estudio para el global 2026
+
+La selección se actualiza con **2026 como primera referencia y 2025 como segunda**; el global 2023 aporta el formato de recuperatorio, y los primeros parciales 2024/2023 completan variantes. Se confirmó mediante la colección de Zotero que solo está disponible un global de Física Aplicada, el de 2023. Los rótulos alta/media de los títulos registran la frecuencia histórica de la familia; no fijan el orden de práctica por actualidad. Por eso T16 A y T29 se adelantan junto a T31. La [[Planes de estudio/04 - Prioridades de Óptica y Termodinámica para el recuperatorio|selección conjunta]] vincula cada ejercicio con examen, pregunta y lectura breve.
+
+### Modelos adicionales titulados Física III
+
+Se revisaron visualmente [Física III 2023](zotero://select/library/items/7PG8GN67), una foto, y [Física III 2025](zotero://select/library/items/A2NQFSZB), PDF pp. 1–2. No se agregan a las frecuencias ni a las etiquetas M/R/C de **Física Aplicada**. Se recomiendan como transferencia posterior: 2025 E1 compara caminos isotérmico/isobárico/adiabático; E4–E5 entrenan espejo de dentista y lente convergente; 2023 P2 pide las etapas de Carnot y P4 plantea la imposibilidad de imagen derecha aumentada en un convexo para objeto real. Física III 2025 E2 amplía ciclos y E3 sí examina entropía del té y del aire, cubierta por T26; su presencia en esa otra muestra no convierte T26 en ejercicio de modelo de Física Aplicada. E6 requiere interferencia sin aproximación de ángulo pequeño y queda como ampliación. La [[Planes de estudio/04 - Prioridades de Óptica y Termodinámica para el recuperatorio#5. Otros modelos de la colección: qué tomar de Física III|selección por pregunta]] indica qué hacer y qué postergar.
+
 ## Termodinámica: fuentes consultadas para el módulo
+
+### Comprobación de edición para la práctica por TP
+
+El 12/11/2026 se volvieron a leer TP1 PX9XMSD9 (3 páginas), TP2 C6CQ6LHB (2 páginas) y TP3 BTZMSRB8 (3 páginas) mediante Zotero. **Los tres documentos llevan «Año 2025» en sus páginas.** Las colecciones de práctica de Termodinámica y Óptica contienen estas ediciones; no se verificó una edición 2026. Las hojas [[Unidades/05 - Termodinámica/Práctica/05 - TP priorizados para el primer parcial|de TP1/TP2]] y [[Unidades/06 - Óptica/Práctica/06 - TP priorizados para el primer parcial|de TP3]] cruzan provisionalmente esos originales con modelos 2023–2026 y cubren 20 + 13 + 16 ejercicios. Confirmar su reutilización en 2026 o cotejar los nuevos originales sigue pendiente. No se cambia el año de fuente ni se afirma identidad entre ediciones sin ese cotejo.
+
+### Material del módulo
 
 La unidad se construye a partir de TP1 y TP2 de Física Aplicada 2025, los capítulos 17–20 del libro y los modelos de examen disponibles en Zotero. Los 35 ejercicios usan identificadores neutrales T1–T35; la etiqueta M/R/C al final de cada título indica su relación con los modelos. Los ejercicios modelo o refuerzo citan el examen correspondiente; los complementarios sin presencia en modelos se mantienen por cobertura curricular.
 
@@ -184,7 +211,7 @@ La unidad se construye a partir de TP1 y TP2 de Física Aplicada 2025, los capí
 | [Recuperación global 2023](zotero://select/library/items/U4QE9PKL), problema 1 | Expansión isobárica de un gas, trabajo de frontera y primera ley | Ejercicio M T27 de [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#Gases ideales y primera ley\|Gases ideales y primera ley]] y su resolución paso a paso |
 | [Primeros parciales 2023](zotero://select/library/items/XB579CRN) y [2024](zotero://select/library/items/67PJMB4S), pregunta 1 | Mismo ciclo triangular y dos grupos de verdadero/falso | T28 M: distinguir procesos, comparar temperaturas, calcular trabajo y calor netos, convertir volumen; gráfico recreado con estados verificados |
 | [Primer parcial 2025](zotero://select/library/items/KUYP7UCC), pregunta 5 | Carnot, calores y poder calorífico de combustible | T30 M: eficiencia, balance de energía y masa de combustible por ciclo |
-| [Primer parcial 2026, transcripción](zotero://select/library/items/BA354CLU), preguntas 1–3 | Calorimetría con enunciado incompleto; cuatro incógnitas de adiabática; máquina real y propuesta | T29 R con supuestos explícitos; T16 M, caso A con los datos originales y cuatro incisos; T31 M con comparación y trabajo máximo |
+| [Primer parcial 2026, transcripción](zotero://select/library/items/BA354CLU), preguntas 1–3 | Calorimetría con enunciado incompleto; cuatro incógnitas de adiabática; máquina real y propuesta | T29 R: caso principal reconstruido de la nueva clave TZPNLWDL y a/b como variantes de la transcripción; T16 M, caso A; T31 M. La clave confirma E2/E3 |
 | [Global 2023](zotero://select/library/items/U4QE9PKL), pregunta 2, y [TP2](zotero://select/library/items/C6CQ6LHB), ejercicio 3 | Potencia de un motor y tasas de calor | T32 M, caso A con los datos del global; caso B R con los del TP y ampliación a energías de un minuto |
 | [Clase 1 de Termodinámica, 11-08-2025](zotero://select/library/items/57T7VR7L) y [resumen de primera ley](zotero://select/library/items/A4TT76WP) | Ley cero, termometría, expansión, gas ideal, calor específico y calorimetría | Contexto conceptual de las secciones 1–6 de [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica]] |
 | [Cap. 17: Temperatura y calor](zotero://select/library/items/4NVQU8DQ) | PDF pp. 1–9: temperatura, equilibrio y expansión; pp. 14–20: calor específico, calorimetría y fases; pp. 23–28: conducción y radiación | Derivación conceptual y supuestos de las relaciones para cambios térmicos y transferencia |
@@ -222,7 +249,7 @@ Las cuatro preguntas de [[Unidades/05 - Termodinámica/Autoevaluación/05 - Term
 - TP2, ejercicio 13: se cotejaron visualmente el sentido horario y los cuatro estados $(V_0,p_0)$, $(V_0,3p_0)$, $(2V_0,3p_0)$ y $(2V_0,p_0)$ del diagrama de la p. 2.
 
 - Modelos 2023 y 2024, pregunta 1: ambos gráficos dan A=(2 m³, 1 kPa), B=(2 m³, 3 kPa), C=(5 m³, 1 kPa), con recorrido A→B→C→A. La solución escrita de 2023 menciona una vez 3 m³ al describir el final de la compresión, pero el gráfico y su área usan 2 m³. T28 sigue el gráfico y reúne las afirmaciones de ambos años.
-- Modelo 2026, pregunta 1: no se puede dar una respuesta numérica única al enunciado archivado sin completar el estado inicial. T29 se identifica R: adopta hielo a cero grados, recipiente de capacidad térmica despreciable y agrega un segundo caso con 0.20 kg. Esos datos no se atribuyen al examen original.
+- Modelo 2026, pregunta 1: BA354CLU conserva un estado inicial incompleto. La nueva clave TZPNLWDL resuelve otra versión, con agua inicial, hielo y aluminio a 180 °C; T29 ahora abre con esa reconstrucción y conserva a/b (aluminio a 160 °C) como variantes R. No se atribuyen las masas reconstruidas a un enunciado original completo ni se mezclan ambas versiones.
 - Modelo 2025, pregunta 5: se verificó visualmente el poder calorífico de 4100 kJ/kg. T30 explicita que toda la energía liberada llega al motor como calor; con ese supuesto se usa la energía de entrada Q_H para calcular consumo, no solo el trabajo útil.
 - TP1, ejercicios 9 y 13: se explicitan los calores específicos que el enunciado no trae, usando los valores del resumen resuelto: 837 J/(kg·K) para el termómetro efectivo y 138 J/(kg·K) para el mercurio líquido. Las cuentas de T33/T34 se recalcularon.
 - TP1, ejercicio 16: T35 conserva temperaturas, espesor y conductividades; agrega un área de 1.40 m², comparación porcentual y espesor equivalente como desarrollo didáctico, identificado en el enunciado.
@@ -244,17 +271,23 @@ Para preparar los recuperatorios se amplió el cotejo de óptica a los primeros 
 | [Primer parcial 2023](zotero://select/library/items/XB579CRN), P3–P4 | Divergente con imagen derecha de 2/3; índice, frecuencia y rapidez desde dos longitudes de onda | O20 M y O21 M |
 | [Primer parcial 2024](zotero://select/library/items/67PJMB4S), P2–P3 y P5, imagen revisada | Repite la divergente y el cambio de longitud de onda; pide dónde situar el objeto en un cóncavo para imagen derecha y aumentada | O20/O21 M; O12, caso d, R |
 | [Primer parcial 2025](zotero://select/library/items/KUYP7UCC), P3–P4 | Refracción en plástico y vidrio; dos objetos ante una divergente, aumentos, imágenes y separación | O22 R, con geometría añadida por faltar la figura; O20 y ecuaciones de imagen, más comparación de posiciones de O13, como transferencia entre lente y espejo |
-| [Primer parcial 2026](zotero://select/library/items/BA354CLU), P4–P5, transcripción | Snell y reflexión total vidrio/agua/aire; sistema de dos lentes convergentes | O4/O10/O11 R; O18/O19 R. El modelo es una práctica adicional directa disponible en Zotero |
-| [Global 2023](zotero://select/library/items/U4QE9PKL), P3 y P6, imagen revisada | Espejo convexo; hallar separación de rendijas a partir del espaciado | O14 R; O2 R con despeje inverso $d=\lambda L/\beta$ |
+| [Primer parcial 2026](zotero://select/library/items/BA354CLU), P4–P5, transcripción | Snell y reflexión total vidrio/agua/aire; sistema de dos lentes convergentes | O23 M y O24 M, con datos e incisos originales; O4/O10/O11 y O18/O19 R como refuerzo |
+| [Global 2023](zotero://select/library/items/U4QE9PKL), P3 y P6, imagen revisada | Espejo convexo; hallar separación de rendijas a partir del espaciado | O14 R, con repetición indicada para los datos del global; O2 R, cuyo inciso 4 conserva el despeje inverso y los datos originales de P6 |
 | [Segundo parcial 2023](zotero://select/library/items/YIXUYDMC), P1 | Doble rendija con dos colores y coherencia | O1 M; O2–O3 R |
 
 En **primer parcial**, las familias de imágenes y cambio de medio aparecen en varios años. Dos lentes y reflexión total tienen evidencia explícita en 2026. La doble rendija tiene evidencia en el segundo parcial 2023 y en el global 2023; no se encontró en los cuatro primeros parciales revisados. Por eso deja de encabezar la prioridad del plan de primer parcial. Sigue dentro de la cobertura de Óptica y tiene una práctica breve asignada en los planes.
 
 Algunos primeros parciales antiguos incluyen ondas electromagnéticas. Para los nuevos planes se respeta la distribución indicada por el estudiante: primer parcial = Termodinámica y Óptica; segundo = Gravitación, Relatividad, Ondas mecánicas/acústica y Ondas electromagnéticas. No se amplía el alcance de un recuperatorio solo por esa mezcla histórica.
 
+### Prioridad óptica para el global 2026
+
+La [clave 2026](zotero://select/library/items/TZPNLWDL), E4/E5, confirma los resultados de O23/O24 y declara 20 puntos para cada uno; E5 reserva 5 para la marcha de rayos. La fuente se suma para cotejar esos mismos problemas, sin aumentar el número de exámenes.
+
+Primero **O23/O24** (2026 P4/P5); después **O22** y la divergente de 2025, usando O20 como preparación; luego **O14 y O2 inverso** (global 2023 P3/P6); por último O21, O12 d y O1. O23/O24 incorporan los dos enunciados ópticos recientes con sus resoluciones, sin sustituir las variantes del TP. La práctica y las resoluciones tienen los 19 M/R antes de los 5 C.
+
 ### TP y correspondencia con la práctica
 
-El TP 3 (problemas 1–16) sigue cubierto por O4–O19. Tras ampliar los modelos, las variantes de refracción O4/O5/O10/O11, de espejos O12–O15 y de lentes O17–O19 se clasifican R. O6–O9 y O16 siguen siendo C por habilidades no identificadas explícitamente en esos modelos. O1/O20/O21 son M; O2/O3 y O22 son R. Total de la unidad: **22 ejercicios = 3 M, 14 R y 5 C**. Cambiar la etiqueta no cambia el origen TP de los datos.
+El TP 3 (problemas 1–16) sigue cubierto por O4–O19. Tras ampliar los modelos, las variantes de refracción O4/O5/O10/O11, de espejos O12–O15 y de lentes O17–O19 se clasifican R. O6–O9 y O16 siguen siendo C por habilidades no identificadas explícitamente en esos modelos. O1/O20/O21/O23/O24 son M; O2/O3 y O22 son R. Total de la unidad: **24 ejercicios = 5 M, 14 R y 5 C**. Cambiar la etiqueta no cambia el origen TP de los datos.
 
 O20 y O21 conservan los datos de los primeros parciales 2023/2024. O22 completa explícitamente una geometría ausente en la transcripción 2025; no se presenta como un M exacto. En O21 se conserva la precisión de los datos y se obtiene $f=5.0336\times10^{14}\,\mathrm{Hz}$; redondear demasiado pronto el índice produce pequeñas diferencias respecto de la resolución del modelo.
 

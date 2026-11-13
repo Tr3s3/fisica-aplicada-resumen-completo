@@ -8,22 +8,31 @@ Esta guía te ayuda a **reconocer el problema, elegir el principio y comenzar a 
 
 ## Elige por dónde entrar
 
-| Si el ejercicio pregunta por… | Lee este tramo | Primera práctica |
-|---|---|---|
-| Calor, temperatura o conversión de escalas | [[#Temperatura y cambios de escala\|Temperatura]] | T1–T2 (C) |
-| Cambios de tamaño o líquido que rebalsa | [[#Dilatación: cambio de tamaño\|Dilatación]] | T3; luego T4–T6 (C) |
-| Temperatura de equilibrio o propiedad desconocida | [[#Mezclas sin cambio de fase\|Balance de mezcla]] | T7 (M); T8/T11/T33 (R) |
-| Hielo, fusión o curva de calentamiento | [[#Fases: decidir qué cambia antes de calcular\|Cambios de fase]] | T29/T10/T34 (R); T9 (C) |
-| Pérdidas a través de paredes o radiación | [[#3. Cómo se transfiere el calor\|Transferencia]] | T12–T15 y T35 (C) |
-| Trabajo, temperatura o energía interna de un gas | [[#Estado del gas, trabajo y balance\|Gas y primera ley]] | T27 (M) |
-| Expansión sin intercambio de calor | [[#Adiabática: trabajo a costa de energía interna\|Adiabática]] | T16 (M, caso A) |
-| Verdadero/falso de un gráfico o un ciclo completo | [[#Leer un ciclo en el plano p–V\|Ciclos]] | T28 (M); T18/T17 (R) |
-| Eficiencia, potencia o duración de un ciclo | [[#Motor: calor recibido, trabajo y potencia\|Motor]] | T19/T20/T32 (M) |
-| Límite de eficiencia, combustible o propuesta imposible | [[#Carnot: límite, despejes y combustible\|Carnot]] | T24 (R); T30/T31 (M) |
-| Refrigerador o motor Otto ideal | [[#Refrigeración y Otto: qué resultado es útil\|Otros dispositivos]] | T22/T23/T21 (C) |
-| Entropía del cuerpo y su entorno | [[#Entropía: sumar los cambios del conjunto\|Entropía]] | T25–T26 (C) |
+**La clave 2026 confirma 20 puntos declarados para cada una de las tres preguntas de Termodinámica.** En T29 estudia primero la mezcla de aluminio a 180 °C, agua a 20 °C y hielo del caso principal; exige decidir la fusión antes del balance. T16 A y T31 coinciden con la clave. Practica dejando ecuaciones, unidades, signos y justificación: un resultado suelto no basta para el puntaje completo. [[Planes de estudio/04 - Prioridades de Óptica y Termodinámica para el recuperatorio#Qué aporta la clave de corrección 2026|Correspondencia con la clave y sus límites]].
 
-**Para preparar el examen:** trabaja primero motores, lectura de ciclos, mezclas y Carnot; usa la lectura de gases antes de resolver trabajo o ciclos. La [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#Ruta prioritaria según los modelos|ruta prioritaria de la práctica]] explica la evidencia. M reproduce un modelo, R refuerza una familia examinada y C completa habilidades de los TP; esas letras no son una probabilidad de aparición.
+**Prioridad para el recuperatorio global 2026:** T31 → T16, caso A → T29, caso principal de la clave. Son las familias del último parcial. Después haz T30, T7 y T13 (2025; conducción según el antecedente que aportaste), T32 A y T27 (global 2023), y T28/T20 (2024/2023). Si el balance de motor todavía te cuesta, usa T19 como puente antes de T31.
+
+La selección da más peso a **2026, luego 2025**, y usa el global 2023 para cubrir su formato y los modelos más antiguos para ampliar. Los motores aparecen en los cinco exámenes revisados; Carnot y calorimetría, en los dos años más recientes. Solo se encontró un global de Física Aplicada en la colección consultada, el de 2023. No hay base para asignar porcentajes de aparición.
+
+| Orden de estudio | Si te preguntan por… | Lee este tramo | Práctica concreta |
+|---|---|---|---|
+| 1 · 2026 | Máquina real, máximo de Carnot y propuesta imposible | [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Motor: calor recibido, trabajo y potencia\|Motor]] → [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Carnot: límite, despejes y combustible\|Carnot]] | [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T31. Máquina real y propuesta imposible — M · prioridad de examen alta\|T31]] completo |
+| 2 · 2026 | Expansión adiabática reversible | [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Estado del gas, trabajo y balance\|Primera ley]] → [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Adiabática: trabajo a costa de energía interna\|Adiabática]] | [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T16. Expansión adiabática en un cilindro — M · prioridad de examen media\|T16]], caso A |
+| 3 · 2026 | Decidir si se funde todo el hielo | [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Mezclas sin cambio de fase\|Balance]] → [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Fases: decidir qué cambia antes de calcular\|Fases]] | [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · reconstrucción de la clave 2026 · prioridad de estudio alta\|T29]], caso principal de la clave; a/b como variantes |
+| 4 · 2025 | Carnot con combustible y mezcla con vaso | [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Carnot: límite, despejes y combustible\|Carnot]]; [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Mezclas sin cambio de fase\|Mezclas]] | [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T30. Carnot y consumo de combustible por ciclo — M · prioridad de examen alta\|T30]] → [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T7. Té caliente en un vaso — M · prioridad de examen alta\|T7]] |
+| 4 bis · 2025, antecedente del estudiante | Conducción térmica entre placas | [[#3. Cómo se transfiere el calor\|Conducción en serie]] | [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T13. Dos placas y temperatura de contacto — R · antecedente 2025 aportado por el estudiante · prioridad de estudio alta\|T13]]; [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T12. Pérdida de calor por una pared aislante — R · refuerzo de conducción · prioridad didáctica alta\|T12]] como puente |
+| 5 · global 2023 | Calor por segundo y expansión isobárica | [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Motor: calor recibido, trabajo y potencia\|Potencia]]; [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Estado del gas, trabajo y balance\|Primera ley]] | [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T32. Calor suministrado y desechado por segundo — M · prioridad de examen alta\|T32]] A → [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T27. Expansión isobárica y primera ley — M · prioridad de examen media\|T27]] |
+| 6 · 2024/2023 | Verdadero/falso de un ciclo y duración de ciclo | [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Leer un ciclo en el plano p–V\|Ciclos]]; [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Motor: calor recibido, trabajo y potencia\|Motor]] | [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T28. Interpretar el ciclo triangular de los modelos — M · prioridad de examen alta\|T28]] → [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T20. Potencia de salida y duración de cada ciclo — M · prioridad de examen alta\|T20]] |
+| Después, según errores | Más despejes o variantes de familias examinadas | [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Carnot: límite, despejes y combustible\|Carnot]]; [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Leer un ciclo en el plano p–V\|Ciclos]] | [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T24. Dos despejes de Carnot — R · prioridad de examen alta\|T24]]; T18/T17; T8/T11/T33/T10/T34 |
+| Complemento | Escalas, dilatación, radiación, materiales, refrigeración, Otto y entropía | [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Temperatura y cambios de escala\|Temperatura]]; [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Dilatación: cambio de tamaño\|Dilatación]]; [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#3. Cómo se transfiere el calor\|Transferencia]]; [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Refrigeración y Otto: qué resultado es útil\|Dispositivos]]; [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica#Entropía: sumar los cambios del conjunto\|Entropía]] | T1–T6; T9; T14–T15/T35; T21–T23/T25–T26 |
+
+**Cómo usarla:** lee el tramo, explica el principio sin mirar y resuelve el ejercicio de esa fila antes de continuar. Los apartados teóricos de abajo conservan su organización conceptual; la tabla marca el orden de práctica para este examen. Los 20 M/R están físicamente antes de los 15 C en la práctica y sus resoluciones.
+
+**Las etiquetas no sustituyen este orden:** M reproduce un modelo, R varía o reconstruye su planteo y C completa el TP. T16 se adelanta por actualidad aunque conserve «media» por frecuencia histórica. T29 tiene prioridad de estudio alta y permanece R: ahora su caso principal reconstruye la clave 2026; a/b conservan las variantes a 160 °C de la versión anterior.
+
+[[Planes de estudio/04 - Prioridades de Óptica y Termodinámica para el recuperatorio|Selección conjunta, evidencia y qué tomar de cada examen]] · [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#Ruta prioritaria según los modelos|Ruta de la práctica]].
+
+**Otros modelos, después del núcleo:** Física III 2025 E1 compara tres procesos del gas; Física III 2023 P2 pide explicar las etapas de Carnot. Física III 2025 E3 corresponde a entropía del té y el aire, practicada en T26: es una ampliación de otra muestra, por eso no sube al núcleo de Física Aplicada. [[Planes de estudio/04 - Prioridades de Óptica y Termodinámica para el recuperatorio#5. Otros modelos de la colección: qué tomar de Física III|Selección de Física III]].
 
 **Antes de cualquier cuenta:** define el sistema, es decir, qué materia vas a estudiar. Un sistema **cerrado** no intercambia materia; uno **aislado** tampoco intercambia energía. Un recipiente **rígido** no cambia de volumen; una pared **adiabática** impide intercambio de calor. Son condiciones distintas. Para el balance de esta guía se desprecian cambios de energía cinética y potencial del conjunto.
 
@@ -93,6 +102,9 @@ El despeje reúne los términos con $T_f$ a un lado y divide por $m_1c_1+m_2c_2$
 
 ### Fases: decidir qué cambia antes de calcular
 
+**Caso prioritario de la clave 2026:** en T29 principal hay aluminio caliente, agua líquida inicial a 20 °C e hielo a cero. Compara $E_{\mathrm{disp}}=m_{\mathrm{Al}}c_{\mathrm{Al}}T_{\mathrm{Al},i}+m_wc_wT_{w,i}$ con $m_iL_f$, tomando cero grados como referencia. Si se funde todo, usa $m_{\mathrm{Al}}c_{\mathrm{Al}}(180-T_f)=m_iL_f+m_wc_w(T_f-20)+m_ic_wT_f$. Los dos términos con agua parten de temperaturas diferentes. La [clave, E1](zotero://select/library/items/TZPNLWDL) resulta en 42.72 °C y 98.84 kJ cedidos por el aluminio; intenta el problema antes de consultar su desarrollo.
+
+
 Durante fusión o vaporización a presión fija, una sustancia pura puede absorber energía **sin cambiar de temperatura**: esa energía transforma la fase. Usa $Q=+m_{\mathrm{trans}}L$ al fundir o vaporizar y $Q=-m_{\mathrm{trans}}L$ al solidificar o condensar. $L$ es calor latente en J/kg y $m_{\mathrm{trans}}$ es la masa efectivamente transformada, que puede ser menor que la masa total. Para calentar cada fase usa su propio $c$.
 
 **Con hielo inicialmente a $0\,^\circ\mathrm C$ y presión atmosférica:** compara la energía positiva $E_{\mathrm{disp}}$ que los cuerpos calientes cederían al llegar a cero con $m_hL_f$, la necesaria para fundir todo el hielo:
@@ -110,21 +122,46 @@ En una curva con potencia absorbida constante y pérdidas despreciables, $Q=P\De
 > [!success]- Mostrar explicación
 > Puede no haber energía suficiente para fundirlo todo. Mientras coexistan agua y hielo en equilibrio a presión atmosférica, la mezcla permanece a cero. Una temperatura negativa obtenida suponiendo toda el agua líquida revela una hipótesis de fase incompatible: hay que volver al balance con fusión parcial.
 
-**Pasa a práctica:** [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · prioridad de examen media|T29: comparar las dos posibilidades]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T10. Fundir solo la mitad del hielo — R · prioridad de examen media|T10: calentamiento y fusión parcial]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T34. Calor latente obtenido de una mezcla — R · prioridad de examen media|T34: despejar un calor latente]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T9. Leer una curva de calentamiento — C · sin evidencia de examen · prioridad didáctica media|T9: leer una curva]]. **Apoyo:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Leer la curva del agua en el libro|cómo separar las etapas en una figura del libro]].
+**Pasa a práctica:** [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · reconstrucción de la clave 2026 · prioridad de estudio alta|T29: primero el caso de la clave; a/b como variantes]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T10. Fundir solo la mitad del hielo — R · prioridad de examen media|T10: calentamiento y fusión parcial]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T34. Calor latente obtenido de una mezcla — R · prioridad de examen media|T34: despejar un calor latente]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T9. Leer una curva de calentamiento — C · sin evidencia de examen · prioridad didáctica media|T9: leer una curva]]. **Apoyo:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Leer la curva del agua en el libro|cómo separar las etapas en una figura del libro]].
 
 ## 3. Cómo se transfiere el calor
 
+**Para el global 2026:** conducción entre placas tiene prioridad alta dentro del bloque 2025 por el antecedente aportado por el estudiante. Intenta T13; usa T12 como puente si hace falta. Radiación y elección de materiales quedan como ampliaciones posteriores.
+
 **Reconócelo:** no preguntan solo cuánta energía cambia, sino **con qué rapidez** atraviesa una pared o sale de una superficie. Una potencia térmica $H$ en W es energía por segundo: $Q=H\Delta t$ si permanece constante. No confundas J con W ni potencia total con potencia por unidad de área.
 
-En **conducción**, la energía se transmite sin transporte macroscópico de materia. Para una pared plana en estado estacionario, mayor área $A$ y diferencia entre caras aumentan la transferencia; mayor espesor $L$ la reduce:
+En **conducción**, la energía se transmite sin transporte macroscópico de materia. Para una pared plana en estado estacionario:
 
 $$
-H=kA\frac{T_h-T_c}{L},\qquad
-R_i=\frac{L_i}{k_iA_i},\qquad
-H=\frac{T_h-T_c}{\sum_iR_i}.
+H=kA\frac{T_h-T_c}{L}.
 $$
 
-$k$ es conductividad en $\mathrm{W/(m\,K)}$; $T_h$ y $T_c$ son las temperaturas de las caras caliente y fría. $H$ es aquí una magnitud positiva. En capas **en serie**, sin pérdidas laterales y con contacto ideal, pasa la misma potencia por cada una: si se acumulara energía en la unión, no sería estacionario. La resistencia $R_i$ indica cuánto dificulta el paso cada capa. Para dos capas, la unión tiene $T_x=T_h-HR_1=T_c+HR_2$. No confundir esta resistencia con la constante de los gases.
+$k$ es conductividad en $\mathrm{W/(m\,K)}$, $A$ el área perpendicular al paso del calor en $\mathrm{m^2}$ y $L$ el espesor en m. $T_h$ y $T_c$ son las temperaturas de las caras caliente y fría; $H$ se toma positivo hacia la cara fría.
+
+**Si hay varias placas de corrido, están en serie.** Sin pérdidas laterales ni generación interna, pasa la misma potencia por cada una: $H_1=H_2=\cdots=H$. Si entrara más energía de la que sale, alguna zona se calentaría y el régimen no sería estacionario. Cada placa tiene su propia caída de temperatura.
+
+Para **dos placas** con unión a $T_x$, aplicamos la fórmula a cada una y multiplicamos por $L_i/(k_iA)$ para despejar su caída:
+
+$$
+H=k_1A\frac{T_h-T_x}{L_1}
+\ \Longrightarrow\ T_h-T_x=H\frac{L_1}{k_1A}=HR_1,
+$$
+$$
+H=k_2A\frac{T_x-T_c}{L_2}
+\ \Longrightarrow\ T_x-T_c=H\frac{L_2}{k_2A}=HR_2.
+$$
+
+Aquí $R_i=L_i/(k_iA)$ es la resistencia térmica de cada placa, en K/W. No es la constante de los gases. Sumamos las ecuaciones, cancelamos $-T_x+T_x$, sacamos factor común $H$ y dividimos por la suma de resistencias:
+
+$$
+(T_h-T_x)+(T_x-T_c)=HR_1+HR_2
+\ \Longrightarrow\ T_h-T_c=H(R_1+R_2)
+\ \Longrightarrow\ \boxed{H=\frac{T_h-T_c}{R_1+R_2}}.
+$$
+
+Con **tres placas**, el denominador es $R_1+R_2+R_3$; con $n$, es $\sum_iR_i$. Primero obtén ese $H$ común y después cada caída $\Delta T_i=HR_i$. Por ejemplo, con tres placas: $T_1=T_h-HR_1$ y $T_2=T_1-HR_2$. El contacto es ideal; las temperaturas de ambos lados de cada unión coinciden.
+
+**Para seguir el despeje sin saltos:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Capas en serie y temperatura de unión|esquema, deducción para dos y tres placas y ejemplo numérico]]. La diferencia total entre extremos se usa con la resistencia total; para cada placa se usa solamente su propia caída.
 
 La **convección** transporta energía mediante movimiento de un fluido. La **radiación** usa ondas electromagnéticas y puede atravesar el vacío. En los ejercicios de radiación:
 
@@ -140,7 +177,7 @@ $\varepsilon$ es emisividad, entre 0 y 1, y $\sigma=5.67\times10^{-8}\,\mathrm{W
 > [!success]- Mostrar explicación
 > La potencia de conducción queda igual porque $2A/(2L)=A/L$. El cuerpo sí emite radiación, pero absorbe la misma potencia: la transferencia neta es cero. Emisión y pérdida neta son magnitudes distintas.
 
-**Pasa a práctica:** [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T12. Pérdida de calor por una pared aislante — C · sin evidencia de examen · prioridad didáctica alta|T12: una pared]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T35. Elegir un material para reducir las pérdidas — C · sin evidencia de examen · prioridad didáctica media|T35: comparar materiales]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T13. Dos placas y temperatura de contacto — C · sin evidencia de examen · prioridad didáctica media|T13: capas en serie]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T14. Radiación neta de una persona — C · sin evidencia de examen · prioridad didáctica alta|T14: radiación neta]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T15. Potencia radiada por un filamento — C · sin evidencia de examen · prioridad didáctica media|T15: emisión]]. **Apoyo:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Leer la conducción en la figura del libro|área y espesor]] y [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Leer la fotografía de convección del libro|movimiento del fluido]].
+**Pasa a práctica:** [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T13. Dos placas y temperatura de contacto — R · antecedente 2025 aportado por el estudiante · prioridad de estudio alta|T13: placas en contacto, potencia y temperatura de unión]]. Si necesitas preparar la ley de conducción en una capa, haz antes [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T12. Pérdida de calor por una pared aislante — R · refuerzo de conducción · prioridad didáctica alta|T12]]. Después del núcleo, T35 para materiales y T14/T15 para radiación. **Apoyo:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Leer la conducción en la figura del libro|área y espesor]] y [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Leer la fotografía de convección del libro|movimiento del fluido]].
 
 ## 4. Gas ideal y primera ley
 
@@ -237,7 +274,7 @@ El punto indica energía por tiempo; las tasas se expresan en W, con $1\,\mathrm
 > [!success]- Mostrar explicación
 > Recibe $Q_H=W/e=400\,\mathrm J$ y desecha $300\,\mathrm J$. Cada ciclo dura $100\,\mathrm J/(50\,\mathrm{J/s})=2\,\mathrm s$. Multiplicar $W$ por la eficiencia invertiría la definición: la energía recibida debe superar al trabajo útil.
 
-**Pasa a práctica:** [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T19. Motor diésel: energía y eficiencia — M · prioridad de examen alta|T19 (M): balance y eficiencia]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T20. Potencia de salida y duración de cada ciclo — M · prioridad de examen alta|T20 (M): duración del ciclo]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T32. Calor suministrado y desechado por segundo — M · prioridad de examen alta|T32 (M, caso A): tasas de calor]]. **Apoyo:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Leer el flujo de energía del motor en el libro|seguir las flechas de energía]].
+**Pasa a práctica:** Continúa con el tramo de Carnot y resuelve [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T31. Máquina real y propuesta imposible — M · prioridad de examen alta|T31, modelo 2026 completo]]. Si te falta el balance básico, usa [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T19. Motor diésel: energía y eficiencia — M · prioridad de examen alta|T19]] como puente. Después de las familias 2026/2025, haz [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T32. Calor suministrado y desechado por segundo — M · prioridad de examen alta|T32, caso A]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T20. Potencia de salida y duración de cada ciclo — M · prioridad de examen alta|T20: duración de ciclo]]. **Apoyo:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Leer el flujo de energía del motor en el libro|seguir las flechas de energía]].
 
 ### Carnot: límite, despejes y combustible
 
@@ -259,7 +296,7 @@ El combustible aporta el calor de entrada, no solo el trabajo útil. Si toda su 
 > [!success]- Mostrar explicación
 > No. Conserva energía, pero supera $e_C=1-300/600=0.50$. El máximo permitido es $500\,\mathrm J$ por ciclo; la propuesta exigiría eficiencia $0.60$. La primera ley cierra el balance y la segunda restringe qué balances son posibles.
 
-**Pasa a práctica:** [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T24. Dos despejes de Carnot — R · prioridad de examen alta|T24: despejes de Carnot]], [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T30. Carnot y consumo de combustible por ciclo — M · prioridad de examen alta|T30 (M): combustible por ciclo]] y [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T31. Máquina real y propuesta imposible — M · prioridad de examen alta|T31 (M): máquina real y propuesta]]. Para T17/T18, compara su eficiencia calculada con el límite entre las temperaturas extremas; no reemplaces la eficiencia del ciclo por la de Carnot. **Apoyo:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Ejemplo del libro: trabajo y calor de una máquina de Carnot|ejemplo resuelto del libro]].
+**Pasa a práctica:** [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T31. Máquina real y propuesta imposible — M · prioridad de examen alta|T31: máquina real y propuesta, 2026]] → [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T30. Carnot y consumo de combustible por ciclo — M · prioridad de examen alta|T30: combustible por ciclo, 2025]]. Usa [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T24. Dos despejes de Carnot — R · prioridad de examen alta|T24: otros despejes de Carnot]] después si necesitas refuerzo. Para T17/T18 compara la eficiencia del ciclo con el límite entre las temperaturas extremas; no las igualas salvo reversibilidad. **Apoyo:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Ejemplo del libro: trabajo y calor de una máquina de Carnot|ejemplo resuelto del libro]].
 
 ### Refrigeración y Otto: qué resultado es útil
 

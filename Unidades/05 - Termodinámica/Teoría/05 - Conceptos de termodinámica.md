@@ -60,13 +60,13 @@ Un **sistema** es la materia que elegimos analizar. La **frontera** lo separa de
 
 Si estudias solo el té, la energía que pasa del té al vaso sale del sistema. Si estudias **té más vaso**, ese intercambio ocurre entre partes del sistema y no cruza su frontera exterior. Al resolver una mezcla, suele convenir incluir todos los cuerpos que intercambian energía: así sus pérdidas y ganancias se compensan dentro del conjunto.
 
-| Expresión del enunciado | Qué permite suponer | Qué todavía puede ocurrir |
-|---|---|---|
-| Sistema cerrado | No entra ni sale materia | Puede intercambiar calor y trabajo |
-| Sistema aislado | No intercambia materia ni energía con el entorno | Sus partes pueden intercambiar energía entre sí |
-| Pared adiabática o proceso adiabático | El calor que cruza esa frontera es despreciable: $Q=0$ | Puede haber trabajo y cambio de temperatura |
-| Recipiente rígido | Su volumen no cambia | Puede intercambiar calor; no hace trabajo de expansión |
-| Recipiente de capacidad térmica despreciable | Se omite la energía necesaria para cambiar la temperatura del recipiente | Su contenido sí puede absorber o ceder energía |
+| Expresión del enunciado                      | Qué permite suponer                                                      | Qué todavía puede ocurrir                              |
+| -------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------ |
+| Sistema cerrado                              | No entra ni sale materia                                                 | Puede intercambiar calor y trabajo                     |
+| Sistema aislado                              | No intercambia materia ni energía con el entorno                         | Sus partes pueden intercambiar energía entre sí        |
+| Pared adiabática o proceso adiabático        | El calor que cruza esa frontera es despreciable: $Q=0$                   | Puede haber trabajo y cambio de temperatura            |
+| Recipiente rígido                            | Su volumen no cambia                                                     | Puede intercambiar calor; no hace trabajo de expansión |
+| Recipiente de capacidad térmica despreciable | Se omite la energía necesaria para cambiar la temperatura del recipiente | Su contenido sí puede absorber o ceder energía         |
 
 **Aislado y adiabático no son sinónimos.** Un gas bajo un pistón aislante puede empujarlo: no recibe calor, pero entrega trabajo. Tampoco “rígido” significa “aislado”: una olla rígida puede calentarse.
 
@@ -446,30 +446,174 @@ Para que dos materiales de distinto $k$ dejen pasar la misma potencia con iguale
 
 ### Capas en serie y temperatura de unión
 
-Al definir la resistencia térmica de una capa como
+Varias placas están **en serie** cuando el calor debe atravesar primero una, después la siguiente y así hasta la cara fría. Consideramos placas planas de la misma área $A$, en régimen estacionario, con contacto térmico ideal, sin generación interna ni pérdidas por los costados. Sus espesores $L_i$ y conductividades $k_i$ pueden ser distintos; el subíndice $i$ identifica la placa.
+
+![[imagenes/termodinamica-placas-en-serie.svg|750]]
+
+*Esquema didáctico del vault: tres placas consecutivas. Cada una tiene su propia caída de temperatura, pero todas conducen la misma energía por segundo. Los anchos del dibujo no representan espesores a escala.*
+
+#### 1. Por qué hay un único valor de H
+
+Llamamos $H_1$, $H_2$ y $H_3$ a las potencias que atraviesan las placas. Si a una unión le llegara más energía por segundo de la que sale, se calentaría y su temperatura cambiaría. Como el régimen es estacionario, no hay acumulación:
 
 $$
-R_{\mathrm{térmica}}=\frac{L}{kA},
-\qquad H=\frac{\Delta T}{R_{\mathrm{térmica}}},
+H_1-H_2=0,\qquad H_2-H_3=0
+\quad\Longrightarrow\quad
+\boxed{H_1=H_2=H_3=H}.
 $$
 
-se ve que mayor resistencia significa menor transferencia para una misma diferencia térmica. Sus unidades son K/W. Esta $R_{\mathrm{térmica}}$ no es la constante de los gases $R$.
+**Lo que cambia entre placas es la caída de temperatura necesaria para conducir ese mismo $H$.** Una placa más resistente necesita una caída mayor. El calor atraviesa las placas sucesivamente: las potencias no se suman para obtener la que atraviesa el conjunto.
 
-En dos capas consecutivas, con contacto térmico ideal y sin pérdidas laterales, **el mismo $H$ atraviesa ambas**. Si la unión está a $T_x$:
+#### 2. Despejar la caída de temperatura de cada placa
+
+Empecemos con **dos placas**. Sus caras exteriores están a $T_h$ y $T_c$, con $T_h>T_c$, y la unión está a una temperatura desconocida $T_x$. Para la primera placa, la diferencia es $T_h-T_x$; para la segunda, $T_x-T_c$:
 
 $$
+H=k_1A\frac{T_h-T_x}{L_1},
+\qquad
+H=k_2A\frac{T_x-T_c}{L_2}.
+$$
+
+Para despejar $H$ sin conocer todavía $T_x$, primero dejamos sola **la diferencia de temperaturas** en cada ecuación. En la placa 1, multiplicamos ambos lados por $L_1$ y después dividimos ambos lados por $k_1A$:
+
+$$
+\begin{aligned}
+HL_1&=k_1A(T_h-T_x),\\
+\frac{HL_1}{k_1A}&=T_h-T_x,\\
+T_h-T_x&=H\frac{L_1}{k_1A}.
+\end{aligned}
+$$
+
+El factor $L_1/(k_1A)$ se llama **resistencia térmica** $R_1$. Repetir el mismo despeje en la placa 2 da:
+
+$$
+R_1=\frac{L_1}{k_1A},\qquad R_2=\frac{L_2}{k_2A},
+\qquad
 T_h-T_x=HR_1,\qquad T_x-T_c=HR_2.
 $$
 
-Sumar elimina la temperatura desconocida de unión:
+Cada $R_i$ se mide en K/W; por eso $HR_i$ es una diferencia de temperatura en K, equivalente numéricamente a una diferencia en °C. Esta resistencia no es la constante de los gases $R$.
+
+#### 3. Sumar las caídas y despejar H
+
+Sumamos las dos ecuaciones completas. La temperatura de unión aparece una vez restando y otra sumando, por lo que se cancela:
 
 $$
-T_h-T_c=H(R_1+R_2)
-\quad\Longrightarrow\quad
-H=\frac{T_h-T_c}{R_1+R_2}.
+\begin{aligned}
+(T_h-T_x)+(T_x-T_c)&=HR_1+HR_2,\\
+T_h-T_c&=H(R_1+R_2).
+\end{aligned}
 $$
 
-Después $T_x=T_h-HR_1=T_c+HR_2$. La capa con mayor resistencia soporta la mayor caída de temperatura. La unión queda entre $T_h$ y $T_c$; calcular $H$ por separado con la diferencia total en cada capa contaría dos veces el mismo descenso. T13 practica el planteo simbólico y el numérico.
+En el segundo paso sacamos **factor común $H$** a la derecha. Para dejarlo solo, dividimos ambos lados por $R_1+R_2$:
+
+$$
+\frac{T_h-T_c}{R_1+R_2}=H,
+\qquad
+\boxed{H=\frac{T_h-T_c}{R_1+R_2}}.
+$$
+
+Si reemplazamos las resistencias por sus definiciones, queda la misma fórmula escrita directamente con los datos de las placas:
+
+$$
+H=\frac{T_h-T_c}{\dfrac{L_1}{k_1A}+\dfrac{L_2}{k_2A}}
+=\frac{A(T_h-T_c)}{\dfrac{L_1}{k_1}+\dfrac{L_2}{k_2}}.
+$$
+
+La última igualdad usa que **el área es la misma en ambas placas**: se extrae $1/A$ como factor común del denominador y dividir por $1/A$ equivale a multiplicar por $A$.
+
+**Con tres placas se repite exactamente el procedimiento.** Ahora hay dos temperaturas de unión, $T_1$ y $T_2$:
+
+$$
+\begin{aligned}
+T_h-T_1&=HR_1,\\
+T_1-T_2&=HR_2,\\
+T_2-T_c&=HR_3.
+\end{aligned}
+$$
+
+Sumando miembro a miembro, se cancelan $-T_1+T_1$ y $-T_2+T_2$:
+
+$$
+\begin{aligned}
+(T_h-T_1)+(T_1-T_2)+(T_2-T_c)&=HR_1+HR_2+HR_3,\\
+T_h-T_c&=H(R_1+R_2+R_3),\\
+\boxed{H}&=\boxed{\frac{T_h-T_c}{R_1+R_2+R_3}}.
+\end{aligned}
+$$
+
+Para **$n$ placas consecutivas**:
+
+$$
+\boxed{H=\frac{T_h-T_c}{R_1+R_2+\cdots+R_n}}
+=\frac{A(T_h-T_c)}{\dfrac{L_1}{k_1}+\dfrac{L_2}{k_2}+\cdots+\dfrac{L_n}{k_n}}.
+$$
+
+El símbolo $\sum_iR_i$ es una forma abreviada de escribir $R_1+R_2+\cdots+R_n$: **se suman las resistencias**, cada una calculada con el espesor y la conductividad de su placa.
+
+#### 4. Recuperar las temperaturas de unión
+
+Una vez conocido $H$, calculamos la caída de cada placa con $\Delta T_i=HR_i$. Empezando por la cara caliente, restamos una caída después de otra:
+
+$$
+T_1=T_h-HR_1,\qquad
+T_2=T_1-HR_2=T_h-H(R_1+R_2),\qquad
+T_c=T_2-HR_3.
+$$
+
+Para dos placas, basta $T_x=T_h-HR_1$; también se puede partir desde la cara fría y sumar: $T_x=T_c+HR_2$. Ambos caminos deben dar la misma temperatura.
+
+#### 5. Ejemplo didáctico con tres placas
+
+Estos valores se eligen para mostrar el cálculo; no corresponden a un enunciado del TP. Las tres placas tienen área $A=0.50\,\mathrm{m^2}$ y las caras exteriores se mantienen a $T_h=100\,^\circ\mathrm C$ y $T_c=20\,^\circ\mathrm C$.
+
+| Placa, desde la cara caliente | Espesor $L_i$ | Conductividad $k_i$ | Resistencia $R_i=L_i/(k_iA)$ |
+|---|---|---|---|
+| 1 | $0.020\,\mathrm m$ | $0.40\,\mathrm{W/(m\,K)}$ | $0.020/(0.40\cdot0.50)=0.10\,\mathrm{K/W}$ |
+| 2 | $0.040\,\mathrm m$ | $0.16\,\mathrm{W/(m\,K)}$ | $0.040/(0.16\cdot0.50)=0.50\,\mathrm{K/W}$ |
+| 3 | $0.020\,\mathrm m$ | $0.20\,\mathrm{W/(m\,K)}$ | $0.020/(0.20\cdot0.50)=0.20\,\mathrm{K/W}$ |
+
+Primero obtenemos la potencia común usando la diferencia **total** y la resistencia **total**:
+
+$$
+H=\frac{100-20}{0.10+0.50+0.20}
+=\frac{80\,\mathrm K}{0.80\,\mathrm{K/W}}
+=\boxed{100\,\mathrm W}.
+$$
+
+Después repartimos los $80\,^\circ\mathrm C$ de caída entre las placas:
+
+$$
+\Delta T_1=(100)(0.10)=10\,\mathrm K,\qquad
+\Delta T_2=(100)(0.50)=50\,\mathrm K,\qquad
+\Delta T_3=(100)(0.20)=20\,\mathrm K.
+$$
+
+Las temperaturas se recorren en este orden:
+
+$$
+100\,^\circ\mathrm C
+\xrightarrow{\text{placa 1: baja }10\,\mathrm K}90\,^\circ\mathrm C
+\xrightarrow{\text{placa 2: baja }50\,\mathrm K}40\,^\circ\mathrm C
+\xrightarrow{\text{placa 3: baja }20\,\mathrm K}20\,^\circ\mathrm C.
+$$
+
+**Comprobación:** al aplicar la ley de una placa con su propia diferencia térmica, recuperamos el mismo valor en las tres:
+
+$$
+H_1=\frac{(0.40)(0.50)(100-90)}{0.020}=100\,\mathrm W,\qquad
+H_2=\frac{(0.16)(0.50)(90-40)}{0.040}=100\,\mathrm W,
+$$
+$$
+H_3=\frac{(0.20)(0.50)(40-20)}{0.020}=100\,\mathrm W.
+$$
+
+La placa 2 tiene la mayor resistencia y la mayor caída de temperatura. Las caídas suman $10+50+20=80\,\mathrm K$ y se llega a la temperatura fría indicada.
+
+> [!warning] Qué diferencia de temperatura usar
+> Para todo el conjunto, usa $T_h-T_c$ y $R_1+R_2+\cdots+R_n$. Para una sola placa, usa las temperaturas de **sus propias caras** y su $R_i$. En el ejemplo, poner $100-20$ en cada placa daría potencias incompatibles con el régimen estacionario. La potencia del conjunto es $100\,\mathrm W$: no se suman $H_1+H_2+H_3$, porque es la misma energía atravesando tres etapas.
+
+**Pasa a práctica:** [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T13. Dos placas y temperatura de contacto — R · antecedente 2025 aportado por el estudiante · prioridad de estudio alta|T13: aplicar el procedimiento a dos placas del TP]].
 
 ### Convección
 

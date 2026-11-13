@@ -4,6 +4,8 @@ tags: [fisica-aplicada, practica, indice]
 
 # Práctica y autocorrección
 
+**Práctica por TP para el recuperatorio del primer parcial:** [[Unidades/05 - Termodinámica/Práctica/05 - TP priorizados para el primer parcial|Termodinámica: TP1 y TP2]] · [[Unidades/06 - Óptica/Práctica/06 - TP priorizados para el primer parcial|Óptica: TP3]]. Cada unidad tiene su hoja separada de resoluciones. **Edición disponible: 2025; falta confirmar si son los TP utilizados en 2026.**
+
 El banco está dividido por tema. Cada hoja tiene enunciados, datos, objetivo, pista plegable y clave breve plegable.
 
 Consulta la [[Recursos de estudio/Fuentes y cobertura/Auditoría de cobertura de ejercicios]] para conocer el criterio de prioridad y el resultado de la revisión tema a tema.

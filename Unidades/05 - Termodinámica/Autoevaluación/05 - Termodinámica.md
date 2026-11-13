@@ -147,7 +147,7 @@ Avanza por el grupo que corresponde a la lectura. Puedes responder oralmente, pe
 **1. Al mezclar un metal caliente con hielo a cero grados, ¿por qué no puedes suponer que el hielo se funde todo?**
 
 > [!success]- Mostrar explicación
-> La energía disponible puede no alcanzar. Compara la que cedería el metal al llegar a cero con la necesaria para fundir todo el hielo. Si es menor, quedan hielo y agua a cero; si es mayor, el balance incluye fusión completa y calentamiento del agua resultante. En esa rama el metal también termina a $T_f>0$, no a cero. Compruébalo en [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · prioridad de examen media|T29]].
+> La energía disponible puede no alcanzar. Compara la que cedería el metal al llegar a cero con la necesaria para fundir todo el hielo. Si es menor, quedan hielo y agua a cero; si es mayor, el balance incluye fusión completa y calentamiento del agua resultante. En esa rama el metal también termina a $T_f>0$, no a cero. Compruébalo en [[Unidades/05 - Termodinámica/Práctica/05 - Ejercicios de termodinámica#T29. ¿Se funde todo el hielo? Dos resultados posibles — R · reconstrucción de la clave 2026 · prioridad de estudio alta|T29]].
 
 **2. ¿Una recta inclinada en un gráfico $p$–$V$ es isotérmica? ¿Tener igual temperatura en los dos extremos demuestra que lo sea?**
 

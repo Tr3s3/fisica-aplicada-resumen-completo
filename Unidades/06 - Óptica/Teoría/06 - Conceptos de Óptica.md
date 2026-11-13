@@ -218,11 +218,22 @@ Imagina un frente oblicuo que va del medio 1 al 2. Su extremo A toca primero la 
 
 ![[imagenes/optica-huygens-snell.svg]]
 
-*Los dos triángulos comparten AC sobre la interfaz. AB es el frente incidente y CD el refractado; los rayos BC y AD son perpendiculares a esos frentes. El ejemplo representa $v_2<v_1$.*
+*Los dos triángulos comparten AC sobre la interfaz. AB es el frente incidente y CD el refractado; los rayos BC y AD son perpendiculares a esos frentes. Los arcos naranjas marcan ángulos dentro de los triángulos; el verde y el azul muestran esos mismos ángulos entre los rayos y sus normales. El ejemplo representa $v_2<v_1$.*
 
 ### De los triángulos a la ecuación
 
-Los ángulos entre los frentes y la interfaz son iguales a los ángulos de los rayos con la normal, porque ambas parejas de rectas son perpendiculares. En los dos triángulos rectángulos:
+**Los ángulos del dibujo coinciden con los del rayo respecto de la normal** por dos perpendicularidades: cada rayo es perpendicular a su frente de onda, y la normal es perpendicular a la interfaz. Al pasar de «frente e interfaz» a «rayo y normal», ambas rectas giran $90^\circ$ en el mismo sentido: el ángulo pequeño entre ellas se conserva.
+
+Puedes seguir la correspondencia en la figura:
+
+| Ángulo | Dónde aparece en el triángulo (naranja) | Dónde aparece entre rayo y normal |
+|---|---|---|
+| $\theta_1$ | En A, entre el frente AB y la interfaz AC | En C, entre el rayo incidente BC y la normal (verde) |
+| $\theta_2$ | En C, entre el frente CD y la interfaz CA | En A, entre el rayo refractado AD y la normal (azul) |
+
+Las normales de A y C son paralelas porque la interfaz del dibujo es plana. La construcción compara dos puntos del frente; sus direcciones representan las de los rayos incidente y refractado en esa interfaz.
+
+**Así, $\theta_1$ y $\theta_2$ ya son los ángulos respecto de la normal que usaremos en Snell.** El ángulo entre un **rayo y la superficie**, en cambio, es su complementario: $\phi=90^\circ-\theta$. En los dos triángulos rectángulos, AC es la hipotenusa y los lados opuestos a los ángulos marcados son BC y AD:
 
 $$
 \sin\theta_1=\frac{BC}{AC}=\frac{v_1\Delta t}{AC},
@@ -248,29 +259,46 @@ Esta es la **ley de Snell**, que también se establece experimentalmente. Se apl
 
 ### Cómo usarla sin perder la interpretación
 
-Para hallar el ángulo transmitido:
+El resultado de la demostración relaciona **$\theta_1$, ángulo del rayo incidente con la normal en el medio 1**, con **$\theta_2$, ángulo del rayo transmitido con la normal en el medio 2**. Para hallar $\theta_2$, separa estos pasos:
+
+1. **Expresa el dato respecto de la normal.** Si te dan $\phi_1$ respecto de la superficie, convierte primero: $\theta_1=90^\circ-\phi_1$. Si ya está medido desde la normal, úsalo directamente.
+2. **Despeja el seno.** Divide ambos lados de Snell por $n_2$:
 
 $$
-\sin\theta_2=\frac{n_1}{n_2}\sin\theta_1,
-\qquad
-\theta_2=\arcsin\!\left(\frac{n_1}{n_2}\sin\theta_1\right).
+\frac{n_1\sin\theta_1}{n_2}=\sin\theta_2
+\quad\Longrightarrow\quad
+\sin\theta_2=\frac{n_1}{n_2}\sin\theta_1.
 $$
 
-El arcoseno recupera el ángulo cuyo seno calculamos. Usa la calculadora en grados si el enunciado trabaja en grados.
+3. **Recupera el ángulo.** El paso anterior da el valor de su seno, un número sin unidades. Aplica arcoseno para encontrar el ángulo cuyo seno es ese número:
+
+$$
+\boxed{\theta_2=\arcsin\!\left(\frac{n_1}{n_2}\sin\theta_1\right)}.
+$$
+
+**El despeje mantiene la referencia: el resultado sigue siendo un ángulo con la normal.** Si te piden el ángulo con la superficie, convierte al final: $\phi_2=90^\circ-\theta_2$. El arcoseno es la función inversa del seno, no $1/\sin$. Usa la calculadora en grados (DEG) si el enunciado trabaja en grados.
 
 - Si $n_2>n_1$, el factor $n_1/n_2<1$: disminuye el ángulo y el rayo se acerca a la normal.
 - Si $n_2<n_1$, aumenta el ángulo, siempre que exista rayo transmitido.
 - Si el argumento del arcoseno supera 1, no inventes un ángulo: revisa reflexión total en la sección 5.
 - Si $\theta_1=0$, resulta $\theta_2=0$ para cualquier par de índices de este modelo.
 
-**Ejemplo de planteo:** del aire ($n_1=1$) a vidrio ($n_2=1.50$), con $\theta_1=30^\circ$:
+**Ejemplo de planteo: del ángulo dado al ángulo buscado.** Un rayo pasa del aire ($n_1=1$) al vidrio ($n_2=1.50$) formando $\phi_1=60^\circ$ **con la superficie**. Primero obtén su ángulo con la normal:
+
+$$
+\theta_1=90^\circ-60^\circ=30^\circ.
+$$
+
+Ahora aplica Snell y recupera el ángulo transmitido:
 
 $$
 \sin\theta_2=\frac{1}{1.50}\sin30^\circ=\frac13
 \quad\Longrightarrow\quad\theta_2\approx19.5^\circ.
 $$
 
-El resultado es menor que $30^\circ$, como se esperaba. Snell determina la dirección; no dice qué fracción de la energía se refleja o transmite.
+El resultado, $\theta_2\approx19.5^\circ$, está medido **desde la normal**, igual que $\theta_1=30^\circ$. Como disminuye, el rayo se acerca a la normal, de acuerdo con el aumento de índice. Si pidieran su ángulo con la superficie, sería $\phi_2=90^\circ-19.5^\circ=70.5^\circ$.
+
+El recorrido completo es **dato con la superficie → complemento para obtener $\theta_1$ → Snell para obtener $\sin\theta_2$ → arcoseno para obtener $\theta_2$ con la normal**. Snell determina la dirección; no dice qué fracción de la energía se refleja o transmite.
 
 ### Ejemplo del libro: agua a vidrio, con reflexión y refracción
 
@@ -302,25 +330,19 @@ $$
 
 ## 4. Bloques, profundidad aparente y color
 
-### Dispersión: cada color tiene su propio recorrido
+Aquí usamos Snell para responder dos preguntas: **¿por dónde sale la luz de un bloque?** y **¿de dónde parece venir la luz que llega al ojo?** En ambos casos, los ángulos se miden desde la normal. Lo que cambia es la geometría que construimos después de hallar esos ángulos.
 
-En muchos materiales, el índice depende de la frecuencia; eso se llama **dispersión**. Dos colores que llegan con el mismo ángulo pueden tener rapideces e índices diferentes y, por Snell, ángulos diferentes dentro del bloque. Calcula cada color por separado: no uses un índice promedio si te piden su separación.
+### Cómo seguir un rayo a través de un bloque
 
-En una placa de espesor $e$, medido perpendicularmente a sus caras, el tramo interno forma un triángulo rectángulo. Si el ángulo interno desde la normal es $\theta$, su avance paralelo a la cara es
+Un **bloque o placa de caras paralelas** tiene dos fronteras: una por donde entra la luz y otra por donde sale. El espesor $e$ es la distancia perpendicular entre esas caras. Con incidencia oblicua, el recorrido inclinado de la luz dentro del material es más largo que $e$.
 
-$$
-\tan\theta=\frac{x}{e}\quad\Longrightarrow\quad x=e\tan\theta.
-$$
+Para un solo color, sigue la luz en orden:
 
-Para dos rayos que entran por el mismo punto:
+1. **Entrada:** usa Snell entre el medio exterior y el bloque para hallar el ángulo interno $\theta_t$.
+2. **Interior:** el rayo avanza recto si el material es uniforme. Su inclinación permite calcular dónde alcanza la segunda cara.
+3. **Salida:** vuelve a aplicar Snell, ahora desde el bloque hacia el medio exterior.
 
-$$
-\Delta x=e\left|\tan\theta_a-\tan\theta_b\right|.
-$$
-
-Esto calcula la **separación de los puntos de salida sobre la segunda cara**. En O5 el espesor se llama $d$; aquí usamos $e$ para distinguirlo de la separación de rendijas de la sección 9.
-
-Si el medio exterior es el mismo a ambos lados y las caras son paralelas, Snell en entrada y salida da
+Si el exterior es el mismo a ambos lados y las caras son paralelas, sus normales también son paralelas. Por eso el ángulo interno con la normal de salida sigue siendo $\theta_t$:
 
 $$
 n_{\mathrm{ext}}\sin\theta_i=n_{\mathrm{bloque}}\sin\theta_t,
@@ -328,25 +350,104 @@ n_{\mathrm{ext}}\sin\theta_i=n_{\mathrm{bloque}}\sin\theta_t,
 n_{\mathrm{bloque}}\sin\theta_t=n_{\mathrm{ext}}\sin\theta_{\mathrm{salida}}.
 $$
 
-Por tanto, $\theta_{\mathrm{salida}}=\theta_i$: cada rayo emergente queda paralelo al incidente, aunque salga por otro punto. Dos colores pueden separarse dentro de la placa y salir paralelos entre sí.
+Las dos igualdades dan $\sin\theta_i=\sin\theta_{\mathrm{salida}}$ y, para estos ángulos entre $0^\circ$ y $90^\circ$, **$\theta_{\mathrm{salida}}=\theta_i$**. El rayo recupera su dirección original: la línea emergente queda paralela a la incidente y, si hubo desvío dentro del bloque, desplazada respecto de ella. Esta conclusión requiere las dos condiciones: caras paralelas y mismo medio exterior.
+
+### Del ángulo interno al punto de salida
+
+Prolonga la normal de entrada hasta la segunda cara. Llama $x$ a la distancia, **medida sobre esa cara**, desde el pie de la normal hasta donde sale el rayo. El triángulo tiene:
+
+- Cateto adyacente al ángulo interno $\theta_t$: el espesor $e$.
+- Cateto opuesto: el avance $x$ sobre la cara.
+- Hipotenusa: el recorrido inclinado dentro del bloque.
+
+Así aparece la tangente:
+
+$$
+\tan\theta_t=\frac{x}{e}
+\quad\Longrightarrow\quad
+\boxed{x=e\tan\theta_t}.
+$$
+
+**Snell encuentra la inclinación; la tangente convierte esa inclinación en una distancia.** Si el ángulo dado está medido desde la superficie, primero conviértelo a la normal, luego aplica Snell y finalmente calcula $x$ con el ángulo interno.
+
+Si el rayo entra por la normal, $\theta_t=0$ y $x=e\tan0=0$: atraviesa el bloque recto y llega al pie de esa misma normal.
+
+### Dispersión: cada color tiene su propio recorrido
+
+En muchos materiales, el índice depende de la frecuencia de la luz; eso se llama **dispersión cromática**. Por eso dos colores pueden tener distintos índices **en un mismo bloque**. Cada color conserva su frecuencia al entrar y salir; dentro del material cambian su rapidez y su longitud de onda. El cambio de longitud de onda no significa que un color se transforme en el otro.
+
+Supongamos que los colores A y B llegan desde el aire, por el mismo punto y con el mismo ángulo $\theta_i$. Aplica Snell **una vez por color**, usando su propio índice:
+
+$$
+\theta_A=\arcsin\!\left(\frac{n_{\mathrm{aire}}}{n_A}\sin\theta_i\right),
+\qquad
+\theta_B=\arcsin\!\left(\frac{n_{\mathrm{aire}}}{n_B}\sin\theta_i\right).
+$$
+
+Con incidencia oblicua, si $n_B>n_A$, resulta $\theta_B<\theta_A$: B queda más cerca de la normal y avanza menos sobre la cara antes de salir.
+
+![[imagenes/optica-bloque-colores.svg|800]]
+
+*Esquema de elaboración propia. A y B identifican dos colores; se exagera su separación para leer la geometría. Las líneas grises discontinuas sirven para medir. Ambos rayos entran por P; $x_A$ y $x_B$ parten del mismo pie de la normal. El segmento violeta $\Delta x$ une sus puntos de salida.*
+
+Calcula los dos avances y réstalos para hallar la separación:
+
+$$
+x_A=e\tan\theta_A,\qquad x_B=e\tan\theta_B,
+\qquad
+\boxed{\Delta x=|x_A-x_B|=e\left|\tan\theta_A-\tan\theta_B\right|}.
+$$
+
+El valor absoluto hace que la separación sea positiva, sin depender de cuál color restes primero. **Una separación angular** sería $|\theta_A-\theta_B|$, en grados; **la separación de salidas** $\Delta x$ es una longitud. En O5 el espesor se llama $d$; aquí usamos $e$ para distinguirlo de la separación de rendijas de la sección 9.
+
+**Ejemplo corto de geometría:** si $e=10.0\,\mathrm{cm}$ y al aplicar Snell obtuviste $\theta_A=30^\circ$ y $\theta_B=20^\circ$:
+
+$$
+x_A=(10.0\,\mathrm{cm})\tan30^\circ\approx5.77\,\mathrm{cm},
+\qquad x_B=(10.0\,\mathrm{cm})\tan20^\circ\approx3.64\,\mathrm{cm}.
+$$
+
+Por tanto, $\Delta x\approx2.13\,\mathrm{cm}$. Cada avance se mide desde la normal; su diferencia se mide entre los dos puntos de salida.
+
+La segunda refracción devuelve a cada color su ángulo de entrada. Como ambos entraron con igual dirección, también emergen con igual dirección, desde sus respectivos puntos de salida: **pueden salir separados y a la vez paralelos**. En un prisma las caras no son paralelas y esa recuperación de la dirección inicial no se cumple en general.
 
 ### Separación de salidas y desplazamiento lateral son distancias distintas
 
-El **desplazamiento lateral** de un solo rayo es la distancia perpendicular entre su línea emergente y la prolongación de su línea incidente. En una placa paralela:
+Antes de calcular una distancia, identifica qué estás comparando:
+
+| Magnitud | Entre qué referencias se mide | Dirección de la medida |
+|---|---|---|
+| $x_A$ o $x_B$ | Pie de la normal y salida de un color | Sobre la cara de salida |
+| $\Delta x$ | Salida de A y salida de B | Sobre la cara de salida |
+| $a$ | Línea emergente de un solo rayo y prolongación de su línea incidente | Perpendicular a esas dos líneas paralelas |
+
+Para obtener el **desplazamiento lateral $a$**, prolonga el rayo incidente como si no hubiera bloque. En la segunda cara, esa prolongación alcanzaría $x_i=e\tan\theta_i$, mientras que el rayo transmitido llega a $x_t=e\tan\theta_t$. La diferencia $|x_i-x_t|$ está sobre la cara; para medirla perpendicularmente a los rayos, multiplícala por $\cos\theta_i$:
 
 $$
-a=e\frac{\sin(\theta_i-\theta_t)}{\cos\theta_t}.
+a=|x_i-x_t|\cos\theta_i
+=e\frac{|\sin(\theta_i-\theta_t)|}{\cos\theta_t}.
 $$
 
-Para ver de dónde sale, compara en la cara de salida los avances $e\tan\theta_i$ y $e\tan\theta_t$; su diferencia está medida sobre la cara. Al proyectarla perpendicularmente al rayo emergente, multiplicas por $\cos\theta_i$ y obtienes la expresión anterior. Si solo quieres la magnitud, toma el valor absoluto.
-
-O5 pide la separación **entre dos salidas**, que requiere $\Delta x$, no esta última fórmula. Antes de sustituir, identifica entre qué puntos y en qué dirección se mide la distancia solicitada.
+**Para O5, compara los dos colores:** usa $\Delta x$. La fórmula de $a$ corresponde a comparar un rayo con su propia prolongación incidente.
 
 ### Por qué un objeto sumergido parece estar más arriba
 
-La luz que sale del objeto cambia de dirección al cruzar la superficie. El ojo recibe los rayos ya refractados y los prolonga hacia atrás como si hubieran viajado rectos. Esas prolongaciones sitúan el objeto en una posición **aparente**. El objeto real no se mueve.
+Ahora seguimos luz que **sale del objeto y llega al observador**: objeto en agua → superficie → observador en aire. Los rayos oblicuos que logran salir pasan de mayor a menor índice y se alejan de la normal: $\theta_{\mathrm{obs}}>\theta_{\mathrm{obj}}$.
 
-Sea $d_r$ la profundidad real y $d_a$ la aparente. Para un rayo que cruza la superficie a una distancia horizontal $x$ de la vertical del objeto:
+El ojo recibe los rayos con esa nueva dirección y los prolonga hacia atrás en línea recta. Las prolongaciones parecen proceder de un punto más cercano a la superficie: allí situamos la **imagen virtual o posición aparente**. El objeto permanece en su profundidad real; los rayos no pasan físicamente por la imagen virtual.
+
+![[imagenes/optica-profundidad-aparente.svg|800]]
+
+*Esquema de elaboración propia, con ángulos ampliados para mostrar el efecto. Azul continuo: recorrido real de la luz, desde el objeto hacia el aire. Naranja discontinuo: prolongaciones hacia atrás de los rayos que salen. El punto naranja señala la imagen virtual; su menor profundidad explica por qué el objeto parece estar más arriba. La fórmula sencilla se aplica al mirar cerca de la normal.*
+
+### De los ángulos a las dos profundidades
+
+Elige el rayo oblicuo que sale por P en el gráfico y compara sus dos triángulos. $x$ es la distancia horizontal desde la vertical del objeto hasta P, **la misma en ambos triángulos**. Lo que cambia es la profundidad desde la que trazamos la línea:
+
+- Desde el **objeto real**, la profundidad es $d_r$ y el ángulo del rayo dentro del agua es $\theta_{\mathrm{obj}}$.
+- Desde la **imagen aparente**, la profundidad es $d_a$ y la prolongación conserva el ángulo de salida $\theta_{\mathrm{obs}}$.
+
+Todos esos ángulos se miden desde líneas verticales paralelas a la normal. Por tangente:
 
 $$
 \tan\theta_{\mathrm{obj}}=\frac{x}{d_r},
@@ -354,20 +455,46 @@ $$
 \tan\theta_{\mathrm{obs}}=\frac{x}{d_a}.
 $$
 
-Dividimos ambas relaciones para eliminar $x$:
+Despejamos las profundidades y comparamos:
+
+$$
+d_r=\frac{x}{\tan\theta_{\mathrm{obj}}},
+\qquad
+d_a=\frac{x}{\tan\theta_{\mathrm{obs}}}.
+$$
+
+**Al salir al aire aumenta el ángulo**, aumenta su tangente y, para el mismo $x$, disminuye la profundidad calculada. Esa es la conexión entre la refracción y que el objeto parezca más cerca de la superficie. Al dividir, $x$ se cancela:
 
 $$
 \frac{d_a}{d_r}
 =\frac{\tan\theta_{\mathrm{obj}}}{\tan\theta_{\mathrm{obs}}}.
 $$
 
-Cerca de la normal, los ángulos son pequeños y $\tan\theta\approx\sin\theta$. Snell da $n_{\mathrm{obj}}\sin\theta_{\mathrm{obj}}=n_{\mathrm{obs}}\sin\theta_{\mathrm{obs}}$; al combinar:
+Para pasar de ángulos a índices, usamos Snell en el sentido **objeto → observador**:
+
+$$
+n_{\mathrm{obj}}\sin\theta_{\mathrm{obj}}
+=n_{\mathrm{obs}}\sin\theta_{\mathrm{obs}}
+\quad\Longrightarrow\quad
+\frac{\sin\theta_{\mathrm{obj}}}{\sin\theta_{\mathrm{obs}}}
+=\frac{n_{\mathrm{obs}}}{n_{\mathrm{obj}}}.
+$$
+
+**Cerca de la normal**, los ángulos son pequeños y $\tan\theta\approx\sin\theta$. Así podemos reemplazar la razón de tangentes por la razón de senos de Snell:
 
 $$
 \boxed{d_a\approx d_r\frac{n_{\mathrm{obs}}}{n_{\mathrm{obj}}}}.
 $$
 
-Al observar desde el aire un objeto en el agua, la razón es aproximadamente $1/1.33<1$: la profundidad aparente es menor. La luz que permite verlo recorre el sentido agua → aire.
+El índice del **observador** queda arriba porque Snell expresa la razón de senos con los índices cruzados. Para agua vista desde aire, $n_{\mathrm{obs}}/n_{\mathrm{obj}}\approx1/1.33<1$, por lo que $d_a<d_r$. Si ambos índices fueran iguales, no habría refracción y las dos profundidades coincidirían.
+
+Finalmente, distingue **dónde parece estar** de **cuánto parece elevarse**:
+
+$$
+\text{profundidad aparente}=d_a,
+\qquad
+\text{elevación aparente}=d_r-d_a.
+$$
 
 La fórmula supone una superficie plana, un medio uniforme a cada lado y observación cercana a la normal. Para rayos muy oblicuos, distintas prolongaciones no dan un único punto imagen exacto: hay que analizar la geometría sin esa simplificación.
 
