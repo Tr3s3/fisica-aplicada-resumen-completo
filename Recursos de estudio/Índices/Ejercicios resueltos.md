@@ -13,3 +13,4 @@ Las resoluciones modelo están separadas por tema. Intenta primero el planteo y 
 - [[Unidades/05 - Termodinámica/Resoluciones/05 - Resoluciones de termodinámica|Termodinámica]]
 - [[Unidades/06 - Óptica/Resoluciones/06 - Resoluciones de óptica|Óptica]]
 - [[Recursos de estudio/Práctica integradora/Resoluciones/05 - Simulacro mixto]]
+- [[Recursos de estudio/Práctica integradora/Resoluciones/01 - Primer parcial 2026 explicado|Primer parcial 2026: los cinco ejercicios explicados desde la clave]].

@@ -30,3 +30,10 @@ Haz la prueba de 90 minutos del día 7 sin apuntes y registra los errores por ti
 
 - Enunciados: [[Recursos de estudio/Práctica integradora/Ejercicios/05 - Simulacro mixto]]
 - Corrección explicada: [[Recursos de estudio/Práctica integradora/Resoluciones/05 - Simulacro mixto]]
+
+## Primer parcial 2026
+
+Los cinco problemas de la clave, en orden y con la reconstrucción de calorimetría explicitada:
+
+- [[Recursos de estudio/Práctica integradora/Ejercicios/01 - Primer parcial 2026 reconstruido|Enunciados para practicar sin respuestas]].
+- [[Recursos de estudio/Práctica integradora/Resoluciones/01 - Primer parcial 2026 explicado|Explicaciones detalladas y autocorrección]].

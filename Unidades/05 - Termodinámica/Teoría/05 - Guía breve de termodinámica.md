@@ -247,6 +247,8 @@ Al cerrar el ciclo se recupera el estado inicial: $\sum\Delta U=0$ y $Q_{\mathrm
 
 ## 5. Máquinas térmicas, refrigeración y entropía
 
+**Para resolver motores con una guía específica:** [[Unidades/05 - Termodinámica/Teoría/05 - Resumen práctico de máquinas térmicas|resumen práctico con elección de fórmulas, despejes y ejemplos]].
+
 ### Motor: calor recibido, trabajo y potencia
 
 **Reconócelo:** una máquina repite ciclos, toma calor $Q_H>0$ del foco caliente, entrega trabajo útil $W>0$ y desecha calor $Q_C<0$ al frío. Al volver al estado inicial, $\Delta U_{\mathrm{ciclo}}=0$; por la primera ley:

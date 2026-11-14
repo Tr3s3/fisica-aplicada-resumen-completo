@@ -47,6 +47,8 @@ Esta nota reúne los 35 ejercicios de la unidad, con los M/R de examen primero y
 
 ## Segunda ley y máquinas térmicas
 
+**Resumen para resolver esta familia:** [[Unidades/05 - Termodinámica/Teoría/05 - Resumen práctico de máquinas térmicas|balance, rendimiento, Carnot, potencia y combustible]].
+
 El balance y la eficiencia de máquinas aparecen en todos los primeros parciales revisados. **M** identifica el planteo reproducido, **R** sus variantes y **C** los contenidos del TP sin familia equivalente en esos modelos. Cada título indica la prioridad de examen o, para los C, la prioridad didáctica.
 
 **Teoría:** [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica]] · [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#8. Motores y refrigeradores: objetivos y rendimientos|máquinas]] · [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#9. Segunda ley y entropía|entropía]] · [[Unidades/05 - Termodinámica/Teoría/05 - Fórmulas aplicadas de termodinámica#8. Ciclos y máquinas térmicas|fórmulas]].

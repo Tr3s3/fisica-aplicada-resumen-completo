@@ -40,6 +40,7 @@ La práctica reúne los 24 ejercicios O1–O24 en [[Unidades/06 - Óptica/Práct
 
 ## Mapa del módulo
 
+- Resúmenes para resolver por tipo de problema: [[Unidades/06 - Óptica/Teoría/06 - Resumen práctico de espejos|Espejos: signos, imágenes y aumento]] · [[Unidades/06 - Óptica/Teoría/06 - Resumen práctico de Snell y ángulo crítico|Snell, refracción y reflexión total]].
 - Lectura y aplicación por tramos: [[Unidades/06 - Óptica/Teoría/06 - Guía breve de Óptica]]
 - Contexto, supuestos y origen de las relaciones: [[Unidades/06 - Óptica/Teoría/06 - Conceptos de Óptica]]
 - Apoyos del material original: [[Unidades/06 - Óptica/Teoría/06 - Conceptos de Óptica#Apoyos visuales y ejemplos de las fuentes|12 recortes del libro y las diapositivas, con ejemplos guiados y lectura de figuras]].

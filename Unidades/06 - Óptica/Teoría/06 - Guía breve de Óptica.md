@@ -8,6 +8,8 @@ Esta guía da lo necesario para **elegir el planteo y comenzar la práctica**. L
 
 ## Elige por dónde entrar
 
+**Si buscas un método centrado en ejercicios:** [[Unidades/06 - Óptica/Teoría/06 - Resumen práctico de espejos|resumen práctico de espejos]] · [[Unidades/06 - Óptica/Teoría/06 - Resumen práctico de Snell y ángulo crítico|resumen práctico de Snell y ángulo crítico]]. Incluyen secuencias de resolución, ejemplos del módulo y controles del resultado.
+
 **Confirmación con la clave 2026:** O23 corresponde a E4 y O24 a E5, **20 puntos cada uno**. En O23 fundamenta la salida o reflexión con los dos ángulos críticos y su comparación. En O24, el dibujo de rayos de ambas lentes vale **5 de los 20 puntos**: incluye la imagen intermedia, los aumentos con signo y la clasificación respecto del objeto original. [[Planes de estudio/04 - Prioridades de Óptica y Termodinámica para el recuperatorio#Qué aporta la clave de corrección 2026|Detalle de la clave y autocorrección]].
 
 **Empieza por O23 → O24:** reproducen P4 y P5 del primer parcial 2026, la primera referencia para estimar la prioridad del recuperatorio global. Después toma refracción e imágenes de 2025, los dos formatos ópticos del global 2023 y las variantes antiguas. Los números O23/O24 son identificadores de ejercicios, no su posición en el archivo.

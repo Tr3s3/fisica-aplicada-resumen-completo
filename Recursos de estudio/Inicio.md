@@ -25,6 +25,7 @@ Aquí se agrupan los materiales que sirven a más de una unidad: índices de acc
 - [[Recursos de estudio/Índices/Ejercicios resueltos|Índice de resoluciones]]
 - [[Recursos de estudio/Práctica/00 - Método y registro|Método de resolución y registro de errores]]
 - [[Recursos de estudio/Práctica integradora/Ejercicios/05 - Simulacro mixto|Simulacro mixto]]
+- Primer parcial 2026: [[Recursos de estudio/Práctica integradora/Ejercicios/01 - Primer parcial 2026 reconstruido|enunciados reconstruidos]] · [[Recursos de estudio/Práctica integradora/Resoluciones/01 - Primer parcial 2026 explicado|resoluciones detalladas]].
 
 ## Fuentes y seguimiento
 

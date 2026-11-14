@@ -159,6 +159,8 @@ C_P-C_V=R,\qquad\gamma=\frac{C_P}{C_V}.$$
 
 ## 7. Procesos de un gas ideal
 
+**Consulta directa sin demostraciones:** [[Unidades/05 - Termodinámica/Teoría/05 - Formulario de procesos termodinámicos|formulario separado con condiciones, fórmulas explícitas, despejes y signos por proceso]].
+
 **Origen y supuestos explicados:** [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#7. Procesos termodinámicos y ciclos|leer el desarrollo conceptual]].
 
 | Proceso | Relaciones útiles | Condición del modelo |

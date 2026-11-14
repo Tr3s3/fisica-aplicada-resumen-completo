@@ -10,6 +10,8 @@ Esta nota reúne los 24 ejercicios de la unidad, con los M/R de examen primero y
 
 **Resoluciones:** [[Unidades/06 - Óptica/Resoluciones/06 - Resoluciones de óptica|resoluciones de óptica]] · **Recorrido:** [[Unidades/06 - Óptica/Teoría/06 - Óptica|mapa de la unidad]].
 
+**Resúmenes para el planteo:** [[Unidades/06 - Óptica/Teoría/06 - Resumen práctico de espejos|cómo resolver espejos]] · [[Unidades/06 - Óptica/Teoría/06 - Resumen práctico de Snell y ángulo crítico|cómo resolver Snell y ángulo crítico]].
+
 **Etiquetas:** M reproduce un planteo de modelo; R practica una variante de una familia examinada; C cubre contenidos complementarios. Cada ejercicio conserva su fuente y su prioridad de examen o didáctica.
 
 **Distribución:** 5 M, 14 R y 5 C. O23/O24 conservan los dos problemas ópticos del parcial 2026.

@@ -37,7 +37,9 @@ La práctica reúne los 35 ejercicios T1–T35 en [[Unidades/05 - Termodinámica
 
 ## Mapa de notas
 
+- Consulta sin demostraciones: [[Unidades/05 - Termodinámica/Teoría/05 - Formulario de procesos termodinámicos|fórmulas y condiciones de isotérmico, isobárico, isocórico y adiabático]]
 - Lectura breve: [[Unidades/05 - Termodinámica/Teoría/05 - Guía breve de termodinámica]]
+- Resumen para resolver motores: [[Unidades/05 - Termodinámica/Teoría/05 - Resumen práctico de máquinas térmicas|máquinas térmicas, Carnot, potencia y combustible]]
 - Explicación y origen de las ideas: [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica]]
 - Figuras del libro y las diapositivas, con guía de lectura: [[Unidades/05 - Termodinámica/Teoría/05 - Conceptos de termodinámica#Apoyos visuales de las fuentes|mapa de apoyos visuales]]
 - Relaciones, unidades y elección de fórmulas: [[Unidades/05 - Termodinámica/Teoría/05 - Fórmulas aplicadas de termodinámica]]

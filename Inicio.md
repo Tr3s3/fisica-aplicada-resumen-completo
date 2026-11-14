@@ -39,6 +39,7 @@ Este vault reúne el contenido completo de **Física Aplicada** organizado en se
   - Resoluciones: [[Unidades/06 - Óptica/Resoluciones/06 - Resoluciones de óptica]]
   - Autoevaluación: [[Unidades/06 - Óptica/Autoevaluación/06 - Óptica]]
 - **Plan intensivo:** [[Planes de estudio/01 - Recuperatorio del primer parcial - 8 días|Plan de 8 días - Primer parcial]]
+- **Primer parcial 2026 completo:** [[Recursos de estudio/Práctica integradora/Ejercicios/01 - Primer parcial 2026 reconstruido|cinco enunciados reconstruidos desde la clave]] · [[Recursos de estudio/Práctica integradora/Resoluciones/01 - Primer parcial 2026 explicado|resoluciones detalladas para aprender]].
 
 ### Segundo parcial (Gravitación, Relatividad, Ondas, Ondas EM)
 
